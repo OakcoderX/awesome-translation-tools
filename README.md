@@ -2,13 +2,13 @@
 
 > A curated directory of translation tools and workflows across travel, web reading, formatted documents, academic research, open-source local engines, and developer pipelines.
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [Italiano](README.it.md) | [Русский](README.ru.md) | [العربية](README.ar.md) | [हिन्दी](README.hi.md) | [Bahasa Indonesia](README.id.md) | [Türkçe](README.tr.md)
 
 ---
 
 Translation tasks differ fundamentally by context: deciphering a street sign or menu on a mobile phone, reading foreign documentation inside a browser, translating complex slide decks and contracts without breaking layouts, preserving mathematical formulas in academic papers, running private batch translations in a terminal, or following uncaptioned video streams.
 
-We are the **Equalang** team. This directory provides a practical, task-oriented catalog of established translation products and active open-source projects. For each tool, we summarize documented capabilities, entry points, deployment modes, and operational constraints to help you identify the right solution for your workflow.
+We are the **Equalang** team. This directory provides a practical, task-oriented catalog of established translation products and prominent open-source projects. For each tool, we summarize documented capabilities, entry points, deployment modes, and operational constraints to help you identify the right solution for your workflow.
 
 ---
 
@@ -271,7 +271,7 @@ Developers, privacy-conscious teams, and academic researchers often need inspect
 ### 5.3 Desktop & Terminal Frontends
 
 #### Pot (pot-desktop)
-[Pot](https://github.com/pot-app/pot-desktop) (GNU GPL v3) is a cross-platform desktop translation tool for Windows, macOS, and Linux, supporting selection translation via hotkeys, typed input, clipboard monitoring, screenshot OCR, and screenshot translation.
+[Pot](https://github.com/pot-app/pot-desktop) (GNU GPL v3) is a cross-platform desktop translation tool for Windows, macOS, and Linux, supporting selection translation via hotkeys, typed input, clipboard monitoring, screenshot OCR, and screenshot translation. The upstream repository was archived by the owner on September 7, 2026, and is now read-only.
 
 - **Multi-Service Aggregation**: Allows querying multiple translation and dictionary services simultaneously to compare results side-by-side. Supports text-to-speech (TTS), vocabulary export to Anki and Eudic, and plugin extensions.
 - **Pluggable Backends & OCR**: Aggregates cloud translation providers, OpenAI-compatible APIs, and local Ollama endpoints. OCR choices include platform-native options (Windows system OCR, Apple Vision, Linux Tesseract), Tesseract.js, or local plugins.

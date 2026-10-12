@@ -2,13 +2,13 @@
 
 > 精选翻译工具与工作流目录：涵盖随身出行、网页阅读、复杂文档排版、学术研读、开源本地引擎与开发者接入。
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [Italiano](README.it.md) | [Русский](README.ru.md) | [العربية](README.ar.md) | [हिन्दी](README.hi.md) | [Bahasa Indonesia](README.id.md) | [Türkçe](README.tr.md)
 
 ---
 
 不同场景下的翻译任务有着截然不同的诉求：在手机上快速识别路牌与菜单，在浏览器中对照阅读技术文档，在保留版面结构的前提下转换商务合同与幻灯片，在研读学术论文时保护数学公式，在本地终端通过管道批量处理文本，或是实时收看无字幕外语视频。
 
-我们是 **Equalang（意扣）** 团队。本目录系统梳理了主流商用工具与活跃开源项目的功能特性、使用入口、部署方式与使用边界，帮助你根据手头的具体任务选出合适的方案。
+我们是 **Equalang（意扣）** 团队。本目录系统梳理了主流商用工具与代表性开源项目的功能特性、使用入口、部署方式与使用边界，帮助你根据手头的具体任务选出合适的方案。
 
 ---
 
@@ -271,7 +271,7 @@ SimplifyAI 旗下包含两个定位不同的产品站点：一是主打[复杂�
 ### 5.3 跨平台桌面端与终端工具
 
 #### Pot（pot-desktop）
-[Pot](https://github.com/pot-app/pot-desktop)（开源协议：GNU GPL v3）是一款支持 Windows、macOS 与 Linux 的跨平台桌面划词翻译工具，覆盖快捷键划词、主窗口输入、剪贴板监听、截图 OCR 以及截图划词翻译。
+[Pot](https://github.com/pot-app/pot-desktop)（开源协议：GNU GPL v3）是一款支持 Windows、macOS 与 Linux 的跨平台桌面划词翻译工具，覆盖快捷键划词、主窗口输入、剪贴板监听、截图 OCR 以及截图划词翻译。该开源仓库已由原作者于 2026 年 9 月 7 日归档（现为只读状态）。
 
 - **多接口并发与词汇沉淀**：支持同时配置并请求多个翻译服务与字典，并在统一窗口中并列呈现比对；支持语音合成发音（TTS），可将查到的生词同步导出至 Anki 和欧路词典，并支持丰富的外部插件扩展。
 - **灵活的接口聚合**：前端可聚合各大商用云 API、OpenAI 兼容大模型接口与本地 Ollama 实例；OCR 支持调用系统原生接口（Windows 系统 OCR、macOS Apple Vision、Linux Tesseract）、Tesseract.js 或本地插件。
