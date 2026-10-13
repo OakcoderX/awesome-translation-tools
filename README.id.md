@@ -8,7 +8,7 @@
 
 Tugas penerjemahan memiliki kebutuhan mendasar yang berbeda-beda tergantung konteks: menguraikan arti rambu jalan atau buku menu di ponsel, membaca dokumentasi berbahasa asing langsung di peramban, menerjemahkan dokumen presentasi rumit dan kontrak bisnis tanpa merusak tata letak (layout), mempertahankan formula matematika dalam makalah akademis, menjalankan penerjemahan batch secara privat di terminal, hingga mengikuti tayangan video tanpa takarir (subtitle).
 
-Kami adalah tim **Equalang**. Direktori ini menyajikan katalog praktis dan berorientasi tugas dari berbagai produk penerjemahan terkemuka serta proyek sumber terbuka (open-source). Untuk setiap alat, kami merangkum kemampuan yang terdokumentasi, pintu masuk penggunaan, mode penerapan (deployment), dan batasan operasionalnya guna membantu Anda menentukan solusi yang tepat untuk alur kerja Anda.
+Kami adalah tim **[Equalang](https://equalang.com/?utm_source=github)**. Direktori ini menyajikan katalog praktis dan berorientasi tugas dari berbagai produk penerjemahan terkemuka serta proyek sumber terbuka (open-source). Untuk setiap alat, kami merangkum kemampuan yang terdokumentasi, pintu masuk penggunaan, mode penerapan (deployment), dan batasan operasionalnya guna membantu Anda menentukan solusi yang tepat untuk alur kerja Anda.
 
 ---
 
@@ -47,7 +47,7 @@ Kami adalah tim **Equalang**. Direktori ini menyajikan katalog praktis dan beror
   - [5.3 Frontend Desktop & Terminal](#53-desktop--terminal-frontends)
     - [Pot (pot-desktop)](#pot-pot-desktop)
     - [Translate Shell](#translate-shell)
-- [6. Alur Kerja Menyeluruh yang Terintegrasi (End-to-End): Equalang](#6-connected-end-to-end-workflows-equalang)
+- [6. Alur Kerja Menyeluruh yang Terintegrasi (End-to-End):](#6-connected-end-to-end-workflows-equalang) [Equalang](https://equalang.com/?utm_source=github)
   - [1. Penerjemahan Seluruh File Dokumen dengan Mempertahankan Tata Letak](#1-whole-file-document-translation-with-layout-preservation)
   - [2. Membaca di Peramban & Pembuatan Takarir Video](#2-in-browser-reading--subtitle-generation)
   - [3. Komunikasi Lisan & Percakapan di Tempat Tanpa Perlu Memasang Aplikasi](#3-installation-free-spoken-communication--on-site-exchange)
@@ -325,43 +325,43 @@ Pengembang, tim yang mengutamakan privasi, dan peneliti akademis sering kali mem
 ---
 
 <a id="6-connected-end-to-end-workflows-equalang"></a>
-## 6. Alur Kerja Menyeluruh yang Terintegrasi (End-to-End): Equalang
+## 6. Alur Kerja Menyeluruh yang Terintegrasi (End-to-End): [Equalang](https://equalang.com/?utm_source=github)
 
 Meninjau alat-alat ini menunjukkan bahwa setiap layanan telah mengembangkan kemampuan yang jelas untuk tugas-tugas tertentu. Namun, dalam pekerjaan sehari-hari, berbagai kebutuhan sering kali saling bersinggungan:
 
 Anda mungkin membaca white paper online di peramban, mengunduh file PDF pendukung yang memuat tabel dan diagram, menonton video perkuliahan tanpa takarir, lalu menyusun ringkasan eksekutif di Word sambil berkoordinasi langsung dengan rekan kerja internasional. Beralih di antara alat perangkat lunak yang terisolasi dan konverter file memecah alur kerja Anda.
 
-Kami merancang **Equalang** untuk menghubungkan tugas-tugas ini ke dalam alur kerja penerjemahan berdampingan (side-by-side) yang berkesinambungan, menghadirkan dukungan penerjemahan terkoordinasi untuk dokumen, halaman web, video, dan komunikasi langsung.
+Kami merancang **[Equalang](https://equalang.com/?utm_source=github)** untuk menghubungkan tugas-tugas ini ke dalam alur kerja penerjemahan berdampingan (side-by-side) yang berkesinambungan, menghadirkan dukungan penerjemahan terkoordinasi untuk dokumen, halaman web, video, dan komunikasi langsung.
 
-<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Beranda resmi bahasa Inggris Equalang" width="640"><br><sub>Beranda situs web resmi bahasa Inggris Equalang</sub></p>
+<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Beranda resmi bahasa Inggris Equalang" width="640"><br><sub>Beranda situs web resmi bahasa Inggris <a href="https://equalang.com/?utm_source=github">Equalang</a></sub></p>
 
 <a id="1-whole-file-document-translation-with-layout-preservation"></a>
 ### 1. Penerjemahan Seluruh File Dokumen dengan Mempertahankan Tata Letak
-Saat menerjemahkan dokumen secara utuh, Equalang berfokus pada pemeliharaan struktur dan kegunaan pascaterjemahan, menyediakan alur kerja yang disesuaikan untuk literatur penelitian, presentasi, dan file kantor sehari-hari:
+Saat menerjemahkan dokumen secara utuh, [Equalang](https://equalang.com/?utm_source=github) berfokus pada pemeliharaan struktur dan kegunaan pascaterjemahan, menyediakan alur kerja yang disesuaikan untuk literatur penelitian, presentasi, dan file kantor sehari-hari:
 
-- **Dokumen PDF & Membaca**: Equalang mempertahankan tata letak multi-kolom, header, footer, dan keterangan gambar (caption), menyambungkan kembali kalimat yang terputus oleh perpindahan halaman sebelum diterjemahkan, sembari tetap mempertahankan struktur tabel, formula sebaris (inline), dan tautan dokumen internal. Sebagaimana diuraikan dalam [panduan membaca PDF akademis](https://equalang.com/blog/translate-and-read-pdf-documents) kami, pembaca dapat melihat file terjemahan berdampingan dengan dokumen asli dalam tata letak side-by-side, memahami argumen inti dalam bahasa utama mereka terlebih dahulu sebelum mencocokkan silang terminologi dan data spesifik pada halaman asli.
+- **Dokumen PDF & Membaca**: [Equalang](https://equalang.com/?utm_source=github) mempertahankan tata letak multi-kolom, header, footer, dan keterangan gambar (caption), menyambungkan kembali kalimat yang terputus oleh perpindahan halaman sebelum diterjemahkan, sembari tetap mempertahankan struktur tabel, formula sebaris (inline), dan tautan dokumen internal. Sebagaimana diuraikan dalam [panduan membaca PDF akademis](https://equalang.com/blog/translate-and-read-pdf-documents?utm_source=github) kami, pembaca dapat melihat file terjemahan berdampingan dengan dokumen asli dalam tata letak side-by-side, memahami argumen inti dalam bahasa utama mereka terlebih dahulu sebelum mencocokkan silang terminologi dan data spesifik pada halaman asli.
 
-- **Presentasi PowerPoint**: Dalam [panduan format salindia presentasi](https://equalang.com/blog/translate-powerpoint-keep-formatting) kami, file PPTX yang diterjemahkan mempertahankan tabel asli yang dapat diedit alih-alih meratakannya menjadi gambar statis. Pemformatan tingkat kata—seperti cetak tebal, miring, dan warna font dalam satu kalimat—dipetakan secara akurat ke frasa terjemahan yang sesuai. Istilah kunci dan judul tetap konsisten di seluruh salindia, dan kotak teks secara otomatis mengecilkan ukuran font saat terjemahan memanjang guna mencegah teks meluap atau menutupi grafik.
+- **Presentasi PowerPoint**: Dalam [panduan format salindia presentasi](https://equalang.com/blog/translate-powerpoint-keep-formatting?utm_source=github) kami, file PPTX yang diterjemahkan mempertahankan tabel asli yang dapat diedit alih-alih meratakannya menjadi gambar statis. Pemformatan tingkat kata—seperti cetak tebal, miring, dan warna font dalam satu kalimat—dipetakan secara akurat ke frasa terjemahan yang sesuai. Istilah kunci dan judul tetap konsisten di seluruh salindia, dan kotak teks secara otomatis mengecilkan ukuran font saat terjemahan memanjang guna mencegah teks meluap atau menutupi grafik.
 
-- **File Kantor Word & Excel**: Dalam [uji coba penerjemahan Word](https://equalang.com/blog/translate-word-document-keep-formatting) kami yang terverifikasi, file DOCX yang diterjemahkan mempertahankan judul, daftar poin, tabel harga, dan format cetak tebal, memungkinkan penyuntingan langsung di Microsoft Word. Dalam [validasi lembar harga Excel](https://equalang.com/blog/translate-excel-file) kami, formula dan angka tetap tidak tersentuh sementara string teks yang sama di berbagai sel hanya diterjemahkan satu kali.
+- **File Kantor Word & Excel**: Dalam [uji coba penerjemahan Word](https://equalang.com/blog/translate-word-document-keep-formatting?utm_source=github) kami yang terverifikasi, file DOCX yang diterjemahkan mempertahankan judul, daftar poin, tabel harga, dan format cetak tebal, memungkinkan penyuntingan langsung di Microsoft Word. Dalam [validasi lembar harga Excel](https://equalang.com/blog/translate-excel-file?utm_source=github) kami, formula dan angka tetap tidak tersentuh sementara string teks yang sama di berbagai sel hanya diterjemahkan satu kali.
 
 - **Buku Elektronik & Media Berformat**: Buku elektronik EPUB mempertahankan navigasi daftar isi dan tautan jangkar internal. Untuk rekaman file audio dan video hingga 180 menit, tugas penerjemahan dan transkripsi dikirimkan melalui API Pengembang dan integrasi Agent Skill/MCP kami (bukan melalui portal pengunggahan dokumen web umum), menghasilkan file takarir dwibahasa SRT/VTT bertanda waktu atau transkrip teks sumber.
 
 <a id="2-in-browser-reading--subtitle-generation"></a>
 ### 2. Membaca di Peramban & Pembuatan Takarir Video
-Melalui [ekstensi peramban](https://equalang.com/extension) kami yang ringan (dengan panduan instalasi untuk Chrome, Edge, dan Firefox, ditambah mode Mac Safari sementara untuk Safari 18.4+), penerjemahan terintegrasi langsung ke dalam aktivitas membaca harian Anda:
+Melalui [ekstensi peramban](https://equalang.com/extension?utm_source=github) kami yang ringan (dengan panduan instalasi untuk Chrome, Edge, dan Firefox, ditambah mode Mac Safari sementara untuk Safari 18.4+), penerjemahan terintegrasi langsung ke dalam aktivitas membaca harian Anda:
 
 - **Membaca Web Dwibahasa di Bawah Paragraf**: Paragraf terjemahan muncul tepat di bawah teks asli saat Anda menggulir halaman. Ikon mengambang dapat diaktifkan di pengaturan untuk mencari arti kata sesuai kebutuhan. Saat melihat file PDF lokal, pengguna dapat mengaktifkan "Izinkan akses ke URL file" dalam pengelolaan ekstensi untuk memilih kata yang ingin dicari.
 
-- **Takarir Video Dwibahasa**: Kompatibel dengan YouTube, Netflix, TikTok, dan Bilibili, sebagaimana dibahas dalam [panduan menonton video dwibahasa](https://equalang.com/blog/watch-videos-with-bilingual-subtitles) kami. Selain menerjemahkan takarir yang sudah ada, ekstensi ini dapat menangkap aliran audio untuk menghasilkan takarir dwibahasa waktu-nyata untuk **video tanpa takarir** (tunduk pada lingkungan peramban dan batasan enkripsi media, terverifikasi pada siaran langsung YouTube dan cuplikan resmi), sembari menerjemahkan komentar obrolan langsung di YouTube secara bersamaan.
+- **Takarir Video Dwibahasa**: Kompatibel dengan YouTube, Netflix, TikTok, dan Bilibili, sebagaimana dibahas dalam [panduan menonton video dwibahasa](https://equalang.com/blog/watch-videos-with-bilingual-subtitles?utm_source=github) kami. Selain menerjemahkan takarir yang sudah ada, ekstensi ini dapat menangkap aliran audio untuk menghasilkan takarir dwibahasa waktu-nyata untuk **video tanpa takarir** (tunduk pada lingkungan peramban dan batasan enkripsi media, terverifikasi pada siaran langsung YouTube dan cuplikan resmi), sembari menerjemahkan komentar obrolan langsung di YouTube secara bersamaan.
 
 <a id="3-installation-free-spoken-communication--on-site-exchange"></a>
 ### 3. Komunikasi Lisan & Percakapan di Tempat Tanpa Perlu Memasang Aplikasi
-Meminta lawan bicara memasang aplikasi seluler khusus sering kali menimbulkan kendala, terutama saat bepergian. Saat terhubung ke internet, Equalang menghadirkan terjemahan foto dan interpretasi lisan langsung di dalam peramban standar (hanya memerlukan masuk akun pertama kali dan izin kamera/mikrofon perangkat pada penggunaan awal), seperti yang diuraikan dalam [panduan komunikasi internasional](https://equalang.com/blog/talk-with-overseas-partners) kami:
+Meminta lawan bicara memasang aplikasi seluler khusus sering kali menimbulkan kendala, terutama saat bepergian. Saat terhubung ke internet, [Equalang](https://equalang.com/?utm_source=github) menghadirkan terjemahan foto dan interpretasi lisan langsung di dalam peramban standar (hanya memerlukan masuk akun pertama kali dan izin kamera/mikrofon perangkat pada penggunaan awal), seperti yang diuraikan dalam [panduan komunikasi internasional](https://equalang.com/blog/talk-with-overseas-partners?utm_source=github) kami:
 
-- **Terjemahan Foto Seluler**: Saat menjumpai menu restoran, rambu, atau pengumuman publik yang asing saat bepergian, pengguna cukup mengambil foto di peramban seluler mereka. Terjemahan akan langsung ditampilkan di atas tata letak foto, memudahkan memesan minuman atau membaca pengumuman dengan mencocokkannya ke gambar asli, seperti yang diilustrasikan dalam [panduan terjemahan foto perjalanan](https://equalang.com/blog/photo-translation-for-travel) kami.
+- **Terjemahan Foto Seluler**: Saat menjumpai menu restoran, rambu, atau pengumuman publik yang asing saat bepergian, pengguna cukup mengambil foto di peramban seluler mereka. Terjemahan akan langsung ditampilkan di atas tata letak foto, memudahkan memesan minuman atau membaca pengumuman dengan mencocokkannya ke gambar asli, seperti yang diilustrasikan dalam [panduan terjemahan foto perjalanan](https://equalang.com/blog/photo-translation-for-travel?utm_source=github) kami.
 
-- **Mode Tatap Muka**: Dirancang untuk situasi langsung seperti penitipan bagasi hotel, menanyakan arah, atau interaksi di meja resepsionis. Dua pembicara dapat meletakkan satu ponsel atau tablet secara mendatar di antara mereka, menggunakan tampilan layar terpisah terbalik (inverted split-screen) atau tampilan berdampingan dengan transkripsi dua arah yang berkelanjutan serta ekspor transkrip, sebagaimana ditunjukkan dalam [panduan tatap muka perjalanan](https://equalang.com/blog/talk-face-to-face-while-traveling) kami.
+- **Mode Tatap Muka**: Dirancang untuk situasi langsung seperti penitipan bagasi hotel, menanyakan arah, atau interaksi di meja resepsionis. Dua pembicara dapat meletakkan satu ponsel atau tablet secara mendatar di antara mereka, menggunakan tampilan layar terpisah terbalik (inverted split-screen) atau tampilan berdampingan dengan transkripsi dua arah yang berkelanjutan serta ekspor transkrip, sebagaimana ditunjukkan dalam [panduan tatap muka perjalanan](https://equalang.com/blog/talk-face-to-face-while-traveling?utm_source=github) kami.
 
 - **Mendengarkan Langsung**: Buka portal web selama presentasi atau perkuliahan tatap muka untuk menerima takarir dwibahasa waktu-nyata yang ditangkap melalui mikrofon fisik perangkat, dengan opsi audio text-to-speech dan ekspor transkrip setelah selesai (berbeda dari penangkapan audio media streaming pada ekstensi peramban).
 
@@ -371,9 +371,9 @@ Meminta lawan bicara memasang aplikasi seluler khusus sering kali menimbulkan ke
 ### 4. Integrasi untuk Agen AI dan Pengembang
 Untuk membantu pengembang dan tim menyematkan penerjemahan ke dalam alur kerja otomatis:
 
-- **API Pengembang**: Menyediakan endpoint instan untuk teks serta tugas file asinkron yang mendukung percobaan ulang dengan Idempotency-Key dan pemberitahuan callback, sebagaimana dirinci dalam [panduan integrasi API penerjemahan file](https://equalang.com/blog/integrate-file-translation-api) kami.
+- **API Pengembang**: Menyediakan endpoint instan untuk teks serta tugas file asinkron yang mendukung percobaan ulang dengan Idempotency-Key dan pemberitahuan callback, sebagaimana dirinci dalam [panduan integrasi API penerjemahan file](https://equalang.com/blog/integrate-file-translation-api?utm_source=github) kami.
 
-- **Integrasi Skill & MCP**: Kami memelihara Agent Skills sumber terbuka melalui [equalang-skill](https://github.com/equalang/equalang-skill) dan dukungan resmi Model Context Protocol melalui [@equalang/mcp](https://github.com/equalang/equalang-mcp). Di lingkungan seperti Claude Code, Codex, atau WorkBuddy, menjalankan satu instruksi instalasi dan mengonfigurasi kunci API Anda akan membekali asisten AI untuk menangani penerjemahan dokumen dan transkripsi media langsung di dalam alur kerja Anda, mengikuti [panduan penerjemahan file dengan asisten AI](https://equalang.com/blog/translate-files-with-ai-assistants) kami.
+- **Integrasi Skill & MCP**: Kami memelihara Agent Skills sumber terbuka melalui [equalang-skill](https://github.com/equalang/equalang-skill) dan dukungan resmi Model Context Protocol melalui [@equalang/mcp](https://github.com/equalang/equalang-mcp). Di lingkungan seperti Claude Code, Codex, atau WorkBuddy, menjalankan satu instruksi instalasi dan mengonfigurasi kunci API Anda akan membekali asisten AI untuk menangani penerjemahan dokumen dan transkripsi media langsung di dalam alur kerja Anda, mengikuti [panduan penerjemahan file dengan asisten AI](https://equalang.com/blog/translate-files-with-ai-assistants?utm_source=github) kami.
 
 ---
 
@@ -384,18 +384,18 @@ Untuk membantu Anda memilih alat yang tepat untuk tugas Anda saat ini, lihat mat
 
 | Tugas Utama | Kebutuhan Inti | Rekomendasi Alat | Pertimbangan Utama |
 | :--- | :--- | :--- | :--- |
-| **Perjalanan & Dialog Lisan** | OCR foto, dialog dua arah, paket luring & alat perjalanan terhubung | Google Translate, Apple Translate, Papago, Equalang | Unduh paket bahasa luring di Google, Apple, atau Papago (perhatikan persyaratan perangkat keras) untuk area dengan sinyal lemah; saat terhubung internet, Equalang menyediakan terjemahan foto berbasis peramban dan dialog tatap muka tanpa perlu memasang aplikasi. |
+| **Perjalanan & Dialog Lisan** | OCR foto, dialog dua arah, paket luring & alat perjalanan terhubung | Google Translate, Apple Translate, Papago, [Equalang](https://equalang.com/?utm_source=github) | Unduh paket bahasa luring di Google, Apple, atau Papago (perhatikan persyaratan perangkat keras) untuk area dengan sinyal lemah; saat terhubung internet, [Equalang](https://equalang.com/?utm_source=github) menyediakan terjemahan foto berbasis peramban dan dialog tatap muka tanpa perlu memasang aplikasi. |
 | **Lokakarya Multi-Perangkat** | Presentasi satu-ke-banyak, partisipasi multi-perangkat | Microsoft Translator | Tuan rumah menjalankan mode Penyaji melalui aplikasi seluler; peserta bergabung melalui peramban standar tanpa perlu memasang perangkat lunak. |
-| **Membaca Web Mendalam** | Membaca di bawah paragraf tanpa berpindah halaman | Immersive Translate, Equalang, Mate Translate | Gunakan Immersive Translate atau Equalang untuk paragraf dwibahasa; gunakan Mate Translate untuk beralih tampilan satu halaman penuh atau menyimpan kata ke Buku Frasa di Mac. |
-| **Video Tanpa Takarir & Siaran Langsung** | Pembuatan takarir waktu-nyata, kompatibilitas streaming | Equalang, Immersive Translate | Kedua alat dapat menghasilkan takarir dari audio mentah pada platform yang didukung (seperti YouTube); bandingkan alur kerja ekstensi peramban untuk obrolan langsung dan penanganan streaming. |
-| **Makalah Akademis & PDF Ilmiah** | Pelestarian formula, struktur kolom, teks lintas halaman | PDFMathTranslate, BabelDOC, Equalang | PDFMathTranslate dan BabelDOC menyediakan pipeline sumber terbuka dengan keluaran PDF ganda serta backend LLM lokal/cloud; Equalang menyediakan pembacaan berdampingan berbasis peramban dan pemeliharaan tata letak. |
+| **Membaca Web Mendalam** | Membaca di bawah paragraf tanpa berpindah halaman | Immersive Translate, [Equalang](https://equalang.com/?utm_source=github), Mate Translate | Gunakan Immersive Translate atau [Equalang](https://equalang.com/?utm_source=github) untuk paragraf dwibahasa; gunakan Mate Translate untuk beralih tampilan satu halaman penuh atau menyimpan kata ke Buku Frasa di Mac. |
+| **Video Tanpa Takarir & Siaran Langsung** | Pembuatan takarir waktu-nyata, kompatibilitas streaming | [Equalang](https://equalang.com/?utm_source=github), Immersive Translate | Kedua alat dapat menghasilkan takarir dari audio mentah pada platform yang didukung (seperti YouTube); bandingkan alur kerja ekstensi peramban untuk obrolan langsung dan penanganan streaming. |
+| **Makalah Akademis & PDF Ilmiah** | Pelestarian formula, struktur kolom, teks lintas halaman | PDFMathTranslate, BabelDOC, [Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslate dan BabelDOC menyediakan pipeline sumber terbuka dengan keluaran PDF ganda serta backend LLM lokal/cloud; [Equalang](https://equalang.com/?utm_source=github) menyediakan pembacaan berdampingan berbasis peramban dan pemeliharaan tata letak. |
 | **Pracetak Penerbitan & Format Desain** | InDesign, Illustrator, arsip komik, QA pracetak | SimplifyAI, O.Translator | Gunakan SimplifyAI dan O.Translator untuk InDesign (IDML) dan pracetak aset desain; SimplifyAI menyertakan AI Editing dengan pelacakan perubahan bawaan Word. |
-| **Presentasi & Dokumen Kantor** | Mempertahankan tabel asli, gaya, formula, dan kemampuan edit | Equalang, DeepL | Equalang mempertahankan tabel/gaya asli PPTX dengan penyesuaian ukuran font adaptif dan retensi formula Excel; gunakan DeepL untuk file Word/Office perusahaan dengan glosarium. |
+| **Presentasi & Dokumen Kantor** | Mempertahankan tabel asli, gaya, formula, dan kemampuan edit | [Equalang](https://equalang.com/?utm_source=github), DeepL | [Equalang](https://equalang.com/?utm_source=github) mempertahankan tabel/gaya asli PPTX dengan penyesuaian ukuran font adaptif dan retensi formula Excel; gunakan DeepL untuk file Word/Office perusahaan dengan glosarium. |
 | **Penulisan Akademis & Pemolesan** | Akurasi tata bahasa, register ilmiah formal | Youdao Translate, QuillBot Translate, TranSmart | Youdao dan QuillBot memadukan penerjemahan dengan penyempurnaan teks; TranSmart menyediakan penyuntingan interaktif human-in-the-loop. |
 | **Pencarian Hotkey Desktop & Multi-Mesin** | Pintasan global, OCR, membandingkan beberapa mesin | Pot, Mate Translate | Pot memungkinkan kueri multi-mesin secara simultan dan OCR tangkapan layar di Windows, Mac, dan Linux; Mate menawarkan utilitas bilah menu Mac bawaan. |
 | **Skrip Terminal & Pipeline Shell** | Pencarian CLI, pipeline stdin/stdout, skrip teks polos | Translate Shell, Argos Translate | Translate Shell menyediakan terjemahan CLI ringan melalui mesin jarak jauh; Argos Translate menyediakan CLI Python luring dengan model lokal. |
 | **API Privat yang Dihosting Mandiri & Mesin Luring** | Jaringan terisolasi (air-gapped), tanpa pengiriman data pihak ketiga | LibreTranslate, Argos Translate, SYSTRAN, Lingvanex | LibreTranslate menyediakan layanan HTTP API dan WebUI yang dihosting mandiri; Argos Translate mentenagainya sebagai pustaka Python/mesin CLI luring dengan paket model modular; SYSTRAN dan Lingvanex menawarkan penerapan lokal (on-premise) untuk perusahaan. |
-| **Alur Kerja Menyeluruh yang Terintegrasi** | Dokumen, takarir streaming, panggilan web, dan Agen AI | Equalang | Pemrosesan dokumen terpadu, takarir media tanpa takarir, panggilan berbasis peramban tanpa instalasi aplikasi, dan integrasi langsung dengan Claude Code atau WorkBuddy. |
+| **Alur Kerja Menyeluruh yang Terintegrasi** | Dokumen, takarir streaming, panggilan web, dan Agen AI | [Equalang](https://equalang.com/?utm_source=github) | Pemrosesan dokumen terpadu, takarir media tanpa takarir, panggilan berbasis peramban tanpa instalasi aplikasi, dan integrasi langsung dengan Claude Code atau WorkBuddy. |
 
 ---
 
@@ -407,7 +407,7 @@ Untuk menjaga kegunaan praktis dan keakuratan faktual dari direktori ini, setiap
 1. **Fitur Terdokumentasi di Atas Klaim Pemasaran**: Deskripsi diperoleh dari dokumentasi resmi, manual pengguna, dan file sumber repositori yang terkonfirmasi. Kami tidak mengklaim pemeliharaan tata letak yang sempurna atau dukungan format yang universal.
 2. **Batasan Arsitektur yang Jelas**: Kami membedakan antara frontend terjemahan, lapisan layanan yang dapat dihosting mandiri, mesin terjemahan luring, dan pustaka tata letak dokumen. Kode sumber terbuka yang berjalan secara lokal dipisahkan secara tegas dari eksekusi luring yang sebenarnya.
 3. **Cakupan Berorientasi Tugas**: Alat-alat dikelompokkan berdasarkan kesesuaian praktis di berbagai alur kerja. Kami tidak mencantumkan daftar peringkat subjektif, peringkat kualitas, atau angka harga yang bersifat sementara.
-4. **Identitas Pengelola yang Transparan**: Katalog ini dikurasi dan dikelola oleh tim **Equalang**. Equalang disajikan bersama alat-alat lain dengan batasan fitur yang dapat diverifikasi dan persyaratan sistem yang transparan.
+4. **Identitas Pengelola yang Transparan**: Katalog ini dikurasi dan dikelola oleh tim **[Equalang](https://equalang.com/?utm_source=github)**. [Equalang](https://equalang.com/?utm_source=github) disajikan bersama alat-alat lain dengan batasan fitur yang dapat diverifikasi dan persyaratan sistem yang transparan.
 
 **Kata kunci**: alat penerjemahan, terjemahan dokumen, membaca web dwibahasa, terjemahan PDF akademis, terjemahan sumber terbuka, API terjemahan mesin, pemeliharaan tata letak, agen AI.
 
@@ -440,7 +440,7 @@ Untuk menjaga kegunaan praktis dan keakuratan faktual dari direktori ini, setiap
 22. [Pengenalan Produk Tencent TranSmart](https://transmart.qq.com/zh-CN/intro)
 23. [Bantuan Dokumen Caiyun Xiaoyi (LingoCloud)](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
 24. [Portal PDF & QuillBot Translate](https://quillbot.com/translate)
-25. [Spesifikasi API & Dokumentasi Equalang](https://equalang.com/llms-full.txt)
+25. [Spesifikasi API & Dokumentasi Equalang](https://equalang.com/llms-full.txt?utm_source=github)
 26. [Repositori GitHub Resmi PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
 27. [Dokumentasi Opsi Lanjutan PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
 28. [Repositori GitHub Resmi BabelDOC](https://github.com/funstory-ai/BabelDOC)

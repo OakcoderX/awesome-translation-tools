@@ -8,7 +8,7 @@
 
 Çeviri görevleri bağlama göre temelden farklılık gösterir: cep telefonunda bir sokak tabelasını veya menüyü çözmek, tarayıcıda yabancı dildeki teknik belgeleri okumak, karmaşık sunum slaytlarını ve sözleşmeleri sayfa düzenini bozmadan çevirmek, akademik makalelerdeki matematiksel formülleri korumak, uçbirimde gizli toplu çeviriler çalıştırmak veya altyazısız video akışlarını takip etmek.
 
-Biz **Equalang** ekibiyiz. Bu dizin, köklü çeviri ürünlerinin ve önde gelen açık kaynaklı projelerin pratik ve görev odaklı bir kataloğunu sunar. Kendi iş akışınız için doğru çözümü belirlemenize yardımcı olmak amacıyla her bir araç için belgelenmiş yetenekleri, erişim noktalarını, dağıtım modellerini ve operasyonel kısıtlamaları özetliyoruz.
+Biz **[Equalang](https://equalang.com/?utm_source=github)** ekibiyiz. Bu dizin, köklü çeviri ürünlerinin ve önde gelen açık kaynaklı projelerin pratik ve görev odaklı bir kataloğunu sunar. Kendi iş akışınız için doğru çözümü belirlemenize yardımcı olmak amacıyla her bir araç için belgelenmiş yetenekleri, erişim noktalarını, dağıtım modellerini ve operasyonel kısıtlamaları özetliyoruz.
 
 ---
 
@@ -49,7 +49,7 @@ Biz **Equalang** ekibiyiz. Bu dizin, köklü çeviri ürünlerinin ve önde gele
   - [5.3 Masaüstü ve Uçbirim Arayüzleri](#53-desktop--terminal-frontends)
     - [Pot (pot-desktop)](#pot-pot-desktop)
     - [Translate Shell](#translate-shell)
-- [6. Uçtan Uca Entegre İş Akışları: Equalang](#6-connected-end-to-end-workflows-equalang)
+- [6. Uçtan Uca Entegre İş Akışları:](#6-connected-end-to-end-workflows-equalang) [Equalang](https://equalang.com/?utm_source=github)
   - [1. Sayfa Düzenini Koruyarak Tam Belge Çevirisi](#1-whole-file-document-translation-with-layout-preservation)
   - [2. Tarayıcı İçi Okuma ve Altyazı Oluşturma](#2-in-browser-reading--subtitle-generation)
   - [3. Kurulum Gerektirmeyen Sözlü İletişim ve Yüz Yüze Görüşme](#3-installation-free-spoken-communication--on-site-exchange)
@@ -361,46 +361,46 @@ Geliştiriciler, gizliliğe önem veren ekipler ve akademik araştırmacılar ge
 
 <a id="6-connected-end-to-end-workflows-equalang"></a>
 
-## 6. Uçtan Uca Entegre İş Akışları: Equalang
+## 6. Uçtan Uca Entegre İş Akışları: [Equalang](https://equalang.com/?utm_source=github)
 
 Bu araçları incelemek, her bir hizmetin belirli görevler için belirgin yetenekler geliştirdiğini göstermektedir. Ancak günlük çalışmalarda gereksinimler sıklıkla birbiriyle kesişir:
 
 Tarayıcınızda çevrim içi bir tanıtım belgesi (white paper) okuyabilir, tablolara ve şemalara sahip ekteki bir PDF'i indirebilir, altyazısız bir video dersi izleyebilir ve ardından uluslararası iş ortaklarıyla doğrudan koordinasyon kurarken Word'de bir yönetici özeti hazırlayabilirsiniz. Yalıtılmış yazılım araçları ve dosya dönüştürücüler arasında geçiş yapmak iş akışını böler.
 
-**Equalang**'i, bu görevleri kesintisiz, yan yana bir çeviri iş akışında birleştirmek; belgeler, web sayfaları, videolar ve canlı iletişim genelinde koordineli çeviri desteği sunmak için tasarladık.
+**[Equalang](https://equalang.com/?utm_source=github)**'i, bu görevleri kesintisiz, yan yana bir çeviri iş akışında birleştirmek; belgeler, web sayfaları, videolar ve canlı iletişim genelinde koordineli çeviri desteği sunmak için tasarladık.
 
-<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Equalang resmî İngilizce ana sayfası" width="640"><br><sub>Equalang resmî İngilizce web sitesi ana sayfası</sub></p>
+<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Equalang resmî İngilizce ana sayfası" width="640"><br><sub><a href="https://equalang.com/?utm_source=github">Equalang</a> resmî İngilizce web sitesi ana sayfası</sub></p>
 
 <a id="1-whole-file-document-translation-with-layout-preservation"></a>
 
 ### 1. Sayfa Düzenini Koruyarak Tam Belge Çevirisi
-Tüm belgeleri çevirirken Equalang; araştırma literatürü, sunumlar ve günlük ofis dosyaları genelinde uyarlanmış iş akışları sağlayarak yapısal korumaya ve çeviri sonrası kullanılabilirliğe odaklanır:
+Tüm belgeleri çevirirken [Equalang](https://equalang.com/?utm_source=github); araştırma literatürü, sunumlar ve günlük ofis dosyaları genelinde uyarlanmış iş akışları sağlayarak yapısal korumaya ve çeviri sonrası kullanılabilirliğe odaklanır:
 
-- **PDF Belgeleri ve Okuma**: Equalang çok sütunlu düzenleri, üstbilgileri, altbilgileri ve resim yazılarını korur; sayfa sonlarında bölünen cümleleri çevirmeden önce yeniden birleştirirken tablo yapılarını, satır içi formülleri ve belge içi bağlantıları muhafaza eder. [Akademik PDF okuma rehberimizde](https://equalang.com/blog/translate-and-read-pdf-documents) açıklandığı üzere okuyucular, çevrilmiş dosyayı orijinalin yanında yan yana bir düzende görüntüleyebilir; orijinal sayfadaki belirli terminolojiye ve verilere çapraz referans vermeden önce temel argümanları öncelikle kendi ana dillerinde kavrayabilirler.
+- **PDF Belgeleri ve Okuma**: [Equalang](https://equalang.com/?utm_source=github) çok sütunlu düzenleri, üstbilgileri, altbilgileri ve resim yazılarını korur; sayfa sonlarında bölünen cümleleri çevirmeden önce yeniden birleştirirken tablo yapılarını, satır içi formülleri ve belge içi bağlantıları muhafaza eder. [Akademik PDF okuma rehberimizde](https://equalang.com/blog/translate-and-read-pdf-documents?utm_source=github) açıklandığı üzere okuyucular, çevrilmiş dosyayı orijinalin yanında yan yana bir düzende görüntüleyebilir; orijinal sayfadaki belirli terminolojiye ve verilere çapraz referans vermeden önce temel argümanları öncelikle kendi ana dillerinde kavrayabilirler.
 
-- **PowerPoint Sunumları**: [Slayt sunumu biçimlendirme kılavuzumuzda](https://equalang.com/blog/translate-powerpoint-keep-formatting) belirtildiği gibi, çevrilen PPTX dosyaları yerel tabloları statik görüntülere dönüştürmek yerine düzenlenebilir olarak korur. Tek bir cümle içindeki kalınlaştırma, italik ve yazı tipi renkleri gibi sözcük düzeyindeki stiller, karşılık gelen çevrilmiş ifadelere doğru bir şekilde eşlenir. Anahtar terimler ve başlıklar slaytlar arasında tutarlı kalır ve metin kutuları, çeviriler genişlediğinde metin taşmasını veya grafiklerin üzerinin kapanmasını önlemek için yazı tipi boyutlarını otomatik olarak küçültür.
+- **PowerPoint Sunumları**: [Slayt sunumu biçimlendirme kılavuzumuzda](https://equalang.com/blog/translate-powerpoint-keep-formatting?utm_source=github) belirtildiği gibi, çevrilen PPTX dosyaları yerel tabloları statik görüntülere dönüştürmek yerine düzenlenebilir olarak korur. Tek bir cümle içindeki kalınlaştırma, italik ve yazı tipi renkleri gibi sözcük düzeyindeki stiller, karşılık gelen çevrilmiş ifadelere doğru bir şekilde eşlenir. Anahtar terimler ve başlıklar slaytlar arasında tutarlı kalır ve metin kutuları, çeviriler genişlediğinde metin taşmasını veya grafiklerin üzerinin kapanmasını önlemek için yazı tipi boyutlarını otomatik olarak küçültür.
 
-- **Word ve Excel Ofis Dosyaları**: Doğrulanmış [Word çeviri testimizde](https://equalang.com/blog/translate-word-document-keep-formatting), çevrilen DOCX dosyaları başlıkları, madde işaretli listeleri, fiyat tablolarını ve kalın biçimlendirmeyi koruyarak Microsoft Word'de doğrudan düzenlemeye olanak sağladı. [Excel fiyat listesi doğrulamamızda](https://equalang.com/blog/translate-excel-file), hücrelerdeki yinelenen metin dizeleri yalnızca bir kez çevrilirken formüller ve sayılar el değmeden kaldı.
+- **Word ve Excel Ofis Dosyaları**: Doğrulanmış [Word çeviri testimizde](https://equalang.com/blog/translate-word-document-keep-formatting?utm_source=github), çevrilen DOCX dosyaları başlıkları, madde işaretli listeleri, fiyat tablolarını ve kalın biçimlendirmeyi koruyarak Microsoft Word'de doğrudan düzenlemeye olanak sağladı. [Excel fiyat listesi doğrulamamızda](https://equalang.com/blog/translate-excel-file?utm_source=github), hücrelerdeki yinelenen metin dizeleri yalnızca bir kez çevrilirken formüller ve sayılar el değmeden kaldı.
 
 - **E-Kitaplar ve Formatlı Medya**: EPUB e-kitapları içindekiler tablosu gezinimini ve dahili bağlantıları korur. 180 dakikaya kadar kaydedilmiş ses ve video dosyaları için çeviri ve deşifre görevleri (genel bir web belgesi yükleme portalı yerine) Geliştirici API'miz ve Agent Skill/MCP entegrasyonumuz aracılığıyla gönderilir; zaman damgalı iki dilli SRT/VTT altyazı dosyaları veya kaynak dökümleri çıktılanır.
 
 <a id="2-in-browser-reading--subtitle-generation"></a>
 
 ### 2. Tarayıcı İçi Okuma ve Altyazı Oluşturma
-Hafif [tarayıcı uzantımız](https://equalang.com/extension) aracılığıyla (Chrome, Edge ve Firefox için kurulum kılavuzları ile Safari 18.4+ için geçici bir Mac Safari modu dahil), çeviri doğrudan günlük okumanıza entegre olur:
+Hafif [tarayıcı uzantımız](https://equalang.com/extension?utm_source=github) aracılığıyla (Chrome, Edge ve Firefox için kurulum kılavuzları ile Safari 18.4+ için geçici bir Mac Safari modu dahil), çeviri doğrudan günlük okumanıza entegre olur:
 
 - **Paragraf Altı İki Dilli Web Okuma**: Siz sayfayı kaydırdıkça çevrilmiş paragraflar doğrudan orijinal metnin hemen altında görünür. İsteğe bağlı kelime aramaları için ayarlardan kayan bir simge açılıp kapatılabilir. Yerel PDF'leri görüntülerken kullanıcılar, kelimeleri seçip aratabilmek için uzantı yönetiminde "Dosya URL'lerine erişime izin ver" seçeneğini etkinleştirebilir.
 
-- **İki Dilli Video Altyazıları**: [İki dilli video izleme kılavuzumuzda](https://equalang.com/blog/watch-videos-with-bilingual-subtitles) incelendiği üzere YouTube, Netflix, TikTok ve Bilibili ile uyumludur. Uzantı, mevcut altyazıları çevirmenin ötesinde, ses akışlarını yakalayarak **altyazısız videolar** için gerçek zamanlı iki dilli altyazılar oluşturabilir (tarayıcı ortamına ve ortam şifreleme sınırlarına tabidir, YouTube canlı yayınlarında ve resmî fragmanlarda doğrulanmıştır) ve aynı zamanda YouTube'daki canlı sohbet yorumlarını eş zamanlı olarak çevirir.
+- **İki Dilli Video Altyazıları**: [İki dilli video izleme kılavuzumuzda](https://equalang.com/blog/watch-videos-with-bilingual-subtitles?utm_source=github) incelendiği üzere YouTube, Netflix, TikTok ve Bilibili ile uyumludur. Uzantı, mevcut altyazıları çevirmenin ötesinde, ses akışlarını yakalayarak **altyazısız videolar** için gerçek zamanlı iki dilli altyazılar oluşturabilir (tarayıcı ortamına ve ortam şifreleme sınırlarına tabidir, YouTube canlı yayınlarında ve resmî fragmanlarda doğrulanmıştır) ve aynı zamanda YouTube'daki canlı sohbet yorumlarını eş zamanlı olarak çevirir.
 
 <a id="3-installation-free-spoken-communication--on-site-exchange"></a>
 
 ### 3. Kurulum Gerektirmeyen Sözlü İletişim ve Yüz Yüze Görüşme
-Konuşma ortaklarının özel mobil uygulamalar yüklemesini zorunlu kılmak, özellikle seyahat ederken sürtünme yaratır. İnternete bağlıyken Equalang, [uluslararası iletişim kılavuzumuzda](https://equalang.com/blog/talk-with-overseas-partners) özetlendiği gibi, doğrudan standart tarayıcılar içinde hareket halindeyken fotoğraf çevirisi ve sözlü tercüme sunar (yalnızca ilk kullanımda bir kerelik oturum açma ve cihaz kamera/mikrofon izni gerektirir):
+Konuşma ortaklarının özel mobil uygulamalar yüklemesini zorunlu kılmak, özellikle seyahat ederken sürtünme yaratır. İnternete bağlıyken [Equalang](https://equalang.com/?utm_source=github), [uluslararası iletişim kılavuzumuzda](https://equalang.com/blog/talk-with-overseas-partners?utm_source=github) özetlendiği gibi, doğrudan standart tarayıcılar içinde hareket halindeyken fotoğraf çevirisi ve sözlü tercüme sunar (yalnızca ilk kullanımda bir kerelik oturum açma ve cihaz kamera/mikrofon izni gerektirir):
 
-- **Mobil Fotoğraf Çevirisi**: Seyahat ederken alışılmadık restoran menüleri, tabelalar veya kamu duyuruları ile karşılaşıldığında, kullanıcılar mobil tarayıcılarında fotoğraf çekebilir. [Seyahat fotoğraf çevirisi kılavuzumuzda](https://equalang.com/blog/photo-translation-for-travel) gösterildiği gibi çeviriler doğrudan fotoğraf düzeninin üzerine bindirilerek içecek sipariş etmeyi veya bildirimleri orijinal görsele göre incelemeyi kolaylaştırır.
+- **Mobil Fotoğraf Çevirisi**: Seyahat ederken alışılmadık restoran menüleri, tabelalar veya kamu duyuruları ile karşılaşıldığında, kullanıcılar mobil tarayıcılarında fotoğraf çekebilir. [Seyahat fotoğraf çevirisi kılavuzumuzda](https://equalang.com/blog/photo-translation-for-travel?utm_source=github) gösterildiği gibi çeviriler doğrudan fotoğraf düzeninin üzerine bindirilerek içecek sipariş etmeyi veya bildirimleri orijinal görsele göre incelemeyi kolaylaştırır.
 
-- **Yüz Yüze Modu**: Otelde bagaj bırakma, yol sorma veya resepsiyon etkileşimleri gibi yüz yüze durumlar için tasarlanmıştır. [Seyahat yüz yüze iletişim kılavuzumuzda](https://equalang.com/blog/talk-face-to-face-while-traveling) gösterildiği gibi iki konuşmacı, ters çevrilmiş bölünmüş ekran veya sürekli iki yönlü transkripsiyon ve döküm dışa aktarımı içeren yan yana görünümü kullanarak tek bir telefonu veya tableti aralarına düz bir şekilde koyabilir.
+- **Yüz Yüze Modu**: Otelde bagaj bırakma, yol sorma veya resepsiyon etkileşimleri gibi yüz yüze durumlar için tasarlanmıştır. [Seyahat yüz yüze iletişim kılavuzumuzda](https://equalang.com/blog/talk-face-to-face-while-traveling?utm_source=github) gösterildiği gibi iki konuşmacı, ters çevrilmiş bölünmüş ekran veya sürekli iki yönlü transkripsiyon ve döküm dışa aktarımı içeren yan yana görünümü kullanarak tek bir telefonu veya tableti aralarına düz bir şekilde koyabilir.
 
 - **Canlı Dinleme**: Cihazın fiziksel mikrofonu aracılığıyla yakalanan gerçek zamanlı iki dilli altyazıları almak için yüz yüze bir sunum veya ders sırasında web portalını açın; işlem tamamlandığında isteğe bağlı metin okuma sesi ve döküm dışa aktarımı sağlanır (tarayıcı uzantısının akış medyası ses yakalamasından farklıdır).
 
@@ -411,9 +411,9 @@ Konuşma ortaklarının özel mobil uygulamalar yüklemesini zorunlu kılmak, ö
 ### 4. Yapay Zekâ Ajanları ve Geliştiriciler İçin Entegrasyon
 Geliştiricilerin ve ekiplerin çeviriyi otomatik iş akışlarına yerleştirmelerine yardımcı olmak için:
 
-- **Geliştirici API'si**: [Dosya çevirisi API entegrasyonu kılavuzumuzda](https://equalang.com/blog/integrate-file-translation-api) ayrıntılı olarak açıklandığı üzere, Idempotency-Key yeniden denemelerini ve geri arama (callback) bildirimlerini destekleyen eşzamansız dosya işlerinin yanı sıra metin için anlık uç noktalar sunar.
+- **Geliştirici API'si**: [Dosya çevirisi API entegrasyonu kılavuzumuzda](https://equalang.com/blog/integrate-file-translation-api?utm_source=github) ayrıntılı olarak açıklandığı üzere, Idempotency-Key yeniden denemelerini ve geri arama (callback) bildirimlerini destekleyen eşzamansız dosya işlerinin yanı sıra metin için anlık uç noktalar sunar.
 
-- **Skill ve MCP Entegrasyonu**: [equalang-skill](https://github.com/equalang/equalang-skill) aracılığıyla açık kaynaklı Agent Skill'leri ve [@equalang/mcp](https://github.com/equalang/equalang-mcp) aracılığıyla resmî Model Context Protocol desteğini sürdürüyoruz. Claude Code, Codex veya WorkBuddy gibi ortamlarda, tek bir kurulum talimatı (prompt) vermek ve API anahtarınızı yapılandırmak, [yapay zekâ asistanı dosya çevirisi kılavuzumuzu](https://equalang.com/blog/translate-files-with-ai-assistants) izleyerek yapay zekâ asistanınızı doğrudan iş akışınız içinde belge çevirisi ve medya dökümünü işleyecek şekilde donatır.
+- **Skill ve MCP Entegrasyonu**: [equalang-skill](https://github.com/equalang/equalang-skill) aracılığıyla açık kaynaklı Agent Skill'leri ve [@equalang/mcp](https://github.com/equalang/equalang-mcp) aracılığıyla resmî Model Context Protocol desteğini sürdürüyoruz. Claude Code, Codex veya WorkBuddy gibi ortamlarda, tek bir kurulum talimatı (prompt) vermek ve API anahtarınızı yapılandırmak, [yapay zekâ asistanı dosya çevirisi kılavuzumuzu](https://equalang.com/blog/translate-files-with-ai-assistants?utm_source=github) izleyerek yapay zekâ asistanınızı doğrudan iş akışınız içinde belge çevirisi ve medya dökümünü işleyecek şekilde donatır.
 
 ---
 
@@ -425,18 +425,18 @@ Mevcut göreviniz için doğru aracı seçmenize yardımcı olmak amacıyla bu g
 
 | Birincil Görev | Temel Gereksinim | Denenmesi Önerilen Araçlar | Önemli Değerlendirmeler |
 | :--- | :--- | :--- | :--- |
-| **Seyahat ve Sözlü Diyalog** | Fotoğraf OCR'ı, iki yönlü diyalog, çevrimdışı paketler ve bağlantılı seyahat araçları | Google Translate, Apple Translate, Papago, Equalang | Zayıf sinyal alanları için Google, Apple veya Papago'da (donanım gereksinimlerine dikkat ederek) çevrimdışı dil paketlerini indirin; internete bağlıyken Equalang, uygulama yüklemeden tarayıcı tabanlı fotoğraf çevirisi ve yüz yüze diyalog sağlar. |
+| **Seyahat ve Sözlü Diyalog** | Fotoğraf OCR'ı, iki yönlü diyalog, çevrimdışı paketler ve bağlantılı seyahat araçları | Google Translate, Apple Translate, Papago, [Equalang](https://equalang.com/?utm_source=github) | Zayıf sinyal alanları için Google, Apple veya Papago'da (donanım gereksinimlerine dikkat ederek) çevrimdışı dil paketlerini indirin; internete bağlıyken [Equalang](https://equalang.com/?utm_source=github), uygulama yüklemeden tarayıcı tabanlı fotoğraf çevirisi ve yüz yüze diyalog sağlar. |
 | **Çok Cihazlı Çalıştaylar** | Bire çok sunumlar, çok cihazlı katılım | Microsoft Translator | Oturum sahibi mobil uygulama aracılığıyla Sunucu modunu çalıştırır; katılımcılar yazılım yüklemeden standart tarayıcı üzerinden katılır. |
-| **Derinlemesine Web Okuma** | Sayfadan ayrılmadan paragraf altı okuma | Immersive Translate, Equalang, Mate Translate | İki dilli paragraflar için Immersive Translate veya Equalang kullanın; Mac'te tam sayfa görünümleri arasında geçiş yapmak veya kelimeleri Konuşma Kılavuzlarına kaydetmek için Mate Translate kullanın. |
-| **Altyazısız Video ve Canlı Yayınlar** | Gerçek zamanlı altyazı oluşturma, akış uyumluluğu | Equalang, Immersive Translate | Her iki araç da desteklenen platformlarda (YouTube gibi) ham sesten altyazı oluşturabilir; canlı sohbet ve yayın işleme için tarayıcı uzantısı iş akışlarını karşılaştırın. |
-| **Akademik Makaleler ve Bilimsel PDF'ler** | Formül koruma, sütun yapıları, sayfalar arası metin | PDFMathTranslate, BabelDOC, Equalang | PDFMathTranslate ve BabelDOC, çift PDF çıktısı ve yerel/bulut LLM arka uçları içeren açık kaynaklı işlem hatları sağlar; Equalang, tarayıcı tabanlı yan yana okuma ve sayfa düzeni koruması sunar. |
+| **Derinlemesine Web Okuma** | Sayfadan ayrılmadan paragraf altı okuma | Immersive Translate, [Equalang](https://equalang.com/?utm_source=github), Mate Translate | İki dilli paragraflar için Immersive Translate veya [Equalang](https://equalang.com/?utm_source=github) kullanın; Mac'te tam sayfa görünümleri arasında geçiş yapmak veya kelimeleri Konuşma Kılavuzlarına kaydetmek için Mate Translate kullanın. |
+| **Altyazısız Video ve Canlı Yayınlar** | Gerçek zamanlı altyazı oluşturma, akış uyumluluğu | [Equalang](https://equalang.com/?utm_source=github), Immersive Translate | Her iki araç da desteklenen platformlarda (YouTube gibi) ham sesten altyazı oluşturabilir; canlı sohbet ve yayın işleme için tarayıcı uzantısı iş akışlarını karşılaştırın. |
+| **Akademik Makaleler ve Bilimsel PDF'ler** | Formül koruma, sütun yapıları, sayfalar arası metin | PDFMathTranslate, BabelDOC, [Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslate ve BabelDOC, çift PDF çıktısı ve yerel/bulut LLM arka uçları içeren açık kaynaklı işlem hatları sağlar; [Equalang](https://equalang.com/?utm_source=github), tarayıcı tabanlı yan yana okuma ve sayfa düzeni koruması sunar. |
 | **Yayıncılık Baskı Öncesi ve Tasarım Formatları** | InDesign, Illustrator, çizgi roman arşivleri, baskı öncesi kalite kontrolü | SimplifyAI, O.Translator | InDesign (IDML) ve tasarım varlığı baskı öncesi için SimplifyAI ve O.Translator kullanın; SimplifyAI, yerel Word değişiklikleri izleme özelliğine sahip Yapay Zekâ ile Düzenleme içerir. |
-| **Sunumlar ve Ofis Belgeleri** | Yerel tabloları, stilleri, formülleri ve düzenlenebilirliği koruma | Equalang, DeepL | Equalang, uyarlanabilir yazı tipi boyutlandırması ve Excel formül koruması ile PPTX yerel tablolarını/stillerini korur; sözlükler içeren kurumsal Word/Office dosyaları için DeepL kullanın. |
+| **Sunumlar ve Ofis Belgeleri** | Yerel tabloları, stilleri, formülleri ve düzenlenebilirliği koruma | [Equalang](https://equalang.com/?utm_source=github), DeepL | [Equalang](https://equalang.com/?utm_source=github), uyarlanabilir yazı tipi boyutlandırması ve Excel formül koruması ile PPTX yerel tablolarını/stillerini korur; sözlükler içeren kurumsal Word/Office dosyaları için DeepL kullanın. |
 | **Akademik Yazım ve İyileştirme** | Dilbilgisi doğruluğu, resmî akademik üslup | Youdao Translate, QuillBot Translate, TranSmart | Youdao ve QuillBot çeviriyi metin iyileştirmeye doğru akıcı hale getirir; TranSmart etkileşimli insan denetimli düzenleme sağlar. |
 | **Masaüstü Kısayol Tuşuyla Arama ve Çoklu Motor** | Genel kısayollar, OCR, birden çok motoru karşılaştırma | Pot, Mate Translate | Pot; Windows, Mac ve Linux genelinde eşzamanlı çoklu motor sorgularına ve ekran görüntüsü OCR'ına izin verir; Mate yerel bir Mac menü çubuğu aracı sunar. |
 | **Uçbirim Komut Dosyaları ve Kabuk İşlem Hatları** | CLI araması, stdin/stdout işlem hatları, düz metin komut dosyaları | Translate Shell, Argos Translate | Translate Shell, uzak motorlar aracılığıyla hafif CLI çevirisi sağlar; Argos Translate, yerel modellerle çevrimdışı bir Python CLI'ı sunar. |
 | **Kendi Sunucunda Barındırılan Özel API ve Çevrimdışı Motorlar** | Hava boşluklu (air-gapped) ağlar, üçüncü taraf veri iletimi olmaması | LibreTranslate, Argos Translate, SYSTRAN, Lingvanex | LibreTranslate, kendi sunucunuzda barındırılan bir HTTP API hizmeti ve WebUI sağlar; Argos Translate, modüler model paketlerine sahip çevrimdışı bir Python kütüphanesi/CLI motoru olarak buna güç verir; SYSTRAN ve Lingvanex kurumsal şirket içi dağıtımlar sunar. |
-| **Uçtan Uca Entegre İş Akışları** | Belgeler, yayın altyazıları, web aramaları ve Yapay Zekâ Ajanları | Equalang | Birleşik belge işleme, altyazısız medya altyazıları, uygulama kurulumu gerektirmeyen tarayıcı tabanlı aramalar ve Claude Code veya WorkBuddy ile doğrudan entegrasyon. |
+| **Uçtan Uca Entegre İş Akışları** | Belgeler, yayın altyazıları, web aramaları ve Yapay Zekâ Ajanları | [Equalang](https://equalang.com/?utm_source=github) | Birleşik belge işleme, altyazısız medya altyazıları, uygulama kurulumu gerektirmeyen tarayıcı tabanlı aramalar ve Claude Code veya WorkBuddy ile doğrudan entegrasyon. |
 
 ---
 
@@ -449,7 +449,7 @@ Bu dizinin pratik yararını ve olgusal doğruluğunu korumak için girdiler kat
 1. **Pazarlama İddiaları Yerine Belgelenmiş Özellikler**: Açıklamalar resmî belgelerden, kullanım kılavuzlarından ve doğrulanmış depo kaynak dosyalarından türetilmiştir. Mükemmel sayfa düzeni koruması veya evrensel format desteği iddia etmiyoruz.
 2. **Net Mimari Sınırlar**: Çeviri ön uçları, kendi sunucunuzda barındırılabilir hizmet katmanları, çevrimdışı çeviri motorları ve belge düzeni kütüphaneleri arasında ayrım yapıyoruz. Yerel olarak çalışan açık kaynaklı kod, gerçek çevrimdışı yürütmeden açıkça ayrılmıştır.
 3. **Görev Odaklı Kapsam**: Araçlar, iş akışları genelindeki pratik uygunluklarına göre gruplandırılmıştır. Öznel seviye listeleri, kalite sıralamaları veya değişken fiyatlandırma rakamları tutmuyoruz.
-4. **Şeffaf Sorumlu Kimliği**: Bu katalog, **Equalang** ekibi tarafından derlenmekte ve sürdürülmektedir. Equalang, doğrulanabilir özellik sınırları ve şeffaf sistem gereksinimleri ile diğer araçların yanında sunulmaktadır.
+4. **Şeffaf Sorumlu Kimliği**: Bu katalog, **[Equalang](https://equalang.com/?utm_source=github)** ekibi tarafından derlenmekte ve sürdürülmektedir. [Equalang](https://equalang.com/?utm_source=github), doğrulanabilir özellik sınırları ve şeffaf sistem gereksinimleri ile diğer araçların yanında sunulmaktadır.
 
 **Anahtar Kelimeler**: çeviri araçları, belge çevirisi, iki dilli web okuması, akademik PDF çevirisi, açık kaynaklı çeviri, makine çevirisi API'si, sayfa düzenini koruma, yapay zekâ ajanları.
 
@@ -483,7 +483,7 @@ Bu dizinin pratik yararını ve olgusal doğruluğunu korumak için girdiler kat
 22. [Tencent TranSmart Ürün Tanıtımı](https://transmart.qq.com/zh-CN/intro)
 23. [Caiyun Xiaoyi (LingoCloud) Belge Yardımı](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
 24. [QuillBot Translate ve PDF Portalı](https://quillbot.com/translate)
-25. [Equalang API Belirtimleri ve Belgeleri](https://equalang.com/llms-full.txt)
+25. [Equalang API Belirtimleri ve Belgeleri](https://equalang.com/llms-full.txt?utm_source=github)
 26. [PDFMathTranslate Resmî GitHub Deposu](https://github.com/PDFMathTranslate/PDFMathTranslate)
 27. [PDFMathTranslate Gelişmiş Seçenekler Belgeleri](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
 28. [BabelDOC Resmî GitHub Deposu](https://github.com/funstory-ai/BabelDOC)

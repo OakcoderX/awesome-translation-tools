@@ -8,7 +8,7 @@
 
 翻訳タスクに求められる要件は、利用シーンによって根本から異なります。スマートフォンで街中の案内標識やメニューを読み取る、ブラウザ上で外国語の技術ドキュメントを読み進める、レイアウトを崩さずに複雑なプレゼンスライドや契約書を翻訳する、学術論文の数式をそのまま保持する、ターミナル上で非公開のバッチ翻訳を実行する、あるいは字幕のない動画ストリームの内容を追うなど、状況に応じて重視すべき点は多岐にわたります。
 
-私たちは **Equalang** チームです。本カタログは、定評のある商用翻訳プロダクトとオープンソースプロジェクトを、タスク指向の実践的な視点で整理したディレクトリです。各ツールについて、公式ドキュメントに基づく機能特性、利用エントリーポイント、デプロイ形態、および運用上の制約をまとめ、日々のワークフローに最適なソリューションを見極める手助けとなることを目的としています。
+私たちは **[Equalang](https://equalang.com/?utm_source=github)** チームです。本カタログは、定評のある商用翻訳プロダクトとオープンソースプロジェクトを、タスク指向の実践的な視点で整理したディレクトリです。各ツールについて、公式ドキュメントに基づく機能特性、利用エントリーポイント、デプロイ形態、および運用上の制約をまとめ、日々のワークフローに最適なソリューションを見極める手助けとなることを目的としています。
 
 ---
 
@@ -47,7 +47,7 @@
   - [5.3 デスクトップ＆ターミナルフロントエンド](#53-desktop--terminal-frontends)
     - [Pot (pot-desktop)](#pot-pot-desktop)
     - [Translate Shell](#translate-shell)
-- [6. シームレスにつながるエンドツーエンドワークフロー：Equalang](#6-connected-end-to-end-workflows-equalang)
+- [6. シームレスにつながるエンドツーエンドワークフロー：](#6-connected-end-to-end-workflows-equalang)[Equalang](https://equalang.com/?utm_source=github)
   - [1. レイアウトを保持したファイル全体の文書翻訳](#1-whole-file-document-translation-with-layout-preservation)
   - [2. ブラウザ内での閲覧と字幕生成](#2-in-browser-reading--subtitle-generation)
   - [3. アプリインストール不要の音声コミュニケーションと現場での対話](#3-installation-free-spoken-communication--on-site-exchange)
@@ -325,43 +325,43 @@ SYSTRANは、企業や公共機関のローカライズ要件を対象として�
 ---
 
 <a id="6-connected-end-to-end-workflows-equalang"></a>
-## 6. シームレスにつながるエンドツーエンドワークフロー：Equalang
+## 6. シームレスにつながるエンドツーエンドワークフロー：[Equalang](https://equalang.com/?utm_source=github)
 
 ここまで見てきた各ツールは、それぞれ特定のタスクに対して明確な強みを発揮しています。しかし、日々の業務においては、これらの要件が複雑に交差することが珍しくありません。
 
 ブラウザでオンラインのホワイトペーパーを読み、表や図版を含む付属のPDFをダウンロードし、字幕のない動画講義を視聴し、海外の共同作業者と直接連絡を取りながらWordでエグゼクティブサマリーをまとめる——。分断されたソフトウェアツールやファイルコンバータの間を行き来していると、作業フローが断片化してしまいます。
 
-私たちは、こうした多様なタスクを途切れのない対訳（side-by-side）ワークフローへと統合し、文書、Webページ、動画、そして対面・音声コミュニケーションにわたって一貫した翻訳体験を提供するために **Equalang** を設計しました。
+私たちは、こうした多様なタスクを途切れのない対訳（side-by-side）ワークフローへと統合し、文書、Webページ、動画、そして対面・音声コミュニケーションにわたって一貫した翻訳体験を提供するために **[Equalang](https://equalang.com/?utm_source=github)** を設計しました。
 
-<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Equalang 公式英語版ホームページ" width="640"><br><sub>Equalang 公式英語版ウェブサイトのホームページ</sub></p>
+<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Equalang 公式英語版ホームページ" width="640"><br><sub><a href="https://equalang.com/?utm_source=github">Equalang</a> 公式英語版ウェブサイトのホームページ</sub></p>
 
 <a id="1-whole-file-document-translation-with-layout-preservation"></a>
 ### 1. レイアウトを保持したファイル全体の文書翻訳
-ファイル全体の文書を翻訳する際、Equalangは構造の保持と翻訳後の使い勝手を重視し、研究文献、プレゼンテーション、日常的なオフィスファイルに合わせたワークフローを提供します。
+ファイル全体の文書を翻訳する際、[Equalang](https://equalang.com/?utm_source=github)は構造の保持と翻訳後の使い勝手を重視し、研究文献、プレゼンテーション、日常的なオフィスファイルに合わせたワークフローを提供します。
 
-- **PDF文書と閲覧**：Equalangは複数段組のレイアウト、ヘッダー、フッター、図表キャプションを保持し、改ページで分断された文章を翻訳前に結合した上で、表構造、文中の数式、ドキュメント内部リンクを維持します。[学術PDF閲覧ガイド](https://equalang.com/blog/translate-and-read-pdf-documents)で解説しているとおり、読者は原文と訳文を並べた左右対照レイアウトで閲覧でき、まずは母国語で大筋の内容を把握した上で、元のページの特定の専門用語やデータを照らし合わせて確認できます。
+- **PDF文書と閲覧**：[Equalang](https://equalang.com/?utm_source=github)は複数段組のレイアウト、ヘッダー、フッター、図表キャプションを保持し、改ページで分断された文章を翻訳前に結合した上で、表構造、文中の数式、ドキュメント内部リンクを維持します。[学術PDF閲覧ガイド](https://equalang.com/blog/translate-and-read-pdf-documents?utm_source=github)で解説しているとおり、読者は原文と訳文を並べた左右対照レイアウトで閲覧でき、まずは母国語で大筋の内容を把握した上で、元のページの特定の専門用語やデータを照らし合わせて確認できます。
 
-- **PowerPointプレゼンテーション**：[スライド書式設定ガイド](https://equalang.com/blog/translate-powerpoint-keep-formatting)にあるように、翻訳されたPPTXファイルは編集可能なネイティブの表構造を保持し、静止画像に変換してしまうことがありません。一文の中にある太字、斜体、文字色などの単語レベルのスタイルも、対応する翻訳フレーズに正確に反映されます。スライド全体で重要用語や見出しの一貫性が保たれ、訳文が長くなった場合でもテキストボックスのフォントサイズが自動縮小されるため、文字あふれや図版の遮蔽を防ぎます。
+- **PowerPointプレゼンテーション**：[スライド書式設定ガイド](https://equalang.com/blog/translate-powerpoint-keep-formatting?utm_source=github)にあるように、翻訳されたPPTXファイルは編集可能なネイティブの表構造を保持し、静止画像に変換してしまうことがありません。一文の中にある太字、斜体、文字色などの単語レベルのスタイルも、対応する翻訳フレーズに正確に反映されます。スライド全体で重要用語や見出しの一貫性が保たれ、訳文が長くなった場合でもテキストボックスのフォントサイズが自動縮小されるため、文字あふれや図版の遮蔽を防ぎます。
 
-- **Word＆Excelオフィスファイル**：実証済みの[Word翻訳テスト](https://equalang.com/blog/translate-word-document-keep-formatting)において、翻訳後のDOCXファイルは見出し、箇条書きリスト、価格表、太字の書式を維持し、Microsoft Wordで直接編集できる状態を保ちました。また、[Excel価格表の検証](https://equalang.com/blog/translate-excel-file)では、数式や数値を一切変更せず、セル間で重複する同一テキスト文字列を一度だけ翻訳して処理を最適化しました。
+- **Word＆Excelオフィスファイル**：実証済みの[Word翻訳テスト](https://equalang.com/blog/translate-word-document-keep-formatting?utm_source=github)において、翻訳後のDOCXファイルは見出し、箇条書きリスト、価格表、太字の書式を維持し、Microsoft Wordで直接編集できる状態を保ちました。また、[Excel価格表の検証](https://equalang.com/blog/translate-excel-file?utm_source=github)では、数式や数値を一切変更せず、セル間で重複する同一テキスト文字列を一度だけ翻訳して処理を最適化しました。
 
 - **電子書籍とメディアファイル**：EPUB電子書籍では目次ナビゲーションや内部アンカーリンクが保持されます。最長180分までの録音音声および動画ファイルについては、一般的なWeb文書アップロードポータルではなく、開発者向けAPIおよびAgent Skill/MCP連携を通じて翻訳・文字起こしタスクを送信でき、タイムスタンプ付きの二言語SRT/VTT字幕ファイルや原文の文字起こしテキストを出力します。
 
 <a id="2-in-browser-reading--subtitle-generation"></a>
 ### 2. ブラウザ内での閲覧と字幕生成
-軽量な[ブラウザ拡張機能](https://equalang.com/extension)（Chrome、Edge、Firefox向けのインストールガイドに加え、Safari 18.4以降向けのMac Safari一時モードを提供）を通じて、日々のブラウジングに翻訳が自然に溶け込みます。
+軽量な[ブラウザ拡張機能](https://equalang.com/extension?utm_source=github)（Chrome、Edge、Firefox向けのインストールガイドに加え、Safari 18.4以降向けのMac Safari一時モードを提供）を通じて、日々のブラウジングに翻訳が自然に溶け込みます。
 
 - **段落直下の二言語並行Web閲覧**：スクロールに合わせて、原文の直下に訳文段落が表示されます。設定によりフローティングアイコンを有効にして、必要に応じた単語検索も行えます。ローカルのPDFを閲覧する際は、拡張機能の管理画面で「ファイルの URL へのアクセスを許可する」を有効にすることで、単語を選択して意味を調べることができます。
 
-- **二言語動画字幕**：[二言語動画視聴ガイド](https://equalang.com/blog/watch-videos-with-bilingual-subtitles)で紹介しているように、YouTube、Netflix、TikTok、Bilibiliに対応しています。既存の字幕を翻訳するだけでなく、音声ストリームをキャプチャして**字幕のない動画**に対してもリアルタイムで二言語字幕を生成できます（ブラウザ環境やメディアの暗号化制限に依存し、YouTubeのライブ配信や公式予告編で検証済み）。さらに、YouTubeのライブチャットコメントも同時に翻訳可能です。
+- **二言語動画字幕**：[二言語動画視聴ガイド](https://equalang.com/blog/watch-videos-with-bilingual-subtitles?utm_source=github)で紹介しているように、YouTube、Netflix、TikTok、Bilibiliに対応しています。既存の字幕を翻訳するだけでなく、音声ストリームをキャプチャして**字幕のない動画**に対してもリアルタイムで二言語字幕を生成できます（ブラウザ環境やメディアの暗号化制限に依存し、YouTubeのライブ配信や公式予告編で検証済み）。さらに、YouTubeのライブチャットコメントも同時に翻訳可能です。
 
 <a id="3-installation-free-spoken-communication--on-site-exchange"></a>
 ### 3. アプリインストール不要の音声コミュニケーションと現場での対話
-会話の相手に専用のモバイルアプリをインストールしてもらうことは、特に旅行や出張中には大きな心理的・操作的ハードルとなります。インターネット接続があれば、Equalangは標準的なブラウザ上でそのままモバイル写真翻訳や音声通訳を提供します（初回のみサインインと端末のカメラ・マイクの許可が必要）。詳細は[国際コミュニケーションガイド](https://equalang.com/blog/talk-with-overseas-partners)で解説しています。
+会話の相手に専用のモバイルアプリをインストールしてもらうことは、特に旅行や出張中には大きな心理的・操作的ハードルとなります。インターネット接続があれば、[Equalang](https://equalang.com/?utm_source=github)は標準的なブラウザ上でそのままモバイル写真翻訳や音声通訳を提供します（初回のみサインインと端末のカメラ・マイクの許可が必要）。詳細は[国際コミュニケーションガイド](https://equalang.com/blog/talk-with-overseas-partners?utm_source=github)で解説しています。
 
-- **モバイル写真翻訳**：旅行中に見知らぬ飲食店のメニュー、看板、公共の案内表示に遭遇した際、モバイルブラウザから写真を撮影できます。訳文が写真のレイアウト上に直接オーバーレイ表示されるため、[旅行向け写真翻訳ガイド](https://equalang.com/blog/photo-translation-for-travel)に示すとおり、元の画像と見比べながら注文や内容確認がスムーズに行えます。
+- **モバイル写真翻訳**：旅行中に見知らぬ飲食店のメニュー、看板、公共の案内表示に遭遇した際、モバイルブラウザから写真を撮影できます。訳文が写真のレイアウト上に直接オーバーレイ表示されるため、[旅行向け写真翻訳ガイド](https://equalang.com/blog/photo-translation-for-travel?utm_source=github)に示すとおり、元の画像と見比べながら注文や内容確認がスムーズに行えます。
 
-- **対面会話モード**：ホテルの荷物預かり、道案内、フロントでのやり取りなど、対面でのやり取りを想定して設計されています。1台のスマートフォンやタブレットを2人の間に平置きし、反転画面分割や左右並置ビューを用いて、双方向の連続文字起こしと会話ログのエクスポートが可能です（[旅行向け対面対話ガイド](https://equalang.com/blog/talk-face-to-face-while-traveling)参照）。
+- **対面会話モード**：ホテルの荷物預かり、道案内、フロントでのやり取りなど、対面でのやり取りを想定して設計されています。1台のスマートフォンやタブレットを2人の間に平置きし、反転画面分割や左右並置ビューを用いて、双方向の連続文字起こしと会話ログのエクスポートが可能です（[旅行向け対面対話ガイド](https://equalang.com/blog/talk-face-to-face-while-traveling?utm_source=github)参照）。
 
 - **リアルタイム傾聴（ライブリスニング）**：対面でのプレゼンテーションや講義中にWebポータルを開くと、端末の物理マイクを通じて集音した音声からリアルタイムの二言語字幕が表示されます。聴取中はオプションでリアルタイムの音声読み上げを利用できるほか、終了後には文字起こし記録のエクスポートが可能です（ブラウザ拡張機能によるストリーミングメディア音声キャプチャとは区別されます）。
 
@@ -371,9 +371,9 @@ SYSTRANは、企業や公共機関のローカライズ要件を対象として�
 ### 4. AIエージェントと開発者のための統合環境
 開発者やチームが自動化ワークフローに翻訳を組み込めるよう、以下のインターフェースを提供しています。
 
-- **開発者向けAPI**：テキスト用の即時エンドポイントに加え、Idempotency-Key（冪等性キー）によるリトライやコールバック通知に対応した非同期ファイルジョブを提供（詳細は[ファイル翻訳API統合ガイド](https://equalang.com/blog/integrate-file-translation-api)を参照）。
+- **開発者向けAPI**：テキスト用の即時エンドポイントに加え、Idempotency-Key（冪等性キー）によるリトライやコールバック通知に対応した非同期ファイルジョブを提供（詳細は[ファイル翻訳API統合ガイド](https://equalang.com/blog/integrate-file-translation-api?utm_source=github)を参照）。
 
-- **Skill＆MCP連携**：オープンソースのAgent Skill（[equalang-skill](https://github.com/equalang/equalang-skill)）および公式Model Context Protocolサポート（[@equalang/mcp](https://github.com/equalang/equalang-mcp)）を保守・公開しています。Claude Code、Codex、WorkBuddyなどの環境において、1行のインストールプロンプトを実行してAPIキーを設定するだけで、[AIアシスタント向けファイル翻訳ガイド](https://equalang.com/blog/translate-files-with-ai-assistants)に沿って、お使いのAIアシスタントが文書翻訳やメディア文字起こしをワークフロー内で直接処理できるようになります。
+- **Skill＆MCP連携**：オープンソースのAgent Skill（[equalang-skill](https://github.com/equalang/equalang-skill)）および公式Model Context Protocolサポート（[@equalang/mcp](https://github.com/equalang/equalang-mcp)）を保守・公開しています。Claude Code、Codex、WorkBuddyなどの環境において、1行のインストールプロンプトを実行してAPIキーを設定するだけで、[AIアシスタント向けファイル翻訳ガイド](https://equalang.com/blog/translate-files-with-ai-assistants?utm_source=github)に沿って、お使いのAIアシスタントが文書翻訳やメディア文字起こしをワークフロー内で直接処理できるようになります。
 
 ---
 
@@ -384,18 +384,18 @@ SYSTRANは、企業や公共機関のローカライズ要件を対象として�
 
 | 主なタスク | 中核となる要件 | 推奨ツール | 主な検討事項 |
 | :--- | :--- | :--- | :--- |
-| **旅行・対面対話** | 写真OCR、双方向対話、オフラインパック、オンライン旅行ツール | Google Translate、Apple Translate、Papago、Equalang | 電波の届きにくい場所向けにGoogle、Apple、またはPapagoでオフライン言語パックを事前にダウンロード（ハードウェア要件に留意）。通信環境がある場合、Equalangはアプリのインストール不要でブラウザ上の写真翻訳や対面対話を提供。 |
+| **旅行・対面対話** | 写真OCR、双方向対話、オフラインパック、オンライン旅行ツール | Google Translate、Apple Translate、Papago、[Equalang](https://equalang.com/?utm_source=github) | 電波の届きにくい場所向けにGoogle、Apple、またはPapagoでオフライン言語パックを事前にダウンロード（ハードウェア要件に留意）。通信環境がある場合、[Equalang](https://equalang.com/?utm_source=github)はアプリのインストール不要でブラウザ上の写真翻訳や対面対話を提供。 |
 | **マルチデバイスワークショップ** | 1対多のプレゼンテーション、複数端末での参加 | Microsoft Translator | ホストはモバイルアプリからプレゼンターモードを実行。参加者は専用ソフトをインストールすることなく標準ブラウザから参加可能。 |
-| **Webページの精読** | ページを離れない段落直下での閲覧 | Immersive Translate、Equalang、Mate Translate | 二言語並行の段落表示にはImmersive TranslateまたはEqualangを使用。ページ全体の表示切り替えやMacでの単語帳（Phrasebook）保存にはMate Translateを活用。 |
-| **字幕のない動画・ライブ配信** | リアルタイム字幕生成、ストリーミング互換性 | Equalang、Immersive Translate | 両ツールとも対応プラットフォーム（YouTubeなど）で生音声から字幕を生成可能。ライブチャットの翻訳や配信処理のブラウザ拡張ワークフローを比較して選択。 |
-| **学術論文・科学PDF** | 数式の保持、段組構造、ページまたぎテキストの結合 | PDFMathTranslate、BabelDOC、Equalang | PDFMathTranslateとBabelDOCは二言語対照PDF出力とローカル/クラウドLLMバックエンドを備えたオープンソースパイプラインを提供。Equalangはブラウザ上での左右対照閲覧とレイアウト保持を提供。 |
+| **Webページの精読** | ページを離れない段落直下での閲覧 | Immersive Translate、[Equalang](https://equalang.com/?utm_source=github)、Mate Translate | 二言語並行の段落表示にはImmersive Translateまたは[Equalang](https://equalang.com/?utm_source=github)を使用。ページ全体の表示切り替えやMacでの単語帳（Phrasebook）保存にはMate Translateを活用。 |
+| **字幕のない動画・ライブ配信** | リアルタイム字幕生成、ストリーミング互換性 | [Equalang](https://equalang.com/?utm_source=github)、Immersive Translate | 両ツールとも対応プラットフォーム（YouTubeなど）で生音声から字幕を生成可能。ライブチャットの翻訳や配信処理のブラウザ拡張ワークフローを比較して選択。 |
+| **学術論文・科学PDF** | 数式の保持、段組構造、ページまたぎテキストの結合 | PDFMathTranslate、BabelDOC、[Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslateとBabelDOCは二言語対照PDF出力とローカル/クラウドLLMバックエンドを備えたオープンソースパイプラインを提供。[Equalang](https://equalang.com/?utm_source=github)はブラウザ上での左右対照閲覧とレイアウト保持を提供。 |
 | **DTP・デザイン形式** | InDesign、Illustrator、コミックアーカイブ、プリプレスQA | SimplifyAI、O.Translator | InDesign（IDML）やデザイン資産のプリプレスにはSimplifyAIとO.Translatorを活用。SimplifyAIはWordネイティブの変更履歴記録に対応したAI編集機能を搭載。 |
-| **プレゼン・オフィス文書** | ネイティブ表、スタイル、数式の保持と編集可能性 | Equalang、DeepL | Equalangはフォントサイズの自動調整を伴うPPTXネイティブ表・スタイルの保持やExcel数式の維持に対応。用語集を活用した企業向けWord/OfficeファイルにはDeepLを使用。 |
+| **プレゼン・オフィス文書** | ネイティブ表、スタイル、数式の保持と編集可能性 | [Equalang](https://equalang.com/?utm_source=github)、DeepL | [Equalang](https://equalang.com/?utm_source=github)はフォントサイズの自動調整を伴うPPTXネイティブ表・スタイルの保持やExcel数式の維持に対応。用語集を活用した企業向けWord/OfficeファイルにはDeepLを使用。 |
 | **学術執筆・推敲** | 文法の正確さ、格式ある学術的文体 | Youdao Translate、QuillBot Translate、TranSmart | YoudaoとQuillBotは翻訳から文章推敲への移行を効率化。TranSmartは対話型の人間・機械協調編集を提供。 |
 | **デスクトップショートカット検索・複数エンジン比較** | グローバルショートカット、OCR、複数エンジンの比較 | Pot、Mate Translate | PotはWindows、Mac、Linuxで複数エンジンの同時検索やスクリーンショットOCRに対応。MateはMacネイティブのメニューバーユーティリティを提供。 |
 | **ターミナルスクリプト・シェルパイプライン** | CLI検索、stdin/stdoutパイプライン、プレーンテキストスクリプト | Translate Shell、Argos Translate | Translate Shellはリモートエンジンを介した軽量なCLI翻訳を提供。Argos Translateはローカルモデルを備えたオフラインPython CLIを提供。 |
 | **セルフホスト専用API・オフラインエンジン** | エアギャップ（閉域網）環境、第三者へのデータ送信遮断 | LibreTranslate、Argos Translate、SYSTRAN、Lingvanex | LibreTranslateはセルフホスト対応のHTTP APIサービスとWebUIを提供。Argos Translateはその基盤としてモジュール式モデルパッケージを備えたオフラインPythonライブラリ/CLIエンジンを提供。SYSTRANとLingvanexは企業のオンプレミスデプロイに対応。 |
-| **統合エンドツーエンドワークフロー** | 文書、ストリーミング字幕、Web通話、AIエージェント連携 | Equalang | 一元的な文書処理、字幕なしメディアの字幕生成、アプリ不要のブラウザ通話、Claude CodeやWorkBuddyとの直接連携を提供。 |
+| **統合エンドツーエンドワークフロー** | 文書、ストリーミング字幕、Web通話、AIエージェント連携 | [Equalang](https://equalang.com/?utm_source=github) | 一元的な文書処理、字幕なしメディアの字幕生成、アプリ不要のブラウザ通話、Claude CodeやWorkBuddyとの直接連携を提供。 |
 
 ---
 
@@ -407,7 +407,7 @@ SYSTRANは、企業や公共機関のローカライズ要件を対象として�
 1. **宣伝文句ではなく公式ドキュメントに基づく記述**：各ツールの説明は、公式ドキュメント、ユーザーマニュアル、確認済みのリポジトリソースファイルに基づいています。「完全なレイアウト保持」や「あらゆる形式への万能な対応」といった根拠のない過度の主張は行いません。
 2. **明確なアーキテクチャ境界の提示**：翻訳フロントエンド、セルフホスト対応サービス層、オフライン翻訳エンジン、文書レイアウト処理ライブラリを明確に区別しています。ローカルで動作するオープンソースコードと、真のオフライン実行との違いを厳密に区別して記載しています。
 3. **タスク指向の構成**：ツールはワークフローにおける実用的な適合性に基づいて分類されています。主観的なランキング、優劣の格付け、変動しやすい料金情報の記載は行いません。
-4. **透明性のある運営元の明示**：本カタログは **Equalang** チームによって企画・保守されています。Equalangについても他のツールと同様に、検証可能な機能の境界と明確なシステム要件を提示しています。
+4. **透明性のある運営元の明示**：本カタログは **[Equalang](https://equalang.com/?utm_source=github)** チームによって企画・保守されています。[Equalang](https://equalang.com/?utm_source=github)についても他のツールと同様に、検証可能な機能の境界と明確なシステム要件を提示しています。
 
 **キーワード**：翻訳ツール、ドキュメント翻訳、二言語Web閲覧、学術PDF翻訳、オープンソース翻訳、機械翻訳API、レイアウト保持、AIエージェント
 
@@ -440,7 +440,7 @@ SYSTRANは、企業や公共機関のローカライズ要件を対象として�
 22. [テンセント TranSmart 製品紹介](https://transmart.qq.com/zh-CN/intro)
 23. [彩雲小訳（LingoCloud）ドキュメントヘルプ](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
 24. [QuillBot Translate＆PDFポータル](https://quillbot.com/translate)
-25. [Equalang API 仕様書とドキュメント](https://equalang.com/llms-full.txt)
+25. [Equalang API 仕様書とドキュメント](https://equalang.com/llms-full.txt?utm_source=github)
 26. [PDFMathTranslate 公式 GitHub リポジトリ](https://github.com/PDFMathTranslate/PDFMathTranslate)
 27. [PDFMathTranslate 詳細設定オプションドキュメント](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
 28. [BabelDOC 公式 GitHub リポジトリ](https://github.com/funstory-ai/BabelDOC)

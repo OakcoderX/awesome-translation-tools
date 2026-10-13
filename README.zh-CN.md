@@ -8,7 +8,7 @@
 
 不同场景下的翻译任务有着截然不同的诉求：在手机上快速识别路牌与菜单，在浏览器中对照阅读技术文档，在保留版面结构的前提下转换商务合同与幻灯片，在研读学术论文时保护数学公式，在本地终端通过管道批量处理文本，或是实时收看无字幕外语视频。
 
-我们是 **Equalang（意扣）** 团队。本目录系统梳理了主流商用工具与代表性开源项目的功能特性、使用入口、部署方式与使用边界，帮助你根据手头的具体任务选出合适的方案。
+我们是 **[Equalang](https://equalang.com/zh-CN?utm_source=github)（意扣）** 团队。本目录系统梳理了主流商用工具与代表性开源项目的功能特性、使用入口、部署方式与使用边界，帮助你根据手头的具体任务选出合适的方案。
 
 ---
 
@@ -47,7 +47,7 @@
   - [5.3 跨平台桌面端与终端工具](#53-跨平台桌面端与终端工具)
     - [Pot（pot-desktop）](#potpot-desktop)
     - [Translate Shell](#translate-shell)
-- [六、跨场景串联与多端协作：Equalang 的工作流实践](#六跨场景串联与多端协作equalang-的工作流实践)
+- [六、跨场景串联与多端协作：](#六跨场景串联与多端协作equalang-的工作流实践)[Equalang](https://equalang.com/zh-CN?utm_source=github) [的工作流实践](#六跨场景串联与多端协作equalang-的工作流实践)
   - [1. 结构与格式保留的整文件翻译](#1-结构与格式保留的整文件翻译)
   - [2. 深入浏览器的双语阅读与视听体验](#2-深入浏览器的双语阅读与视听体验)
   - [3. 免客户端安装的现场沟通与双向交流](#3-免客户端安装的现场沟通与双向交流)
@@ -291,51 +291,51 @@ SimplifyAI 旗下包含两个定位不同的产品站点：一是主打[复杂�
 
 ---
 
-## 六、跨场景串联与多端协作：Equalang 的工作流实践
+## 六、跨场景串联与多端协作：[Equalang](https://equalang.com/zh-CN?utm_source=github) 的工作流实践
 
 梳理了前面的工具，可以发现每款产品都在各自擅长的任务点上建立了鲜明的特色。但在真实的日常场景中，任务往往是交织发生的：
 
 你可能正在浏览器中阅读一份外文产品说明，随后下载了配套的技术图纸或合同文档，接着还要观看一段未配字幕的操作视频，甚至需要同海外协作者进行口头沟通。频繁在不同软件和格式之间来回切换，很容易让协作流程碎片化。
 
-我们打造 **意扣（Equalang）** 的目的，就是把这些分散在不同载体上的真实工作流自然连接起来，提供覆盖文档、网页、视频与免装沟通的对照式翻译支持。
+我们打造 **意扣（[Equalang](https://equalang.com/zh-CN?utm_source=github)）** 的目的，就是把这些分散在不同载体上的真实工作流自然连接起来，提供覆盖文档、网页、视频与免装沟通的对照式翻译支持。
 
-<p align="center"><img src="assets/equalang-zh-page@2x.webp" alt="意扣 Equalang 官方中文首页" width="640"><br><sub>意扣 Equalang 官方中文网站首页</sub></p>
+<p align="center"><img src="assets/equalang-zh-page@2x.webp" alt="意扣 Equalang 官方中文首页" width="640"><br><sub>意扣 <a href="https://equalang.com/zh-CN?utm_source=github">Equalang</a> 官方中文网站首页</sub></p>
 
 ### 1. 结构与格式保留的整文件翻译
-在处理整份文件时，Equalang 围绕视觉版式保留与译后可用性设计处理流程，针对学术文献、演示文稿与常用办公格式提供针对性的解析支持：
+在处理整份文件时，[Equalang](https://equalang.com/zh-CN?utm_source=github) 围绕视觉版式保留与译后可用性设计处理流程，针对学术文献、演示文稿与常用办公格式提供针对性的解析支持：
 
-- **PDF 文档与论文研读**：支持解析多栏排版、页眉页脚与图注层级，将跨页被截断的长句重连后翻译，并尽可能维持表格结构与行内公式排列，目录与文内交叉引用保持跳转。在我们的[学术论文与 PDF 实践](https://equalang.com/zh-CN/blog/translate-and-read-pdf-documents)中，读者可以将原件与译件并排对照阅读，先借助母语通读核心论点与研究逻辑，再就近核对原文专业术语与图表数据。
+- **PDF 文档与论文研读**：支持解析多栏排版、页眉页脚与图注层级，将跨页被截断的长句重连后翻译，并尽可能维持表格结构与行内公式排列，目录与文内交叉引用保持跳转。在我们的[学术论文与 PDF 实践](https://equalang.com/zh-CN/blog/translate-and-read-pdf-documents?utm_source=github)中，读者可以将原件与译件并排对照阅读，先借助母语通读核心论点与研究逻辑，再就近核对原文专业术语与图表数据。
 
-- **PPT 演示文稿**：在我们的[幻灯片排版翻译指南](https://equalang.com/zh-CN/blog/translate-powerpoint-keep-formatting)中，翻译后的 PPTX 文档保留了原生可编辑表格，单句内局部的加粗、斜体与文字颜色会准确映射到译文对应词上；整份文稿跨页的标题与关键表达保持统一译法；当目标语言篇幅较长时，文本框会自动微调收小字号，避免文字溢出边缘或遮挡图表。
+- **PPT 演示文稿**：在我们的[幻灯片排版翻译指南](https://equalang.com/zh-CN/blog/translate-powerpoint-keep-formatting?utm_source=github)中，翻译后的 PPTX 文档保留了原生可编辑表格，单句内局部的加粗、斜体与文字颜色会准确映射到译文对应词上；整份文稿跨页的标题与关键表达保持统一译法；当目标语言篇幅较长时，文本框会自动微调收小字号，避免文字溢出边缘或遮挡图表。
 
-- **Word 与 Excel 办公文档**：在我们的[Word 供货条款样例](https://equalang.com/zh-CN/blog/translate-word-document-keep-formatting)中，翻译后的 Word 文档保留了原有的章节、商品表格及加粗交期，可直接在 Office 软件中继续修改；在[Excel 报价表样例](https://equalang.com/zh-CN/blog/translate-excel-file)中，计算公式和数字输入保持原位，全表重复出现的文本单元格仅翻译一次。
+- **Word 与 Excel 办公文档**：在我们的[Word 供货条款样例](https://equalang.com/zh-CN/blog/translate-word-document-keep-formatting?utm_source=github)中，翻译后的 Word 文档保留了原有的章节、商品表格及加粗交期，可直接在 Office 软件中继续修改；在[Excel 报价表样例](https://equalang.com/zh-CN/blog/translate-excel-file?utm_source=github)中，计算公式和数字输入保持原位，全表重复出现的文本单元格仅翻译一次。
 
 - **电子书与多媒体文件**：EPUB 电子书保留章节目录与文内双向锚点跳转；对于最长 180 分钟的录音与视频文件，可通过我们的开发者 API 以及 Agent Skill / MCP 接入入口提交处理（而非网页常规文档上传入口），直接输出带时间轴的双语 SRT/VTT 字幕或原文转写稿。
 
 ### 2. 深入浏览器的双语阅读与视听体验
-通过轻量级[浏览器插件](https://equalang.com/zh-CN/extension)（提供 Chrome、Edge、Firefox 安装指引，Mac Safari 支持 18.4+ 临时模式），翻译功能直接嵌入日常阅读环境：
+通过轻量级[浏览器插件](https://equalang.com/zh-CN/extension?utm_source=github)（提供 Chrome、Edge、Firefox 安装指引，Mac Safari 支持 18.4+ 临时模式），翻译功能直接嵌入日常阅读环境：
 
 - **逐段上下对照网页阅读**：开启后译文直接逐段出现在原文下方，随滚动平滑加载；在设置中开启划词后，可通过悬浮图标轻量取词。在浏览器中阅读本地 PDF 时，可在扩展管理中开启“允许访问文件网址”以便选词取词。
 
-- **视频双语字幕**：官方支持 YouTube、Netflix、TikTok、哔哩哔哩等主流视听平台，具体细节可在[双语视频观看指南](https://equalang.com/zh-CN/blog/watch-videos-with-bilingual-subtitles)中查看。除了翻译原片自带的字幕轨，当视频**没有字幕**时，插件还可尝试捕获播放音频生成实时双语字幕（该能力受浏览器环境及音轨加密限制，已在 YouTube 直播和官方预告片中完成实测验证），并在 YouTube 直播流中同步翻译实时聊天消息。
+- **视频双语字幕**：官方支持 YouTube、Netflix、TikTok、哔哩哔哩等主流视听平台，具体细节可在[双语视频观看指南](https://equalang.com/zh-CN/blog/watch-videos-with-bilingual-subtitles?utm_source=github)中查看。除了翻译原片自带的字幕轨，当视频**没有字幕**时，插件还可尝试捕获播放音频生成实时双语字幕（该能力受浏览器环境及音轨加密限制，已在 YouTube 直播和官方预告片中完成实测验证），并在 YouTube 直播流中同步翻译实时聊天消息。
 
 ### 3. 免客户端安装的现场沟通与双向交流
-跨语言交流或外出差旅时，要求对方额外下载指定 App 往往存在阻力。在网络畅通时，Equalang 支持通过手机或桌面浏览器直接调用随身翻译与同声传译工具（首次在浏览器中使用时登录并授权相机或麦克风即可），具体场景可参考[跨国沟通实践](https://equalang.com/zh-CN/blog/talk-with-overseas-partners)：
+跨语言交流或外出差旅时，要求对方额外下载指定 App 往往存在阻力。在网络畅通时，[Equalang](https://equalang.com/zh-CN?utm_source=github) 支持通过手机或桌面浏览器直接调用随身翻译与同声传译工具（首次在浏览器中使用时登录并授权相机或麦克风即可），具体场景可参考[跨国沟通实践](https://equalang.com/zh-CN/blog/talk-with-overseas-partners?utm_source=github)：
 
-- **手机现场拍照翻译**：在差旅途中遇到外文就餐菜单、路边告示或服务指南时，直接在手机浏览器中对准文字拍下，译文会贴合在图片对应位置呈现，方便对照原图点单或确认要求，具体操作见我们的[旅行拍照翻译实践](https://equalang.com/zh-CN/blog/photo-translation-for-travel)。
+- **手机现场拍照翻译**：在差旅途中遇到外文就餐菜单、路边告示或服务指南时，直接在手机浏览器中对准文字拍下，译文会贴合在图片对应位置呈现，方便对照原图点单或确认要求，具体操作见我们的[旅行拍照翻译实践](https://equalang.com/zh-CN/blog/photo-translation-for-travel?utm_source=github)。
 
-- **面对面模式（Face-to-Face）**：适用于酒店前台沟通、问路或现场接待等面对面场景。在手机或平板浏览器中打开页面，将设备平放于两人之间，支持倒转分屏或同向分屏双向收音，并实时展示双语字幕，结束后可导出文字记录，具体演示见我们的[旅行面对面沟通实践](https://equalang.com/zh-CN/blog/talk-face-to-face-while-traveling)。
+- **面对面模式（Face-to-Face）**：适用于酒店前台沟通、问路或现场接待等面对面场景。在手机或平板浏览器中打开页面，将设备平放于两人之间，支持倒转分屏或同向分屏双向收音，并实时展示双语字幕，结束后可导出文字记录，具体演示见我们的[旅行面对面沟通实践](https://equalang.com/zh-CN/blog/talk-face-to-face-while-traveling?utm_source=github)。
 
 - **听讲模式（Live Listening）**：在移动端或电脑浏览器中打开听讲页面，通过设备的物理麦克风现场拾音，即可实时接收双语字幕，需要时可开启译文语音朗读，结束后支持导出文字记录（主要面向现场讲座与发言，与浏览器插件对网页播放流的捕获形成互补）。
 
 - **链接通话（Translated Call）**：发起方在网页端登录后生成专属邀请链接，通过聊天软件发送给对方；接听者用电脑或手机浏览器打开链接，**无需注册账号，也无需安装任何客户端**，输入显示名后由发起方确认准入即可开始通话。双方各说母语、各听译文并同步查看双语字幕。
 
 ### 4. 面向 AI 助手与开发者的接入生态
-为了让翻译能力嵌入现代自动化工作流，Equalang 提供了多层接口：
+为了让翻译能力嵌入现代自动化工作流，[Equalang](https://equalang.com/zh-CN?utm_source=github) 提供了多层接口：
 
-- **开发者 API**：提供即时文本接口与异步文件处理接口，支持带 Idempotency-Key 重试与回调通知，详见[文件翻译 API 接入指南](https://equalang.com/zh-CN/blog/integrate-file-translation-api)。
+- **开发者 API**：提供即时文本接口与异步文件处理接口，支持带 Idempotency-Key 重试与回调通知，详见[文件翻译 API 接入指南](https://equalang.com/zh-CN/blog/integrate-file-translation-api?utm_source=github)。
 
-- **Skill 与 MCP 集成**：开源了面向大模型助手的 [equalang-skill](https://github.com/equalang/equalang-skill) 与 [@equalang/mcp](https://github.com/equalang/equalang-mcp)。在 Claude Code、Codex 或 WorkBuddy 等环境中，按照指引执行安装提示并配置好 API key，即可让 AI 助手直接调用文档排版翻译与音视频转写能力，具体流程可参考[AI 助手翻译文件实践](https://equalang.com/zh-CN/blog/translate-files-with-ai-assistants)。
+- **Skill 与 MCP 集成**：开源了面向大模型助手的 [equalang-skill](https://github.com/equalang/equalang-skill) 与 [@equalang/mcp](https://github.com/equalang/equalang-mcp)。在 Claude Code、Codex 或 WorkBuddy 等环境中，按照指引执行安装提示并配置好 API key，即可让 AI 助手直接调用文档排版翻译与音视频转写能力，具体流程可参考[AI 助手翻译文件实践](https://equalang.com/zh-CN/blog/translate-files-with-ai-assistants?utm_source=github)。
 
 ---
 
@@ -345,18 +345,18 @@ SimplifyAI 旗下包含两个定位不同的产品站点：一是主打[复杂�
 
 | 任务场景 | 核心诉求 | 推荐工具 | 选用考量与注意事项 |
 | :--- | :--- | :--- | :--- |
-| **出境旅行与现场应急** | 拍照识图、双向对话、离线包与联网随身沟通 | Google Translate、Apple Translate、Papago、Equalang | 弱网或完全离线优先提前下载 Google、Apple 或 Papago 的离线语言包（需注意设备要求）；网络畅通时，Equalang 可在手机浏览器中直接拍照译图或进行免装面对面对话。 |
+| **出境旅行与现场应急** | 拍照识图、双向对话、离线包与联网随身沟通 | Google Translate、Apple Translate、Papago、[Equalang](https://equalang.com/zh-CN?utm_source=github) | 弱网或完全离线优先提前下载 Google、Apple 或 Papago 的离线语言包（需注意设备要求）；网络畅通时，[Equalang](https://equalang.com/zh-CN?utm_source=github) 可在手机浏览器中直接拍照译图或进行免装面对面对话。 |
 | **多人展会与讲解导览** | 一对多讲解、跨设备多语种入会 | Microsoft Translator | 主讲人使用 App 开启演讲模式，听众可通过浏览器扫码免装客户端加入房间。 |
-| **日常外文网页深度阅读** | 原译对照排版、不离开当前页面 | 沉浸式翻译、Equalang、Mate Translate | 追求逐段双语对照可选沉浸式翻译或 Equalang；重视整页视图切换或划词归档至词句本可选 Mate。 |
-| **无字幕视频与直播观看** | 实时音频捕获生成字幕、直播消息翻译 | Equalang、沉浸式翻译 | 两者均具备在受支持平台（如 YouTube）从音频生成字幕的能力；实际效果受播放平台、音频清晰度与加密限制影响。 |
-| **学术论文与科研 PDF** | 公式保留、多栏版面重构、原译对照排版 | PDFMathTranslate、BabelDOC、Equalang | PDFMathTranslate 与 BabelDOC 提供开源本地处理流水线与双语 PDF 生成；Equalang 提供网页端对照阅读与整篇文档解析。 |
+| **日常外文网页深度阅读** | 原译对照排版、不离开当前页面 | 沉浸式翻译、[Equalang](https://equalang.com/zh-CN?utm_source=github)、Mate Translate | 追求逐段双语对照可选沉浸式翻译或 [Equalang](https://equalang.com/zh-CN?utm_source=github)；重视整页视图切换或划词归档至词句本可选 Mate。 |
+| **无字幕视频与直播观看** | 实时音频捕获生成字幕、直播消息翻译 | [Equalang](https://equalang.com/zh-CN?utm_source=github)、沉浸式翻译 | 两者均具备在受支持平台（如 YouTube）从音频生成字幕的能力；实际效果受播放平台、音频清晰度与加密限制影响。 |
+| **学术论文与科研 PDF** | 公式保留、多栏版面重构、原译对照排版 | PDFMathTranslate、BabelDOC、[Equalang](https://equalang.com/zh-CN?utm_source=github) | PDFMathTranslate 与 BabelDOC 提供开源本地处理流水线与双语 PDF 生成；[Equalang](https://equalang.com/zh-CN?utm_source=github) 提供网页端对照阅读与整篇文档解析。 |
 | **出版设计稿与专用格式** | InDesign、Illustrator、漫画包与印前质检 | SimplifyAI、O.Translator | InDesign 与出版印前质检看 SimplifyAI 与 O.Translator；SimplifyAI 支持带 Word 修订痕迹的 AI 编辑。 |
-| **PPT 演示与 Office 办公文档** | 保留原生表格、局部样式、公式与直接编辑性 | Equalang、DeepL | PPTX 原生表格/样式与字号自适应、Excel 计算公式保留看 Equalang；大批量商务 Word/Office 结合组织级术语表看 DeepL。 |
+| **PPT 演示与 Office 办公文档** | 保留原生表格、局部样式、公式与直接编辑性 | [Equalang](https://equalang.com/zh-CN?utm_source=github)、DeepL | PPTX 原生表格/样式与字号自适应、Excel 计算公式保留看 [Equalang](https://equalang.com/zh-CN?utm_source=github)；大批量商务 Word/Office 结合组织级术语表看 DeepL。 |
 | **论文翻译与学术写作润色** | 纠正语法时态、地道学术书面语 | 网易有道翻译、QuillBot Translate、TranSmart | 有道与 QuillBot 适合把粗翻译文衔接到润色修辞；重视人工精细交互把关词句可选 TranSmart。 |
 | **桌面快捷划词与多接口对比** | 全局快捷键、截图 OCR、多引擎结果并列呈现 | Pot、Mate Translate | Pot 支持跨平台并发请求多个翻译/词典接口并支持本地离线 OCR；Mate 适合 Mac 原生菜单栏轻量取词。 |
 | **终端自动化与脚本管道** | 命令行查词、标准输入输出管道、纯文本处理 | Translate Shell、Argos Translate | Translate Shell 适合与 Unix 终端管道和脚本整合；Argos Translate 适合纯本地 Python 脚本与离线调用。 |
 | **企业私有化与离线翻译引擎** | 局域网内网部署、数据不离境、无外部云依赖 | LibreTranslate、Argos Translate、SYSTRAN、Lingvanex | LibreTranslate 提供开源自托管 HTTP API 与 Web 界面；Argos Translate 提供底层离线 Python 库、CLI 与模型包；SYSTRAN 与 Lingvanex 提供企业级本地化部署服务。 |
-| **多场景串联与 AI 助手协同** | 文档、音视频、免装通话与 Agent 联动 | Equalang | 适合需要覆盖文档、无字幕流媒体、免装网页通话，并在 Claude Code/WorkBuddy 中直接处理文件的用户。 |
+| **多场景串联与 AI 助手协同** | 文档、音视频、免装通话与 Agent 联动 | [Equalang](https://equalang.com/zh-CN?utm_source=github) | 适合需要覆盖文档、无字幕流媒体、免装网页通话，并在 Claude Code/WorkBuddy 中直接处理文件的用户。 |
 
 ---
 
@@ -367,7 +367,7 @@ SimplifyAI 旗下包含两个定位不同的产品站点：一是主打[复杂�
 1. **公开文档与代码事实为准**：功能说明均基于官方文档、用户指南或开源代码仓库确证的事实，不采信夸大宣传，不作绝对化排版保证。
 2. **明确技术分层与部署边界**：清晰区分前端客户端、API 服务层、离线模型引擎与文档排版库；明确说明本地运行与离线无网的区别。
 3. **任务场景导向**：各工具依照具体场景的适用边界进行归纳，不评判主观优劣排名，不收录易变动的商业价格。
-4. **透明署名**：本目录由 **Equalang（意扣）团队** 整理维护；Equalang 作为多场景工作流方案收录于文末，与其他工具保持一致的客观边界描述。
+4. **透明署名**：本目录由 **[Equalang](https://equalang.com/zh-CN?utm_source=github)（意扣）团队** 整理维护；[Equalang](https://equalang.com/zh-CN?utm_source=github) 作为多场景工作流方案收录于文末，与其他工具保持一致的客观边界描述。
 
 **关键词**：翻译工具、文档翻译、双语网页阅读、论文 PDF 翻译、开源翻译引擎、自托管 API、排版还原、智能体协作。
 
@@ -399,7 +399,7 @@ SimplifyAI 旗下包含两个定位不同的产品站点：一是主打[复杂�
 22. [腾讯交互翻译 TranSmart 产品介绍](https://transmart.qq.com/zh-CN/intro)
 23. [彩云小译文档翻译使用说明](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
 24. [QuillBot Translate 官方说明与 PDF 翻译入口](https://quillbot.com/translate)
-25. [Equalang 官方接口文档与功能规范](https://equalang.com/llms-full.txt)
+25. [Equalang 官方接口文档与功能规范](https://equalang.com/llms-full.txt?utm_source=github)
 26. [PDFMathTranslate 官方开源仓库](https://github.com/PDFMathTranslate/PDFMathTranslate)
 27. [PDFMathTranslate 进阶参数与功能文档](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
 28. [BabelDOC 官方开源仓库](https://github.com/funstory-ai/BabelDOC)

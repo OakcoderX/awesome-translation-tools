@@ -8,7 +8,7 @@
 
 번역 작업의 요구 사항은 실제 사용 맥락에 따라 근본적으로 다릅니다. 모바일 기기로 길거리 표지판이나 식당 메뉴를 빠르게 판독해야 하는 상황, 브라우저에서 외국 기술 문서를 대역으로 읽어야 하는 상황, 레이아웃을 깨뜨리지 않고 복잡한 프레젠테이션 슬라이드나 계약서를 변환해야 하는 상황, 학술 논문의 수학 공식을 보존해야 하는 상황, 터미널 파이프라인을 통해 대량의 텍스트를 로컬에서 일괄 번역해야 하는 상황, 자막이 없는 외국어 스트리밍 영상을 시청해야 하는 상황 등 저마다 다른 해결책이 필요합니다.
 
-저희는 **Equalang** 팀입니다. 이 디렉터리는 널리 사용되는 상용 번역 제품과 오픈소스 프로젝트의 공식 문서화된 기능, 접근 경로, 배포 방식 및 사용상 한계와 제약 사항을 작업 중심(Task-oriented)으로 체계적으로 정리하여, 사용자가 자신의 워크플로에 가장 적합한 도구를 찾을 수 있도록 돕습니다.
+저희는 **[Equalang](https://equalang.com/?utm_source=github)** 팀입니다. 이 디렉터리는 널리 사용되는 상용 번역 제품과 오픈소스 프로젝트의 공식 문서화된 기능, 접근 경로, 배포 방식 및 사용상 한계와 제약 사항을 작업 중심(Task-oriented)으로 체계적으로 정리하여, 사용자가 자신의 워크플로에 가장 적합한 도구를 찾을 수 있도록 돕습니다.
 
 ---
 
@@ -47,7 +47,7 @@
   - [5.3 데스크톱 및 터미널 프론트엔드](#53-desktop--terminal-frontends)
     - [Pot (pot-desktop)](#pot-pot-desktop)
     - [Translate Shell](#translate-shell)
-- [6. 연결된 엔드투엔드 워크플로: Equalang](#6-connected-end-to-end-workflows-equalang)
+- [6. 연결된 엔드투엔드 워크플로:](#6-connected-end-to-end-workflows-equalang) [Equalang](https://equalang.com/?utm_source=github)
   - [1. 서식과 레이아웃을 보존하는 전체 파일 문서 번역](#1-whole-file-document-translation-with-layout-preservation)
   - [2. 브라우저 내 웹 읽기 및 자막 생성](#2-in-browser-reading--subtitle-generation)
   - [3. 별도 설치 없는 현장 음성 소통 및 대화](#3-installation-free-spoken-communication--on-site-exchange)
@@ -325,43 +325,43 @@ SYSTRAN은 기업 및 기관의 전문 현지화 요구를 겨냥합니다. 클�
 ---
 
 <a id="6-connected-end-to-end-workflows-equalang"></a>
-## 6. 연결된 엔드투엔드 워크플로: Equalang
+## 6. 연결된 엔드투엔드 워크플로: [Equalang](https://equalang.com/?utm_source=github)
 
 이상의 도구들을 살펴보면 각 서비스가 특정 작업에 맞춰 명확한 강점을 발전시켜 왔음을 알 수 있습니다. 하지만 실제 일상 업무에서는 이러한 요구 사항들이 서로 교차하는 경우가 빈번합니다:
 
 브라우저에서 온라인 백서를 읽다가 표와 도표가 포함된 첨부 PDF를 다운로드하고, 자막이 없는 강의 영상을 시청한 뒤, 해외 협력 파트너와 직접 소통하며 Word로 요약 보고서를 작성해야 할 수 있습니다. 이때 파편화된 개별 소프트웨어와 파일 변환기를 오가다 보면 작업 흐름이 끊기게 됩니다.
 
-저희는 이러한 작업들을 매끄럽고 연속적인 대역(side-by-side) 번역 워크플로로 연결하여 문서, 웹페이지, 동영상, 현장 실시간 소통 전반에서 조율된 번역 지원을 제공하고자 **Equalang**을 설계했습니다.
+저희는 이러한 작업들을 매끄럽고 연속적인 대역(side-by-side) 번역 워크플로로 연결하여 문서, 웹페이지, 동영상, 현장 실시간 소통 전반에서 조율된 번역 지원을 제공하고자 **[Equalang](https://equalang.com/?utm_source=github)**을 설계했습니다.
 
-<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Equalang 공식 영문 홈페이지" width="640"><br><sub>Equalang 공식 영문 웹사이트 홈페이지</sub></p>
+<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Equalang 공식 영문 홈페이지" width="640"><br><sub><a href="https://equalang.com/?utm_source=github">Equalang</a> 공식 영문 웹사이트 홈페이지</sub></p>
 
 <a id="1-whole-file-document-translation-with-layout-preservation"></a>
 ### 1. 서식과 레이아웃을 보존하는 전체 파일 문서 번역
-Equalang은 전체 문서를 번역할 때 구조 보존과 번역 후 활용성에 초점을 맞추며, 연구 문헌, 프레젠테이션, 일상 사무 문서 전반에 맞춤형 워크플로를 제공합니다:
+[Equalang](https://equalang.com/?utm_source=github)은 전체 문서를 번역할 때 구조 보존과 번역 후 활용성에 초점을 맞추며, 연구 문헌, 프레젠테이션, 일상 사무 문서 전반에 맞춤형 워크플로를 제공합니다:
 
-- **PDF 문서 및 독해**: 다단 레이아웃, 머리글, 바닥글, 캡션을 보존하고, 페이지 경계에서 나뉜 문장을 다시 온전하게 연결한 후 번역하며, 표 구조, 인라인 수식, 문서 내부 링크를 그대로 유지합니다. [학술 PDF 읽기 가이드](https://equalang.com/blog/translate-and-read-pdf-documents)에서 설명하듯, 독자는 원문과 번역본을 나란히 배치한 대역 레이아웃으로 확인하면서 모국어로 핵심 논지를 먼저 파악한 뒤 원본 페이지의 구체적인 용어와 데이터를 교차 검증할 수 있습니다.
+- **PDF 문서 및 독해**: 다단 레이아웃, 머리글, 바닥글, 캡션을 보존하고, 페이지 경계에서 나뉜 문장을 다시 온전하게 연결한 후 번역하며, 표 구조, 인라인 수식, 문서 내부 링크를 그대로 유지합니다. [학술 PDF 읽기 가이드](https://equalang.com/blog/translate-and-read-pdf-documents?utm_source=github)에서 설명하듯, 독자는 원문과 번역본을 나란히 배치한 대역 레이아웃으로 확인하면서 모국어로 핵심 논지를 먼저 파악한 뒤 원본 페이지의 구체적인 용어와 데이터를 교차 검증할 수 있습니다.
 
-- **PowerPoint 프레젠테이션**: [슬라이드 서식 가이드](https://equalang.com/blog/translate-powerpoint-keep-formatting)에 나와 있듯이, 번역된 PPTX 파일은 표를 정적 이미지로 병합하지 않고 기본 편집 가능한 표 형식 그대로 유지합니다. 한 문장 안의 굵게, 기울임꼴, 글꼴 색상 등 단어 단위 스타일링이 번역된 해당 어구에 정확히 매핑됩니다. 슬라이드 전반에 걸쳐 핵심 용어와 제목의 일관성이 유지되며, 번역문이 길어질 경우 텍스트 상자 내 글꼴 크기가 자동으로 축소되어 텍스트 넘침이나 그래픽 가림을 방지합니다.
+- **PowerPoint 프레젠테이션**: [슬라이드 서식 가이드](https://equalang.com/blog/translate-powerpoint-keep-formatting?utm_source=github)에 나와 있듯이, 번역된 PPTX 파일은 표를 정적 이미지로 병합하지 않고 기본 편집 가능한 표 형식 그대로 유지합니다. 한 문장 안의 굵게, 기울임꼴, 글꼴 색상 등 단어 단위 스타일링이 번역된 해당 어구에 정확히 매핑됩니다. 슬라이드 전반에 걸쳐 핵심 용어와 제목의 일관성이 유지되며, 번역문이 길어질 경우 텍스트 상자 내 글꼴 크기가 자동으로 축소되어 텍스트 넘침이나 그래픽 가림을 방지합니다.
 
-- **Word 및 Excel 오피스 파일**: 검증된 [Word 번역 테스트](https://equalang.com/blog/translate-word-document-keep-formatting)에서 번역된 DOCX 파일은 제목 계층, 글머리 기호 목록, 가격표, 굵은 글씨 서식을 그대로 유지하여 Microsoft Word에서 직접 추가 편집이 가능했습니다. [Excel 단가표 검증](https://equalang.com/blog/translate-excel-file)에서는 수식과 숫자가 온전히 보존되었으며, 셀 간 중복되는 텍스트 문자열은 단 한 번만 번역 처리되었습니다.
+- **Word 및 Excel 오피스 파일**: 검증된 [Word 번역 테스트](https://equalang.com/blog/translate-word-document-keep-formatting?utm_source=github)에서 번역된 DOCX 파일은 제목 계층, 글머리 기호 목록, 가격표, 굵은 글씨 서식을 그대로 유지하여 Microsoft Word에서 직접 추가 편집이 가능했습니다. [Excel 단가표 검증](https://equalang.com/blog/translate-excel-file?utm_source=github)에서는 수식과 숫자가 온전히 보존되었으며, 셀 간 중복되는 텍스트 문자열은 단 한 번만 번역 처리되었습니다.
 
 - **전자책 및 포맷 미디어**: EPUB 전자책은 목차 내비게이션과 내부 앵커 링크를 유지합니다. 최대 180분 분량의 녹음 오디오 및 비디오 파일의 경우, 일반 웹 문서 업로드 포털이 아닌 개발자 API 및 Agent Skill/MCP 연동을 통해 번역 및 전사 작업을 제출할 수 있으며, 타임스탬프가 포함된 이중 언어 SRT/VTT 자막 파일이나 원문 전사본을 출력합니다.
 
 <a id="2-in-browser-reading--subtitle-generation"></a>
 ### 2. 브라우저 내 웹 읽기 및 자막 생성
-가벼운 [브라우저 확장 프로그램](https://equalang.com/extension)(Chrome, Edge, Firefox용 설치 가이드 제공, Safari 18.4+용 임시 Mac Safari 모드 지원)을 통해 일상적인 독해 과정에 번역이 자연스럽게 녹아듭니다:
+가벼운 [브라우저 확장 프로그램](https://equalang.com/extension?utm_source=github)(Chrome, Edge, Firefox용 설치 가이드 제공, Safari 18.4+용 임시 Mac Safari 모드 지원)을 통해 일상적인 독해 과정에 번역이 자연스럽게 녹아듭니다:
 
 - **단락 아래 이중 언어 웹 읽기**: 페이지를 스크롤하면 원문 텍스트 바로 아래에 번역 단락이 나란히 표시됩니다. 필요할 때 단어를 찾아볼 수 있도록 설정에서 플로팅 아이콘을 켜고 끌 수 있습니다. 로컬 PDF 파일을 볼 때는 확장 프로그램 관리 페이지에서 '파일 URL에 대한 액세스 허용'을 활성화하여 단어를 선택하고 조회할 수 있습니다.
 
-- **이중 언어 동영상 자막**: [이중 언어 동영상 시청 가이드](https://equalang.com/blog/watch-videos-with-bilingual-subtitles)에서 소개했듯 YouTube, Netflix, TikTok, Bilibili를 지원합니다. 기존 자막 번역은 물론, 확장 프로그램이 오디오 스트림을 캡처하여 **자막이 없는 영상**에 대해서도 실시간 이중 언어 자막을 생성할 수 있으며(브라우저 환경 및 미디어 암호화 제한의 영향을 받으며, YouTube 라이브 스트림 및 공식 예고편에서 검증 완료), YouTube 실시간 라이브 채팅 댓글도 동시에 번역합니다.
+- **이중 언어 동영상 자막**: [이중 언어 동영상 시청 가이드](https://equalang.com/blog/watch-videos-with-bilingual-subtitles?utm_source=github)에서 소개했듯 YouTube, Netflix, TikTok, Bilibili를 지원합니다. 기존 자막 번역은 물론, 확장 프로그램이 오디오 스트림을 캡처하여 **자막이 없는 영상**에 대해서도 실시간 이중 언어 자막을 생성할 수 있으며(브라우저 환경 및 미디어 암호화 제한의 영향을 받으며, YouTube 라이브 스트림 및 공식 예고편에서 검증 완료), YouTube 실시간 라이브 채팅 댓글도 동시에 번역합니다.
 
 <a id="3-installation-free-spoken-communication--on-site-exchange"></a>
 ### 3. 별도 설치 없는 현장 음성 소통 및 대화
-대화 상대방에게 전용 모바일 앱 설치를 요구하는 것은 특히 여행이나 현장 상황에서 큰 부담이 됩니다. 인터넷에 연결되어 있다면 Equalang은 표준 브라우저 내에서 직접 사진 번역과 음성 통역을 제공합니다(최초 1회 로그인 및 최초 사용 시 기기 카메라/마이크 권한 허용 필요). 자세한 내용은 [해외 파트너 소통 가이드](https://equalang.com/blog/talk-with-overseas-partners)에서 다루고 있습니다:
+대화 상대방에게 전용 모바일 앱 설치를 요구하는 것은 특히 여행이나 현장 상황에서 큰 부담이 됩니다. 인터넷에 연결되어 있다면 [Equalang](https://equalang.com/?utm_source=github)은 표준 브라우저 내에서 직접 사진 번역과 음성 통역을 제공합니다(최초 1회 로그인 및 최초 사용 시 기기 카메라/마이크 권한 허용 필요). 자세한 내용은 [해외 파트너 소통 가이드](https://equalang.com/blog/talk-with-overseas-partners?utm_source=github)에서 다루고 있습니다:
 
-- **모바일 사진 번역**: 여행 중 낯선 식당 메뉴판, 길거리 표지판, 안내문을 마주했을 때 모바일 브라우저에서 바로 사진을 촬영할 수 있습니다. 사진의 원래 레이아웃 위에 번역문이 직접 덧씌워지므로, [여행 사진 번역 가이드](https://equalang.com/blog/photo-translation-for-travel)에 나온 것처럼 원본 이미지를 대조하며 음료를 주문하거나 공지사항을 확인하기 쉽습니다.
+- **모바일 사진 번역**: 여행 중 낯선 식당 메뉴판, 길거리 표지판, 안내문을 마주했을 때 모바일 브라우저에서 바로 사진을 촬영할 수 있습니다. 사진의 원래 레이아웃 위에 번역문이 직접 덧씌워지므로, [여행 사진 번역 가이드](https://equalang.com/blog/photo-translation-for-travel?utm_source=github)에 나온 것처럼 원본 이미지를 대조하며 음료를 주문하거나 공지사항을 확인하기 쉽습니다.
 
-- **대면 대화 모드**: 호텔 짐 보관, 길 묻기, 안내 데스크 응대 등 직접 마주 보는 상황을 위해 설계되었습니다. 두 사람이 스마트폰이나 태블릿 한 대를 가운데에 평평하게 두고 상하 반전 분할 화면이나 좌우 대역 뷰를 통해 연속 양방향 전사와 대화 기록 내보내기를 이용할 수 있습니다([여행 대면 대화 가이드](https://equalang.com/blog/talk-face-to-face-while-traveling) 참조).
+- **대면 대화 모드**: 호텔 짐 보관, 길 묻기, 안내 데스크 응대 등 직접 마주 보는 상황을 위해 설계되었습니다. 두 사람이 스마트폰이나 태블릿 한 대를 가운데에 평평하게 두고 상하 반전 분할 화면이나 좌우 대역 뷰를 통해 연속 양방향 전사와 대화 기록 내보내기를 이용할 수 있습니다([여행 대면 대화 가이드](https://equalang.com/blog/talk-face-to-face-while-traveling?utm_source=github) 참조).
 
 - **현장 실시간 듣기(Live Listening)**: 현장 발표나 강연 중 웹 포털을 열면 기기의 물리적 마이크를 통해 수음된 음성을 실시간 이중 언어 자막으로 확인할 수 있으며, 청취 중 선택 가능한 텍스트 음성 변환(TTS) 오디오 재생과 종료 후 전사 기록 내보내기를 지원합니다(브라우저 확장 프로그램의 스트리밍 미디어 오디오 캡처와는 구분됩니다).
 
@@ -371,9 +371,9 @@ Equalang은 전체 문서를 번역할 때 구조 보존과 번역 후 활용성
 ### 4. AI 에이전트 및 개발자를 위한 연동 생태계
 개발자와 팀이 번역을 자동화된 워크플로에 손쉽게 통합할 수 있도록 지원합니다:
 
-- **개발자 API**: 텍스트를 위한 즉시 응답 엔드포인트와 함께 Idempotency-Key 재시도 및 콜백 알림을 지원하는 비동기 파일 작업 처리를 제공합니다([파일 번역 API 연동 가이드](https://equalang.com/blog/integrate-file-translation-api) 참조).
+- **개발자 API**: 텍스트를 위한 즉시 응답 엔드포인트와 함께 Idempotency-Key 재시도 및 콜백 알림을 지원하는 비동기 파일 작업 처리를 제공합니다([파일 번역 API 연동 가이드](https://equalang.com/blog/integrate-file-translation-api?utm_source=github) 참조).
 
-- **Skill 및 MCP 연동**: [equalang-skill](https://github.com/equalang/equalang-skill)을 통한 오픈소스 Agent Skill과 [@equalang/mcp](https://github.com/equalang/equalang-mcp)를 통한 공식 Model Context Protocol 지원을 유지 관리합니다. Claude Code, Codex, WorkBuddy 등의 환경에서 간단한 설치 프롬프트를 실행하고 API 키를 설정하면, [AI 어시스턴트 파일 번역 가이드](https://equalang.com/blog/translate-files-with-ai-assistants)에 따라 사용자의 AI 어시스턴트가 문서 번역과 미디어 전사 작업을 워크플로 내에서 직접 수행할 수 있습니다.
+- **Skill 및 MCP 연동**: [equalang-skill](https://github.com/equalang/equalang-skill)을 통한 오픈소스 Agent Skill과 [@equalang/mcp](https://github.com/equalang/equalang-mcp)를 통한 공식 Model Context Protocol 지원을 유지 관리합니다. Claude Code, Codex, WorkBuddy 등의 환경에서 간단한 설치 프롬프트를 실행하고 API 키를 설정하면, [AI 어시스턴트 파일 번역 가이드](https://equalang.com/blog/translate-files-with-ai-assistants?utm_source=github)에 따라 사용자의 AI 어시스턴트가 문서 번역과 미디어 전사 작업을 워크플로 내에서 직접 수행할 수 있습니다.
 
 ---
 
@@ -384,18 +384,18 @@ Equalang은 전체 문서를 번역할 때 구조 보존과 번역 후 활용성
 
 | 주요 작업 | 핵심 요구 사항 | 추천 도구 | 주요 고려 사항 |
 | :--- | :--- | :--- | :--- |
-| **여행 및 구두 대화** | 사진 OCR, 양방향 대화, 오프라인 팩 및 온라인 여행 도구 | Google Translate, Apple Translate, Papago, Equalang | 신호가 약한 지역에 대비해 Google, Apple 또는 Papago(하드웨어 요구 사양 확인 필요)에서 오프라인 언어 팩을 다운로드하세요. 인터넷이 연결된 환경이라면 Equalang을 통해 앱 설치 없이 브라우저 기반 사진 번역과 대면 대화를 이용할 수 있습니다. |
+| **여행 및 구두 대화** | 사진 OCR, 양방향 대화, 오프라인 팩 및 온라인 여행 도구 | Google Translate, Apple Translate, Papago, [Equalang](https://equalang.com/?utm_source=github) | 신호가 약한 지역에 대비해 Google, Apple 또는 Papago(하드웨어 요구 사양 확인 필요)에서 오프라인 언어 팩을 다운로드하세요. 인터넷이 연결된 환경이라면 [Equalang](https://equalang.com/?utm_source=github)을 통해 앱 설치 없이 브라우저 기반 사진 번역과 대면 대화를 이용할 수 있습니다. |
 | **다중 기기 워크숍** | 일대다 발표, 여러 기기 동시 참여 | Microsoft Translator | 호스트는 모바일 앱에서 발표자 모드(Presenter mode)를 실행하고, 참석자는 소프트웨어 설치 없이 표준 브라우저를 통해 접속합니다. |
-| **심층 웹 읽기** | 페이지를 벗어나지 않는 단락 아래 대역 읽기 | Immersive Translate, Equalang, Mate Translate | 이중 언어 단락 대역에는 Immersive Translate 또는 Equalang을 사용하세요. 전체 페이지 뷰 전환이나 Mac 환경의 단어장 저장이 필요하다면 Mate Translate를 활용하세요. |
-| **무자막 영상 및 라이브 스트림** | 실시간 자막 생성, 스트리밍 호환성 | Equalang, Immersive Translate | 두 도구 모두 지원되는 플랫폼(YouTube 등)에서 원본 오디오로부터 자막을 생성할 수 있습니다. 라이브 채팅 처리 및 스트림 대응 방식을 비교해 보세요. |
-| **학술 논문 및 과학 PDF** | 수식 보존, 다단 구조, 페이지 경계 텍스트 연결 | PDFMathTranslate, BabelDOC, Equalang | PDFMathTranslate와 BabelDOC은 이중 언어 대역 PDF 출력과 로컬/클라우드 LLM 백엔드를 지원하는 오픈소스 파이프라인을 제공합니다. Equalang은 브라우저 기반 대역 읽기 및 레이아웃 보존을 지원합니다. |
+| **심층 웹 읽기** | 페이지를 벗어나지 않는 단락 아래 대역 읽기 | Immersive Translate, [Equalang](https://equalang.com/?utm_source=github), Mate Translate | 이중 언어 단락 대역에는 Immersive Translate 또는 [Equalang](https://equalang.com/?utm_source=github)을 사용하세요. 전체 페이지 뷰 전환이나 Mac 환경의 단어장 저장이 필요하다면 Mate Translate를 활용하세요. |
+| **무자막 영상 및 라이브 스트림** | 실시간 자막 생성, 스트리밍 호환성 | [Equalang](https://equalang.com/?utm_source=github), Immersive Translate | 두 도구 모두 지원되는 플랫폼(YouTube 등)에서 원본 오디오로부터 자막을 생성할 수 있습니다. 라이브 채팅 처리 및 스트림 대응 방식을 비교해 보세요. |
+| **학술 논문 및 과학 PDF** | 수식 보존, 다단 구조, 페이지 경계 텍스트 연결 | PDFMathTranslate, BabelDOC, [Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslate와 BabelDOC은 이중 언어 대역 PDF 출력과 로컬/클라우드 LLM 백엔드를 지원하는 오픈소스 파이프라인을 제공합니다. [Equalang](https://equalang.com/?utm_source=github)은 브라우저 기반 대역 읽기 및 레이아웃 보존을 지원합니다. |
 | **출판 프리프레스 및 디자인 형식** | InDesign, Illustrator, 만화 아카이브, 프리프레스 QA | SimplifyAI, O.Translator | InDesign(IDML) 및 디자인 자산 프리프레스에는 SimplifyAI와 O.Translator를 사용하세요. SimplifyAI는 기본 Word 변경 내용 추적을 지원하는 AI 편집을 포함합니다. |
-| **프레젠테이션 및 오피스 문서** | 네이티브 표, 스타일, 수식 및 편집 가능성 보존 | Equalang, DeepL | Equalang은 적응형 폰트 크기 조절을 통해 PPTX의 네이티브 표/스타일을 보존하고 Excel 수식을 유지합니다. 용어집을 활용한 기업용 Word/Office 파일 번역에는 DeepL을 추천합니다. |
+| **프레젠테이션 및 오피스 문서** | 네이티브 표, 스타일, 수식 및 편집 가능성 보존 | [Equalang](https://equalang.com/?utm_source=github), DeepL | [Equalang](https://equalang.com/?utm_source=github)은 적응형 폰트 크기 조절을 통해 PPTX의 네이티브 표/스타일을 보존하고 Excel 수식을 유지합니다. 용어집을 활용한 기업용 Word/Office 파일 번역에는 DeepL을 추천합니다. |
 | **학술 작문 및 윤문** | 문법적 정확성, 격식 있는 학술적 문체 | Youdao Translate, QuillBot Translate, TranSmart | Youdao와 QuillBot은 번역과 텍스트 윤문을 매끄럽게 연결합니다. TranSmart는 대화형 인간-기계 협업 편집을 제공합니다. |
 | **데스크톱 단축키 검색 및 다중 엔진** | 전역 단축키, OCR, 여러 엔진 동시 비교 | Pot, Mate Translate | Pot은 Windows, Mac, Linux에서 다중 엔진 동시 질의와 스크린샷 OCR을 지원합니다. Mate는 네이티브 Mac 메뉴바 유틸리티를 제공합니다. |
 | **터미널 스크립트 및 셸 파이프라인** | CLI 검색, stdin/stdout 파이프라인, 일반 텍스트 스크립트 | Translate Shell, Argos Translate | Translate Shell은 원격 엔진을 통한 경량 CLI 번역을 제공합니다. Argos Translate는 로컬 모델을 사용하는 오프라인 Python CLI를 제공합니다. |
 | **자체 호스팅 프라이빗 API 및 오프라인 엔진** | 폐쇄망 환경, 제3자 데이터 전송 차단 | LibreTranslate, Argos Translate, SYSTRAN, Lingvanex | LibreTranslate는 자체 호스팅 HTTP API 서비스와 WebUI를 제공합니다. Argos Translate는 모듈식 모델 패키지를 갖춘 오프라인 Python 라이브러리/CLI 엔진으로 이를 구동합니다. SYSTRAN과 Lingvanex는 기업용 온프레미스 배포를 지원합니다. |
-| **연결된 엔드투엔드 워크플로** | 문서, 스트리밍 자막, 웹 통화 및 AI 에이전트 연동 | Equalang | 통합 문서 처리, 무자막 미디어 자막 생성, 앱 설치 없는 브라우저 통화, Claude Code 또는 WorkBuddy와의 직접 연동을 지원합니다. |
+| **연결된 엔드투엔드 워크플로** | 문서, 스트리밍 자막, 웹 통화 및 AI 에이전트 연동 | [Equalang](https://equalang.com/?utm_source=github) | 통합 문서 처리, 무자막 미디어 자막 생성, 앱 설치 없는 브라우저 통화, Claude Code 또는 WorkBuddy와의 직접 연동을 지원합니다. |
 
 ---
 
@@ -407,7 +407,7 @@ Equalang은 전체 문서를 번역할 때 구조 보존과 번역 후 활용성
 1. **마케팅 주장보다 공식 문서화된 기능 우선**: 모든 설명은 공식 문서, 사용자 매뉴얼, 검증된 저장소 소스 파일에 근거합니다. 완벽한 레이아웃 보존이나 모든 형식의 완벽한 지원과 같은 과장된 주장은 배제합니다.
 2. **명확한 아키텍처 경계 구분**: 번역 프론트엔드, 자체 호스팅 가능한 서비스 계층, 오프라인 번역 엔진, 문서 레이아웃 라이브러리를 명확히 구분합니다. 로컬에서 실행되는 오픈소스 코드와 진정한 오프라인 실행은 엄격하게 구분하여 기술합니다.
 3. **작업 중심의 수록 범위**: 워크플로별 실제 적합성을 기준으로 도구를 분류합니다. 주관적인 등급표(티어 리스트), 품질 순위, 일시적인 가격 정보는 수록하지 않습니다.
-4. **투명한 관리 주체 명시**: 이 카탈로그는 **Equalang** 팀이 선별하고 관리합니다. Equalang 또한 검증 가능한 기능적 한계와 투명한 시스템 요구 사양과 함께 다른 도구들과 나란히 동등하게 소개됩니다.
+4. **투명한 관리 주체 명시**: 이 카탈로그는 **[Equalang](https://equalang.com/?utm_source=github)** 팀이 선별하고 관리합니다. [Equalang](https://equalang.com/?utm_source=github) 또한 검증 가능한 기능적 한계와 투명한 시스템 요구 사양과 함께 다른 도구들과 나란히 동등하게 소개됩니다.
 
 **키워드**: 번역 도구, 문서 번역, 웹 이중 언어 읽기, 학술 PDF 번역, 오픈소스 번역, 기계 번역 API, 레이아웃 보존, AI 에이전트.
 
@@ -440,7 +440,7 @@ Equalang은 전체 문서를 번역할 때 구조 보존과 번역 후 활용성
 22. [Tencent TranSmart 제품 소개](https://transmart.qq.com/zh-CN/intro)
 23. [Caiyun Xiaoyi(LingoCloud) 문서 도움말](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
 24. [QuillBot Translate 및 PDF 포털](https://quillbot.com/translate)
-25. [Equalang API 사양 및 문서](https://equalang.com/llms-full.txt)
+25. [Equalang API 사양 및 문서](https://equalang.com/llms-full.txt?utm_source=github)
 26. [PDFMathTranslate 공식 GitHub 저장소](https://github.com/PDFMathTranslate/PDFMathTranslate)
 27. [PDFMathTranslate 고급 옵션 문서](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
 28. [BabelDOC 공식 GitHub 저장소](https://github.com/funstory-ai/BabelDOC)

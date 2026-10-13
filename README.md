@@ -8,7 +8,7 @@
 
 Translation tasks differ fundamentally by context: deciphering a street sign or menu on a mobile phone, reading foreign documentation inside a browser, translating complex slide decks and contracts without breaking layouts, preserving mathematical formulas in academic papers, running private batch translations in a terminal, or following uncaptioned video streams.
 
-We are the **Equalang** team. This directory provides a practical, task-oriented catalog of established translation products and prominent open-source projects. For each tool, we summarize documented capabilities, entry points, deployment modes, and operational constraints to help you identify the right solution for your workflow.
+We are the **[Equalang](https://equalang.com/?utm_source=github)** team. This directory provides a practical, task-oriented catalog of established translation products and prominent open-source projects. For each tool, we summarize documented capabilities, entry points, deployment modes, and operational constraints to help you identify the right solution for your workflow.
 
 ---
 
@@ -47,7 +47,7 @@ We are the **Equalang** team. This directory provides a practical, task-oriented
   - [5.3 Desktop & Terminal Frontends](#53-desktop--terminal-frontends)
     - [Pot (pot-desktop)](#pot-pot-desktop)
     - [Translate Shell](#translate-shell)
-- [6. Connected End-to-End Workflows: Equalang](#6-connected-end-to-end-workflows-equalang)
+- [6. Connected End-to-End Workflows:](#6-connected-end-to-end-workflows-equalang) [Equalang](https://equalang.com/?utm_source=github)
   - [1. Whole-File Document Translation with Layout Preservation](#1-whole-file-document-translation-with-layout-preservation)
   - [2. In-Browser Reading & Subtitle Generation](#2-in-browser-reading--subtitle-generation)
   - [3. Installation-Free Spoken Communication & On-Site Exchange](#3-installation-free-spoken-communication--on-site-exchange)
@@ -291,40 +291,40 @@ Developers, privacy-conscious teams, and academic researchers often need inspect
 
 ---
 
-## 6. Connected End-to-End Workflows: Equalang
+## 6. Connected End-to-End Workflows: [Equalang](https://equalang.com/?utm_source=github)
 
 Reviewing these tools demonstrates that each service has developed clear capabilities for specific tasks. In everyday work, however, requirements frequently intersect:
 
 You might read an online white paper in your browser, download an accompanying PDF with tables and diagrams, watch a video lecture without captions, and then prepare an executive summary in Word while coordinating directly with international collaborators. Switching between isolated software tools and file converters fragments the workflow.
 
-We designed **Equalang** to connect these tasks into a continuous, side-by-side translation workflow, delivering coordinated translation support across documents, web pages, videos, and live communication.
+We designed **[Equalang](https://equalang.com/?utm_source=github)** to connect these tasks into a continuous, side-by-side translation workflow, delivering coordinated translation support across documents, web pages, videos, and live communication.
 
-<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Equalang official English homepage" width="640"><br><sub>Equalang official English website homepage</sub></p>
+<p align="center"><img src="assets/equalang-en-page@2x.webp" alt="Equalang official English homepage" width="640"><br><sub><a href="https://equalang.com/?utm_source=github">Equalang</a> official English website homepage</sub></p>
 
 ### 1. Whole-File Document Translation with Layout Preservation
-When translating full documents, Equalang focuses on structural preservation and post-translation usability, providing tailored workflows across research literature, presentations, and everyday office files:
+When translating full documents, [Equalang](https://equalang.com/?utm_source=github) focuses on structural preservation and post-translation usability, providing tailored workflows across research literature, presentations, and everyday office files:
 
-- **PDF Documents & Reading**: Equalang preserves multi-column layouts, headers, footers, and captions, reconnecting sentences split across page breaks before translating, while maintaining table structures, inline formulas, and internal document links. As outlined in our [academic PDF reading walkthrough](https://equalang.com/blog/translate-and-read-pdf-documents), readers can view the translated file alongside the original in a side-by-side layout, grasping core arguments in their primary language first before cross-referencing specific terminology and data on the original page.
+- **PDF Documents & Reading**: [Equalang](https://equalang.com/?utm_source=github) preserves multi-column layouts, headers, footers, and captions, reconnecting sentences split across page breaks before translating, while maintaining table structures, inline formulas, and internal document links. As outlined in our [academic PDF reading walkthrough](https://equalang.com/blog/translate-and-read-pdf-documents?utm_source=github), readers can view the translated file alongside the original in a side-by-side layout, grasping core arguments in their primary language first before cross-referencing specific terminology and data on the original page.
 
-- **PowerPoint Presentations**: In our [slide deck formatting guide](https://equalang.com/blog/translate-powerpoint-keep-formatting), translated PPTX files preserve native editable tables rather than flattening them into static images. Word-level styling—such as bolding, italics, and font colors within a single sentence—is accurately mapped to corresponding translated phrases. Key terms and headings remain consistent across slides, and text boxes automatically scale down font sizes when translations expand to prevent text overflow or covering graphics.
+- **PowerPoint Presentations**: In our [slide deck formatting guide](https://equalang.com/blog/translate-powerpoint-keep-formatting?utm_source=github), translated PPTX files preserve native editable tables rather than flattening them into static images. Word-level styling—such as bolding, italics, and font colors within a single sentence—is accurately mapped to corresponding translated phrases. Key terms and headings remain consistent across slides, and text boxes automatically scale down font sizes when translations expand to prevent text overflow or covering graphics.
 
-- **Word & Excel Office Files**: In our verified [Word translation test](https://equalang.com/blog/translate-word-document-keep-formatting), translated DOCX files retained headings, bulleted lists, pricing tables, and bold formatting, allowing direct editing in Microsoft Word. In our [Excel price sheet validation](https://equalang.com/blog/translate-excel-file), formulas and numbers remained untouched while duplicate text strings across cells were translated only once.
+- **Word & Excel Office Files**: In our verified [Word translation test](https://equalang.com/blog/translate-word-document-keep-formatting?utm_source=github), translated DOCX files retained headings, bulleted lists, pricing tables, and bold formatting, allowing direct editing in Microsoft Word. In our [Excel price sheet validation](https://equalang.com/blog/translate-excel-file?utm_source=github), formulas and numbers remained untouched while duplicate text strings across cells were translated only once.
 
 - **E-Books & Formatted Media**: EPUB e-books retain table-of-contents navigation and internal anchor links. For recorded audio and video files up to 180 minutes, translation and transcription tasks are submitted via our Developer API and Agent Skill/MCP integration (rather than a general web document upload portal), outputting timestamped bilingual SRT/VTT subtitle files or source transcripts.
 
 ### 2. In-Browser Reading & Subtitle Generation
-Through our lightweight [browser extension](https://equalang.com/extension) (with installation guides for Chrome, Edge, and Firefox, plus a temporary Mac Safari mode for Safari 18.4+), translation integrates directly into your daily reading:
+Through our lightweight [browser extension](https://equalang.com/extension?utm_source=github) (with installation guides for Chrome, Edge, and Firefox, plus a temporary Mac Safari mode for Safari 18.4+), translation integrates directly into your daily reading:
 
 - **Under-Paragraph Bilingual Web Reading**: Translated paragraphs appear directly beneath the original text as you scroll. A floating icon can be toggled in settings for on-demand word lookups. When viewing local PDFs, users can enable "Allow access to file URLs" in extension management to select words for lookup.
 
-- **Bilingual Video Subtitles**: Compatible with YouTube, Netflix, TikTok, and Bilibili, as explored in our [bilingual video viewing guide](https://equalang.com/blog/watch-videos-with-bilingual-subtitles). Beyond translating existing subtitles, the extension can capture audio streams to generate real-time bilingual subtitles for **uncaptioned videos** (subject to browser environment and media encryption limits, verified on YouTube live streams and official trailers), while simultaneously translating live chat comments on YouTube.
+- **Bilingual Video Subtitles**: Compatible with YouTube, Netflix, TikTok, and Bilibili, as explored in our [bilingual video viewing guide](https://equalang.com/blog/watch-videos-with-bilingual-subtitles?utm_source=github). Beyond translating existing subtitles, the extension can capture audio streams to generate real-time bilingual subtitles for **uncaptioned videos** (subject to browser environment and media encryption limits, verified on YouTube live streams and official trailers), while simultaneously translating live chat comments on YouTube.
 
 ### 3. Installation-Free Spoken Communication & On-Site Exchange
-Requiring conversational partners to install dedicated mobile applications creates friction, especially while traveling. When connected to the internet, Equalang delivers on-the-go photo translation and spoken interpretation directly inside standard browsers (requiring only an initial sign-in and device camera/microphone permission on first use), as outlined in our [international communication guide](https://equalang.com/blog/talk-with-overseas-partners):
+Requiring conversational partners to install dedicated mobile applications creates friction, especially while traveling. When connected to the internet, [Equalang](https://equalang.com/?utm_source=github) delivers on-the-go photo translation and spoken interpretation directly inside standard browsers (requiring only an initial sign-in and device camera/microphone permission on first use), as outlined in our [international communication guide](https://equalang.com/blog/talk-with-overseas-partners?utm_source=github):
 
-- **Mobile Photo Translation**: When encountering unfamiliar restaurant menus, signs, or public notices while traveling, users can snap a picture in their mobile browser. Translations overlay directly onto the photo layout, making it easy to order drinks or review notices against the original image, as illustrated in our [travel photo translation guide](https://equalang.com/blog/photo-translation-for-travel).
+- **Mobile Photo Translation**: When encountering unfamiliar restaurant menus, signs, or public notices while traveling, users can snap a picture in their mobile browser. Translations overlay directly onto the photo layout, making it easy to order drinks or review notices against the original image, as illustrated in our [travel photo translation guide](https://equalang.com/blog/photo-translation-for-travel?utm_source=github).
 
-- **Face-to-Face Mode**: Designed for in-person situations such as hotel luggage storage, asking directions, or front-desk interactions. Two speakers can place a single phone or tablet flat between them, using an inverted split-screen or side-by-side view with continuous two-way transcription and transcript export, as shown in our [travel face-to-face guide](https://equalang.com/blog/talk-face-to-face-while-traveling).
+- **Face-to-Face Mode**: Designed for in-person situations such as hotel luggage storage, asking directions, or front-desk interactions. Two speakers can place a single phone or tablet flat between them, using an inverted split-screen or side-by-side view with continuous two-way transcription and transcript export, as shown in our [travel face-to-face guide](https://equalang.com/blog/talk-face-to-face-while-traveling?utm_source=github).
 
 - **Live Listening**: Open the web portal during an in-person presentation or lecture to receive real-time bilingual subtitles captured via the device's physical microphone, with optional text-to-speech audio and transcript export when finished (distinguished from the browser extension's streaming media audio capture).
 
@@ -333,9 +333,9 @@ Requiring conversational partners to install dedicated mobile applications creat
 ### 4. Integration for AI Agents and Developers
 To help developers and teams embed translation into automated workflows:
 
-- **Developer API**: Features instant endpoints for text alongside asynchronous file jobs supporting Idempotency-Key retries and callback notifications, as detailed in our [file translation API integration guide](https://equalang.com/blog/integrate-file-translation-api).
+- **Developer API**: Features instant endpoints for text alongside asynchronous file jobs supporting Idempotency-Key retries and callback notifications, as detailed in our [file translation API integration guide](https://equalang.com/blog/integrate-file-translation-api?utm_source=github).
 
-- **Skill & MCP Integration**: We maintain open-source Agent Skills via [equalang-skill](https://github.com/equalang/equalang-skill) and official Model Context Protocol support via [@equalang/mcp](https://github.com/equalang/equalang-mcp). In environments such as Claude Code, Codex, or WorkBuddy, running a single installation prompt and configuring your API key equips your AI assistant to handle document translation and media transcription directly within your workflow, following our [AI assistant file translation guide](https://equalang.com/blog/translate-files-with-ai-assistants).
+- **Skill & MCP Integration**: We maintain open-source Agent Skills via [equalang-skill](https://github.com/equalang/equalang-skill) and official Model Context Protocol support via [@equalang/mcp](https://github.com/equalang/equalang-mcp). In environments such as Claude Code, Codex, or WorkBuddy, running a single installation prompt and configuring your API key equips your AI assistant to handle document translation and media transcription directly within your workflow, following our [AI assistant file translation guide](https://equalang.com/blog/translate-files-with-ai-assistants?utm_source=github).
 
 ---
 
@@ -345,18 +345,18 @@ To help you choose the right tool for your current task, refer to this task matr
 
 | Primary Task | Core Requirement | Recommended Tools to Try | Key Considerations |
 | :--- | :--- | :--- | :--- |
-| **Travel & Spoken Dialogue** | Photo OCR, two-way dialogue, offline packs & connected travel tools | Google Translate, Apple Translate, Papago, Equalang | Download offline language packs in Google, Apple, or Papago (noting hardware requirements) for weak-signal areas; when connected, Equalang provides browser-based photo translation and face-to-face dialogue without installing apps. |
+| **Travel & Spoken Dialogue** | Photo OCR, two-way dialogue, offline packs & connected travel tools | Google Translate, Apple Translate, Papago, [Equalang](https://equalang.com/?utm_source=github) | Download offline language packs in Google, Apple, or Papago (noting hardware requirements) for weak-signal areas; when connected, [Equalang](https://equalang.com/?utm_source=github) provides browser-based photo translation and face-to-face dialogue without installing apps. |
 | **Multi-Device Workshops** | One-to-many presentations, multi-device participation | Microsoft Translator | Host runs Presenter mode via mobile app; attendees join via standard browser without installing software. |
-| **In-Depth Web Reading** | Under-paragraph reading without leaving the page | Immersive Translate, Equalang, Mate Translate | Use Immersive Translate or Equalang for bilingual paragraphs; use Mate Translate for switching full-page views or saving words to Phrasebooks on Mac. |
-| **Uncaptioned Video & Live Streams** | Real-time subtitle generation, streaming compatibility | Equalang, Immersive Translate | Both tools can generate subtitles from raw audio on supported platforms (like YouTube); compare browser extension workflows for live chat and stream handling. |
-| **Academic Papers & Scientific PDFs** | Formula preservation, column structures, cross-page text | PDFMathTranslate, BabelDOC, Equalang | PDFMathTranslate and BabelDOC provide open-source pipelines with dual-PDF output and local/cloud LLM backends; Equalang provides browser-based side-by-side reading and layout preservation. |
+| **In-Depth Web Reading** | Under-paragraph reading without leaving the page | Immersive Translate, [Equalang](https://equalang.com/?utm_source=github), Mate Translate | Use Immersive Translate or [Equalang](https://equalang.com/?utm_source=github) for bilingual paragraphs; use Mate Translate for switching full-page views or saving words to Phrasebooks on Mac. |
+| **Uncaptioned Video & Live Streams** | Real-time subtitle generation, streaming compatibility | [Equalang](https://equalang.com/?utm_source=github), Immersive Translate | Both tools can generate subtitles from raw audio on supported platforms (like YouTube); compare browser extension workflows for live chat and stream handling. |
+| **Academic Papers & Scientific PDFs** | Formula preservation, column structures, cross-page text | PDFMathTranslate, BabelDOC, [Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslate and BabelDOC provide open-source pipelines with dual-PDF output and local/cloud LLM backends; [Equalang](https://equalang.com/?utm_source=github) provides browser-based side-by-side reading and layout preservation. |
 | **Publishing Prepress & Design Formats** | InDesign, Illustrator, comic archives, prepress QA | SimplifyAI, O.Translator | Use SimplifyAI and O.Translator for InDesign (IDML) and design asset prepress; SimplifyAI includes AI Editing with native Word track changes. |
-| **Presentations & Office Documents** | Preserving native tables, styles, formulas, and editability | Equalang, DeepL | Equalang preserves PPTX native tables/styling with adaptive font sizing and Excel formula retention; use DeepL for corporate Word/Office files with glossaries. |
+| **Presentations & Office Documents** | Preserving native tables, styles, formulas, and editability | [Equalang](https://equalang.com/?utm_source=github), DeepL | [Equalang](https://equalang.com/?utm_source=github) preserves PPTX native tables/styling with adaptive font sizing and Excel formula retention; use DeepL for corporate Word/Office files with glossaries. |
 | **Academic Writing & Polishing** | Grammatical accuracy, formal scholarly register | Youdao Translate, QuillBot Translate, TranSmart | Youdao and QuillBot streamline translation into text refinement; TranSmart provides interactive human-in-the-loop editing. |
 | **Desktop Hotkey Lookup & Multi-Engine** | Global shortcuts, OCR, comparing multiple engines | Pot, Mate Translate | Pot allows simultaneous multi-engine queries and screenshot OCR across Windows, Mac, and Linux; Mate offers a native Mac menu-bar utility. |
 | **Terminal Scripting & Shell Pipelines** | CLI lookup, stdin/stdout pipelines, plain text scripts | Translate Shell, Argos Translate | Translate Shell provides lightweight CLI translation via remote engines; Argos Translate provides an offline Python CLI with local models. |
 | **Self-Hosted Private API & Offline Engines** | Air-gapped networks, no third-party data transmission | LibreTranslate, Argos Translate, SYSTRAN, Lingvanex | LibreTranslate provides a self-hosted HTTP API service and WebUI; Argos Translate powers it as an offline Python library/CLI engine with modular model packages; SYSTRAN and Lingvanex offer enterprise on-premise deployments. |
-| **Connected End-to-End Workflows** | Documents, streaming subtitles, web calls, and AI Agents | Equalang | Unified document processing, uncaptioned media subtitles, browser-based calls without app installation, and direct integration with Claude Code or WorkBuddy. |
+| **Connected End-to-End Workflows** | Documents, streaming subtitles, web calls, and AI Agents | [Equalang](https://equalang.com/?utm_source=github) | Unified document processing, uncaptioned media subtitles, browser-based calls without app installation, and direct integration with Claude Code or WorkBuddy. |
 
 ---
 
@@ -367,7 +367,7 @@ To maintain the practical utility and factual accuracy of this directory, entrie
 1. **Documented Features Over Marketing Claims**: Descriptions are derived from official documentation, user manuals, and confirmed repository source files. We do not claim perfect layout retention or universal format support.
 2. **Clear Architectural Boundaries**: We distinguish between translation frontends, self-hostable service layers, offline translation engines, and document layout libraries. Open-source code running locally is explicitly separated from true offline execution.
 3. **Task-Oriented Coverage**: Tools are grouped by practical suitability across workflows. We do not maintain subjective tier lists, quality rankings, or transient pricing figures.
-4. **Transparent Maintainer Identity**: This catalog is curated and maintained by the **Equalang** team. Equalang is presented alongside other tools with verifiable feature boundaries and transparent system requirements.
+4. **Transparent Maintainer Identity**: This catalog is curated and maintained by the **[Equalang](https://equalang.com/?utm_source=github)** team. [Equalang](https://equalang.com/?utm_source=github) is presented alongside other tools with verifiable feature boundaries and transparent system requirements.
 
 **Keywords**: translation tools, document translation, bilingual web reading, academic PDF translation, open-source translation, machine translation API, layout preservation, AI agents.
 
@@ -399,7 +399,7 @@ To maintain the practical utility and factual accuracy of this directory, entrie
 22. [Tencent TranSmart Product Introduction](https://transmart.qq.com/zh-CN/intro)
 23. [Caiyun Xiaoyi (LingoCloud) Document Help](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
 24. [QuillBot Translate & PDF Portal](https://quillbot.com/translate)
-25. [Equalang API Specifications & Documentation](https://equalang.com/llms-full.txt)
+25. [Equalang API Specifications & Documentation](https://equalang.com/llms-full.txt?utm_source=github)
 26. [PDFMathTranslate Official GitHub Repository](https://github.com/PDFMathTranslate/PDFMathTranslate)
 27. [PDFMathTranslate Advanced Options Documentation](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
 28. [BabelDOC Official GitHub Repository](https://github.com/funstory-ai/BabelDOC)
