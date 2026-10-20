@@ -77,11 +77,11 @@
 <p align="center"><img src="assets/apple-page@2x.webp" alt="Apple 官方支持页面的 iPhone 翻译指南" width="640"><br><sub>Apple 官方支持文档关于在 iPhone 上翻译字词与短语的指南页面</sub></p>
 
 ### 3. Microsoft Translator（微软翻译）
-[Microsoft Translator 个人移动应用](https://www.microsoft.com/en-us/translator/apps/features/)的特色在于其[多人跨设备会话（Multi-device Conversation）](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/)。发起人通过手机建立会话房间，参与者可用手机 App 或直接用电脑浏览器扫码加入，在各自设备上接收母语转写与翻译。其“演讲模式”（Presenter mode）可保持主讲人麦克风常开并静音听众，适合展会接待讲解或多语种小组讨论。
+[Microsoft Translator 个人移动应用](https://www.microsoft.com/en-us/translator/apps/features/)提供 100+ 种语言的文本翻译、实时语音翻译以及图像翻译。其多人跨设备会话功能（包括演讲模式、房间代码以及浏览器加入）现已停用，这在 [iOS App Store 发布说明](https://apps.apple.com/us/app/microsoft-translator/id1018949559) 和 [Microsoft Speech SDK 发布说明](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes) 中均有记录。
 
-App 内还提供离线短语手册和离线图片翻译，方便离线翻阅交通、餐饮等高频表达。需要说明的是，官方明确该个人 App 不支持直接对外部电影、视频片段或多媒体文件进行字幕翻译；多人语音会话本身也需要联网运行。
+该个人 App 不支持直接对外部电影、视频文件或媒体录音进行翻译。虽然 [Microsoft 的功能介绍](https://www.microsoft.com/en-us/translator/apps/features/) 列出了单设备分屏翻译、离线语言包和短语手册，但当前 App Store 的应用描述列出的是文本、语音及图像翻译，因此在依赖离线包或短语手册之前，请先在 App 内进行核实。
 
-<p align="center"><img src="assets/microsoft-page@2x.webp" alt="微软翻译官方应用功能介绍页" width="640"><br><sub>微软翻译应用官方功能页，展示多设备会话功能说明</sub></p>
+<p align="center"><img src="assets/microsoft-page@2x.webp" alt="微软翻译官方应用功能介绍页" width="640"><br><sub>该截图展示了2026年10月截取的微软功能页面，该页面仍包含多设备会话功能的说明，而微软现已停用该功能。</sub></p>
 
 ### 4. Papago
 由韩国 NAVER 打造的 [Papago](https://papago.naver.com/) 深度整合了中、英、日、韩等常用语言的出行与学习功能。在移动端，其[移动客户端](https://play.google.com/store/apps/details?hl=en-US&id=com.naver.labs.translator)除文本翻译外，提供面对面对话模式、拍摄课本段落生成笔记的 Edu 模式，以及快捷取词的 Papago Mini 悬浮窗，很适合赴韩自由行查阅交通与餐饮、双语轮流交谈。
@@ -346,7 +346,7 @@ SimplifyAI 旗下包含两个定位不同的产品站点：一是主打[复杂�
 | 任务场景 | 核心诉求 | 推荐工具 | 选用考量与注意事项 |
 | :--- | :--- | :--- | :--- |
 | **出境旅行与现场应急** | 拍照识图、双向对话、离线包与联网随身沟通 | Google Translate、Apple Translate、Papago、[Equalang](https://equalang.com/zh-CN?utm_source=github) | 弱网或完全离线优先提前下载 Google、Apple 或 Papago 的离线语言包（需注意设备要求）；网络畅通时，[Equalang](https://equalang.com/zh-CN?utm_source=github) 可在手机浏览器中直接拍照译图或进行免装面对面对话。 |
-| **多人展会与讲解导览** | 一对多讲解、跨设备多语种入会 | Microsoft Translator | 主讲人使用 App 开启演讲模式，听众可通过浏览器扫码免装客户端加入房间。 |
+| **多人展会与讲解导览** | 一对多讲解、跨设备多语种入会 | 本目录目前未列出适用于此场景的工具。 | 微软已于 2026 年停用多人跨设备会话功能及演讲模式（详情参见上文 Microsoft Translator 部分），这也是本目录目前在此处未列出任何工具的原因。 |
 | **日常外文网页深度阅读** | 原译对照排版、不离开当前页面 | 沉浸式翻译、[Equalang](https://equalang.com/zh-CN?utm_source=github)、Mate Translate | 追求逐段双语对照可选沉浸式翻译或 [Equalang](https://equalang.com/zh-CN?utm_source=github)；重视整页视图切换或划词归档至词句本可选 Mate。 |
 | **无字幕视频与直播观看** | 实时音频捕获生成字幕、直播消息翻译 | [Equalang](https://equalang.com/zh-CN?utm_source=github)、沉浸式翻译 | 两者均具备在受支持平台（如 YouTube）从音频生成字幕的能力；实际效果受播放平台、音频清晰度与加密限制影响。 |
 | **学术论文与科研 PDF** | 公式保留、多栏版面重构、原译对照排版 | PDFMathTranslate、BabelDOC、[Equalang](https://equalang.com/zh-CN?utm_source=github) | PDFMathTranslate 与 BabelDOC 提供开源本地处理流水线与双语 PDF 生成；[Equalang](https://equalang.com/zh-CN?utm_source=github) 提供网页端对照阅读与整篇文档解析。 |
@@ -380,31 +380,32 @@ SimplifyAI 旗下包含两个定位不同的产品站点：一是主打[复杂�
 3. [Apple 支持：iPhone 翻译 App 使用指南](https://support.apple.com/en-gb/guide/iphone/iphd74cb450f/ios)
 4. [Apple 支持：iOS 实时翻译与功能可用性](https://support.apple.com/en-us/123720)
 5. [Microsoft Translator 移动端功能介绍](https://www.microsoft.com/en-us/translator/apps/features/)
-6. [Microsoft Translator 多人跨设备会话帮助](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/)
-7. [NAVER Papago 官方主页与功能入口](https://papago.naver.com/)
-8. [iTranslate 翻译键盘与离线功能说明](https://itranslate.com/features/keyboard-translations/index.html)
-9. [Reverso Context 语境查询说明](https://context.reverso.net/translation/about)
-10. [Reverso Documents 在线文档校对主页](https://www.reverso.net/documents/en)
-11. [Yandex Translate 桌面与移动端帮助](https://yandex.com/support/translate-desktop/en/)
-12. [沉浸式翻译官方文档与功能说明](https://immersivetranslate.com/)
-13. [O.Translator 产品信息与格式支持](https://otranslator.com/en/product-info)
-14. [SimplifyAI 复杂文档工作台](https://simplifyai.cn/zh/translate)
-15. [SimplifyAI 通用文档翻译站点](https://translate.simplifyai.cn/)
-16. [Mate Translate 功能总览](https://matetranslate.com/en)
-17. [Lingvanex Windows 翻译客户端](https://lingvanex.com/products/windows-translator/)
-18. [Lingvanex 安全翻译软件](https://lingvanex.com/products/secure-translation-software/)
-19. [SYSTRAN Translate Pro 与企业部署方案](https://www.systransoft.com/translation-products/translate-pro/)
-20. [网易有道翻译官方网站](https://fanyi.youdao.com/)
-21. [百度翻译官方下载与视频翻译站点](https://fanyi.baidu.com/)
-22. [腾讯交互翻译 TranSmart 产品介绍](https://transmart.qq.com/zh-CN/intro)
-23. [彩云小译文档翻译使用说明](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
-24. [QuillBot Translate 官方说明与 PDF 翻译入口](https://quillbot.com/translate)
-25. [Equalang 官方接口文档与功能规范](https://equalang.com/llms-full.txt?utm_source=github)
-26. [PDFMathTranslate 官方开源仓库](https://github.com/PDFMathTranslate/PDFMathTranslate)
-27. [PDFMathTranslate 进阶参数与功能文档](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
-28. [BabelDOC 官方开源仓库](https://github.com/funstory-ai/BabelDOC)
-29. [LibreTranslate 官方开源仓库](https://github.com/LibreTranslate/LibreTranslate)
-30. [LibreTranslate 官方文档与 API 说明](https://docs.libretranslate.com/)
-31. [Argos Translate 官方开源仓库](https://github.com/argosopentech/argos-translate)
-32. [Pot 跨平台划词翻译官方开源仓库](https://github.com/pot-app/pot-desktop)
-33. [Translate Shell 官方开源仓库](https://github.com/soimort/translate-shell)
+6. [iOS App Store 上的 Microsoft Translator](https://apps.apple.com/us/app/microsoft-translator/id1018949559)
+7. [Microsoft Speech SDK 发布说明](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes)
+8. [NAVER Papago 官方主页与功能入口](https://papago.naver.com/)
+9. [iTranslate 翻译键盘与离线功能说明](https://itranslate.com/features/keyboard-translations/index.html)
+10. [Reverso Context 语境查询说明](https://context.reverso.net/translation/about)
+11. [Reverso Documents 在线文档校对主页](https://www.reverso.net/documents/en)
+12. [Yandex Translate 桌面与移动端帮助](https://yandex.com/support/translate-desktop/en/)
+13. [沉浸式翻译官方文档与功能说明](https://immersivetranslate.com/)
+14. [O.Translator 产品信息与格式支持](https://otranslator.com/en/product-info)
+15. [SimplifyAI 复杂文档工作台](https://simplifyai.cn/zh/translate)
+16. [SimplifyAI 通用文档翻译站点](https://translate.simplifyai.cn/)
+17. [Mate Translate 功能总览](https://matetranslate.com/en)
+18. [Lingvanex Windows 翻译客户端](https://lingvanex.com/products/windows-translator/)
+19. [Lingvanex 安全翻译软件](https://lingvanex.com/products/secure-translation-software/)
+20. [SYSTRAN Translate Pro 与企业部署方案](https://www.systransoft.com/translation-products/translate-pro/)
+21. [网易有道翻译官方网站](https://fanyi.youdao.com/)
+22. [百度翻译官方下载与视频翻译站点](https://fanyi.baidu.com/)
+23. [腾讯交互翻译 TranSmart 产品介绍](https://transmart.qq.com/zh-CN/intro)
+24. [彩云小译文档翻译使用说明](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
+25. [QuillBot Translate 官方说明与 PDF 翻译入口](https://quillbot.com/translate)
+26. [Equalang 官方接口文档与功能规范](https://equalang.com/llms-full.txt?utm_source=github)
+27. [PDFMathTranslate 官方开源仓库](https://github.com/PDFMathTranslate/PDFMathTranslate)
+28. [PDFMathTranslate 进阶参数与功能文档](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
+29. [BabelDOC 官方开源仓库](https://github.com/funstory-ai/BabelDOC)
+30. [LibreTranslate 官方开源仓库](https://github.com/LibreTranslate/LibreTranslate)
+31. [LibreTranslate 官方文档与 API 说明](https://docs.libretranslate.com/)
+32. [Argos Translate 官方开源仓库](https://github.com/argosopentech/argos-translate)
+33. [Pot 跨平台划词翻译官方开源仓库](https://github.com/pot-app/pot-desktop)
+34. [Translate Shell 官方开源仓库](https://github.com/soimort/translate-shell)

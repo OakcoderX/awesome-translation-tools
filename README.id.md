@@ -81,11 +81,11 @@ Dalam sistem operasi Apple, [fitur terjemahan langsung](https://support.apple.co
 
 <a id="microsoft-translator"></a>
 ### Microsoft Translator
-[Aplikasi seluler Microsoft Translator](https://www.microsoft.com/en-us/translator/apps/features/) menonjol berkat [fitur percakapan multi-perangkatnya](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/). Tuan rumah (host) memulai sesi di ponsel, dan peserta bergabung menggunakan aplikasi seluler atau peramban web desktop apa pun dengan memindai kode QR atau memasukkan kode. Setiap peserta menerima transkripsi langsung dan terjemahan dalam bahasa pilihan mereka. Mode Penyaji (Presenter mode) menjaga mikrofon tuan rumah tetap aktif sembari membisukan pendengar, sangat berguna untuk tur berpemandu dan perkuliahan.
+[Aplikasi seluler Microsoft Translator](https://www.microsoft.com/en-us/translator/apps/features/) menyediakan terjemahan teks dalam 100+ bahasa, terjemahan ucapan waktu nyata, dan terjemahan gambar. Fitur percakapan multi-perangkatnya (termasuk mode Penyaji (Presenter mode), kode ruangan, dan bergabung melalui peramban) telah dipensiunkan, sebagaimana didokumentasikan dalam [catatan rilis iOS App Store](https://apps.apple.com/us/app/microsoft-translator/id1018949559) dan [catatan rilis Microsoft Speech SDK](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes).
 
-Aplikasi ini juga menyertakan buku frasa yang dapat diunduh dan terjemahan foto secara luring untuk kebutuhan perjalanan berfrekuensi tinggi. Aplikasi konsumen ini tidak mendukung penerjemahan langsung film eksternal, file video, atau rekaman media, dan sesi suara multi-perangkat memerlukan koneksi internet aktif.
+Aplikasi konsumen ini tidak mendukung penerjemahan langsung film eksternal, file video, atau rekaman media. Meskipun [ikhtisar fitur Microsoft](https://www.microsoft.com/en-us/translator/apps/features/) mencantumkan terjemahan layar terbagi pada satu perangkat, paket bahasa luring, dan buku frasa, deskripsi App Store saat ini mencantumkan terjemahan teks, ucapan, dan gambar, jadi periksalah di dalam aplikasi sebelum mengandalkan paket luring atau buku frasa.
 
-<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Halaman fitur resmi Microsoft Translator" width="640"><br><sub>Halaman fitur Microsoft Translator yang menyoroti fitur percakapan multi-perangkat</sub></p>
+<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Halaman fitur resmi Microsoft Translator" width="640"><br><sub>Tangkapan layar menunjukkan halaman fitur Microsoft sebagaimana diambil pada Oktober 2026, dan halaman tersebut masih menjelaskan fitur percakapan multi-perangkat, yang telah dipensiunkan oleh Microsoft.</sub></p>
 
 <a id="papago"></a>
 ### Papago
@@ -385,7 +385,7 @@ Untuk membantu Anda memilih alat yang tepat untuk tugas Anda saat ini, lihat mat
 | Tugas Utama | Kebutuhan Inti | Rekomendasi Alat | Pertimbangan Utama |
 | :--- | :--- | :--- | :--- |
 | **Perjalanan & Dialog Lisan** | OCR foto, dialog dua arah, paket luring & alat perjalanan terhubung | Google Translate, Apple Translate, Papago, [Equalang](https://equalang.com/?utm_source=github) | Unduh paket bahasa luring di Google, Apple, atau Papago (perhatikan persyaratan perangkat keras) untuk area dengan sinyal lemah; saat terhubung internet, [Equalang](https://equalang.com/?utm_source=github) menyediakan terjemahan foto berbasis peramban dan dialog tatap muka tanpa perlu memasang aplikasi. |
-| **Lokakarya Multi-Perangkat** | Presentasi satu-ke-banyak, partisipasi multi-perangkat | Microsoft Translator | Tuan rumah menjalankan mode Penyaji melalui aplikasi seluler; peserta bergabung melalui peramban standar tanpa perlu memasang perangkat lunak. |
+| **Lokakarya Multi-Perangkat** | Presentasi satu-ke-banyak, partisipasi multi-perangkat | Direktori saat ini tidak mencantumkan alat apa pun untuk skenario ini. | Microsoft mempensiunkan fitur percakapan multi-perangkat dan mode Penyaji (Presenter mode) pada tahun 2026 (lihat bagian Microsoft Translator di atas untuk detailnya), dan inilah alasan mengapa direktori tidak mencantumkan alat apa pun di sini sekarang. |
 | **Membaca Web Mendalam** | Membaca di bawah paragraf tanpa berpindah halaman | Immersive Translate, [Equalang](https://equalang.com/?utm_source=github), Mate Translate | Gunakan Immersive Translate atau [Equalang](https://equalang.com/?utm_source=github) untuk paragraf dwibahasa; gunakan Mate Translate untuk beralih tampilan satu halaman penuh atau menyimpan kata ke Buku Frasa di Mac. |
 | **Video Tanpa Takarir & Siaran Langsung** | Pembuatan takarir waktu-nyata, kompatibilitas streaming | [Equalang](https://equalang.com/?utm_source=github), Immersive Translate | Kedua alat dapat menghasilkan takarir dari audio mentah pada platform yang didukung (seperti YouTube); bandingkan alur kerja ekstensi peramban untuk obrolan langsung dan penanganan streaming. |
 | **Makalah Akademis & PDF Ilmiah** | Pelestarian formula, struktur kolom, teks lintas halaman | PDFMathTranslate, BabelDOC, [Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslate dan BabelDOC menyediakan pipeline sumber terbuka dengan keluaran PDF ganda serta backend LLM lokal/cloud; [Equalang](https://equalang.com/?utm_source=github) menyediakan pembacaan berdampingan berbasis peramban dan pemeliharaan tata letak. |
@@ -421,31 +421,32 @@ Untuk menjaga kegunaan praktis dan keakuratan faktual dari direktori ini, setiap
 3. [Dukungan Apple: Panduan Aplikasi Terjemahkan untuk iPhone](https://support.apple.com/en-gb/guide/iphone/iphd74cb450f/ios)
 4. [Dukungan Apple: Terjemahan Langsung & Ketersediaan Fitur](https://support.apple.com/en-us/123720)
 5. [Fitur Seluler Microsoft Translator](https://www.microsoft.com/en-us/translator/apps/features/)
-6. [Bantuan Percakapan Multi-Perangkat Microsoft Translator](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/)
-7. [Portal Resmi NAVER Papago](https://papago.naver.com/)
-8. [Fitur Papan Ketik & Luring iTranslate](https://itranslate.com/features/keyboard-translations/index.html)
-9. [Informasi Penggunaan Reverso Context](https://context.reverso.net/translation/about)
-10. [Portal Dokumen Reverso](https://www.reverso.net/documents/en)
-11. [Bantuan Yandex Translate untuk Desktop & Seluler](https://yandex.com/support/translate-desktop/en/)
-12. [Dokumentasi Immersive Translate](https://immersivetranslate.com/)
-13. [Informasi Produk & Format O.Translator](https://otranslator.com/en/product-info)
-14. [Ruang Kerja Dokumen Kompleks SimplifyAI](https://simplifyai.cn/zh/translate)
-15. [Penerjemahan Dokumen Umum SimplifyAI](https://translate.simplifyai.cn/)
-16. [Fitur Mate Translate](https://matetranslate.com/en)
-17. [Penerjemah Windows Lingvanex](https://lingvanex.com/products/windows-translator/)
-18. [Secure Translation Software Lingvanex](https://lingvanex.com/products/secure-translation-software/)
-19. [SYSTRAN Translate Pro & Penerapan Perusahaan](https://www.systransoft.com/translation-products/translate-pro/)
-20. [NetEase Youdao Translate](https://fanyi.youdao.com/)
-21. [Portal Penerjemahan Video & Baidu Translate](https://fanyi.baidu.com/)
-22. [Pengenalan Produk Tencent TranSmart](https://transmart.qq.com/zh-CN/intro)
-23. [Bantuan Dokumen Caiyun Xiaoyi (LingoCloud)](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
-24. [Portal PDF & QuillBot Translate](https://quillbot.com/translate)
-25. [Spesifikasi API & Dokumentasi Equalang](https://equalang.com/llms-full.txt?utm_source=github)
-26. [Repositori GitHub Resmi PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
-27. [Dokumentasi Opsi Lanjutan PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
-28. [Repositori GitHub Resmi BabelDOC](https://github.com/funstory-ai/BabelDOC)
-29. [Repositori GitHub Resmi LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)
-30. [Dokumentasi & Panduan API LibreTranslate](https://docs.libretranslate.com/)
-31. [Repositori GitHub Resmi Argos Translate](https://github.com/argosopentech/argos-translate)
-32. [Repositori GitHub Resmi Terjemahan Desktop Pot](https://github.com/pot-app/pot-desktop)
-33. [Repositori GitHub Resmi Translate Shell](https://github.com/soimort/translate-shell)
+6. [Microsoft Translator di iOS App Store](https://apps.apple.com/us/app/microsoft-translator/id1018949559)
+7. [Catatan Rilis Microsoft Speech SDK](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes)
+8. [Portal Resmi NAVER Papago](https://papago.naver.com/)
+9. [Fitur Papan Ketik & Luring iTranslate](https://itranslate.com/features/keyboard-translations/index.html)
+10. [Informasi Penggunaan Reverso Context](https://context.reverso.net/translation/about)
+11. [Portal Dokumen Reverso](https://www.reverso.net/documents/en)
+12. [Bantuan Yandex Translate untuk Desktop & Seluler](https://yandex.com/support/translate-desktop/en/)
+13. [Dokumentasi Immersive Translate](https://immersivetranslate.com/)
+14. [Informasi Produk & Format O.Translator](https://otranslator.com/en/product-info)
+15. [Ruang Kerja Dokumen Kompleks SimplifyAI](https://simplifyai.cn/zh/translate)
+16. [Penerjemahan Dokumen Umum SimplifyAI](https://translate.simplifyai.cn/)
+17. [Fitur Mate Translate](https://matetranslate.com/en)
+18. [Penerjemah Windows Lingvanex](https://lingvanex.com/products/windows-translator/)
+19. [Secure Translation Software Lingvanex](https://lingvanex.com/products/secure-translation-software/)
+20. [SYSTRAN Translate Pro & Penerapan Perusahaan](https://www.systransoft.com/translation-products/translate-pro/)
+21. [NetEase Youdao Translate](https://fanyi.youdao.com/)
+22. [Portal Penerjemahan Video & Baidu Translate](https://fanyi.baidu.com/)
+23. [Pengenalan Produk Tencent TranSmart](https://transmart.qq.com/zh-CN/intro)
+24. [Bantuan Dokumen Caiyun Xiaoyi (LingoCloud)](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
+25. [Portal PDF & QuillBot Translate](https://quillbot.com/translate)
+26. [Spesifikasi API & Dokumentasi Equalang](https://equalang.com/llms-full.txt?utm_source=github)
+27. [Repositori GitHub Resmi PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
+28. [Dokumentasi Opsi Lanjutan PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
+29. [Repositori GitHub Resmi BabelDOC](https://github.com/funstory-ai/BabelDOC)
+30. [Repositori GitHub Resmi LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)
+31. [Dokumentasi & Panduan API LibreTranslate](https://docs.libretranslate.com/)
+32. [Repositori GitHub Resmi Argos Translate](https://github.com/argosopentech/argos-translate)
+33. [Repositori GitHub Resmi Terjemahan Desktop Pot](https://github.com/pot-app/pot-desktop)
+34. [Repositori GitHub Resmi Translate Shell](https://github.com/soimort/translate-shell)

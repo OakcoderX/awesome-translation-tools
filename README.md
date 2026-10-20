@@ -77,11 +77,11 @@ Within the Apple operating system, [live translation features](https://support.a
 <p align="center"><img src="assets/apple-page@2x.webp" alt="Apple Support guide for translating on iPhone" width="640"><br><sub>Apple Support guide page for translating words and phrases on iPhone</sub></p>
 
 ### Microsoft Translator
-The [Microsoft Translator mobile app](https://www.microsoft.com/en-us/translator/apps/features/) is distinguished by its [multi-device conversation feature](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/). A host initiates a session on mobile, and participants join using the mobile app or any desktop web browser by scanning a QR code or entering a code. Each participant receives live transcription and translation in their chosen language. Its Presenter mode keeps the host's microphone open while muting listeners, useful for guided tours and lectures.
+The [Microsoft Translator mobile app](https://www.microsoft.com/en-us/translator/apps/features/) provides text translation in 100+ languages, real-time speech translation, and image translation. Its multi-device conversation feature (including Presenter mode, room codes, and browser joining) has been retired, as documented in the [iOS App Store release notes](https://apps.apple.com/us/app/microsoft-translator/id1018949559) and the [Microsoft Speech SDK release notes](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes).
 
-The app also includes downloadable phrasebooks and offline photo translation for high-frequency travel queries. The consumer app does not support translating external movies, video files, or media recordings directly, and multi-device voice sessions require an active internet connection.
+The consumer app does not support translating external movies, video files, or media recordings directly. While [Microsoft's feature overview](https://www.microsoft.com/en-us/translator/apps/features/) lists single-device split-screen translation, offline language packs, and a phrasebook, the current App Store description lists text, speech, and image translation, so check inside the app before relying on offline packs or the phrasebook.
 
-<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Microsoft Translator official features page" width="640"><br><sub>Microsoft Translator features page highlighting the multi-device conversation feature</sub></p>
+<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Microsoft Translator official features page" width="640"><br><sub>The screenshot shows Microsoft's features page as captured in October 2026, and the page still describes the multi-device conversation feature, which Microsoft has retired.</sub></p>
 
 ### Papago
 Developed by NAVER in South Korea, [Papago](https://papago.naver.com/) provides practical features for East Asian languages including Korean, English, Japanese, and Chinese. On mobile devices, its [application](https://play.google.com/store/apps/details?hl=en-US&id=com.naver.labs.translator) offers face-to-face dialogue, an Edu mode for creating study notes from printed text, and the Papago Mini floating window, making it handy for dining, transit queries, and study in Korea.
@@ -346,7 +346,7 @@ To help you choose the right tool for your current task, refer to this task matr
 | Primary Task | Core Requirement | Recommended Tools to Try | Key Considerations |
 | :--- | :--- | :--- | :--- |
 | **Travel & Spoken Dialogue** | Photo OCR, two-way dialogue, offline packs & connected travel tools | Google Translate, Apple Translate, Papago, [Equalang](https://equalang.com/?utm_source=github) | Download offline language packs in Google, Apple, or Papago (noting hardware requirements) for weak-signal areas; when connected, [Equalang](https://equalang.com/?utm_source=github) provides browser-based photo translation and face-to-face dialogue without installing apps. |
-| **Multi-Device Workshops** | One-to-many presentations, multi-device participation | Microsoft Translator | Host runs Presenter mode via mobile app; attendees join via standard browser without installing software. |
+| **Multi-Device Workshops** | One-to-many presentations, multi-device participation | The directory currently lists no tool for this scenario. | Microsoft retired its multi-device conversation feature and Presenter mode in 2026 (see the Microsoft Translator section above for details), and this is why the directory lists no tool here now. |
 | **In-Depth Web Reading** | Under-paragraph reading without leaving the page | Immersive Translate, [Equalang](https://equalang.com/?utm_source=github), Mate Translate | Use Immersive Translate or [Equalang](https://equalang.com/?utm_source=github) for bilingual paragraphs; use Mate Translate for switching full-page views or saving words to Phrasebooks on Mac. |
 | **Uncaptioned Video & Live Streams** | Real-time subtitle generation, streaming compatibility | [Equalang](https://equalang.com/?utm_source=github), Immersive Translate | Both tools can generate subtitles from raw audio on supported platforms (like YouTube); compare browser extension workflows for live chat and stream handling. |
 | **Academic Papers & Scientific PDFs** | Formula preservation, column structures, cross-page text | PDFMathTranslate, BabelDOC, [Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslate and BabelDOC provide open-source pipelines with dual-PDF output and local/cloud LLM backends; [Equalang](https://equalang.com/?utm_source=github) provides browser-based side-by-side reading and layout preservation. |
@@ -380,31 +380,32 @@ To maintain the practical utility and factual accuracy of this directory, entrie
 3. [Apple Support: Translate App Guide for iPhone](https://support.apple.com/en-gb/guide/iphone/iphd74cb450f/ios)
 4. [Apple Support: Live Translation & Feature Availability](https://support.apple.com/en-us/123720)
 5. [Microsoft Translator Mobile Features](https://www.microsoft.com/en-us/translator/apps/features/)
-6. [Microsoft Translator Multi-Device Conversation Help](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/)
-7. [NAVER Papago Official Portal](https://papago.naver.com/)
-8. [iTranslate Keyboard & Offline Features](https://itranslate.com/features/keyboard-translations/index.html)
-9. [Reverso Context Usage Information](https://context.reverso.net/translation/about)
-10. [Reverso Documents Portal](https://www.reverso.net/documents/en)
-11. [Yandex Translate Help for Desktop & Mobile](https://yandex.com/support/translate-desktop/en/)
-12. [Immersive Translate Documentation](https://immersivetranslate.com/)
-13. [O.Translator Product Information & Formats](https://otranslator.com/en/product-info)
-14. [SimplifyAI Complex Document Workbench](https://simplifyai.cn/zh/translate)
-15. [SimplifyAI General Document Translation](https://translate.simplifyai.cn/)
-16. [Mate Translate Features](https://matetranslate.com/en)
-17. [Lingvanex Windows Translator](https://lingvanex.com/products/windows-translator/)
-18. [Lingvanex Secure Translation Software](https://lingvanex.com/products/secure-translation-software/)
-19. [SYSTRAN Translate Pro & Enterprise Deployments](https://www.systransoft.com/translation-products/translate-pro/)
-20. [NetEase Youdao Translate](https://fanyi.youdao.com/)
-21. [Baidu Translate & Video Translation Portal](https://fanyi.baidu.com/)
-22. [Tencent TranSmart Product Introduction](https://transmart.qq.com/zh-CN/intro)
-23. [Caiyun Xiaoyi (LingoCloud) Document Help](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
-24. [QuillBot Translate & PDF Portal](https://quillbot.com/translate)
-25. [Equalang API Specifications & Documentation](https://equalang.com/llms-full.txt?utm_source=github)
-26. [PDFMathTranslate Official GitHub Repository](https://github.com/PDFMathTranslate/PDFMathTranslate)
-27. [PDFMathTranslate Advanced Options Documentation](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
-28. [BabelDOC Official GitHub Repository](https://github.com/funstory-ai/BabelDOC)
-29. [LibreTranslate Official GitHub Repository](https://github.com/LibreTranslate/LibreTranslate)
-30. [LibreTranslate Documentation & API Guide](https://docs.libretranslate.com/)
-31. [Argos Translate Official GitHub Repository](https://github.com/argosopentech/argos-translate)
-32. [Pot Desktop Translation Official GitHub Repository](https://github.com/pot-app/pot-desktop)
-33. [Translate Shell Official GitHub Repository](https://github.com/soimort/translate-shell)
+6. [Microsoft Translator on the iOS App Store](https://apps.apple.com/us/app/microsoft-translator/id1018949559)
+7. [Microsoft Speech SDK Release Notes](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes)
+8. [NAVER Papago Official Portal](https://papago.naver.com/)
+9. [iTranslate Keyboard & Offline Features](https://itranslate.com/features/keyboard-translations/index.html)
+10. [Reverso Context Usage Information](https://context.reverso.net/translation/about)
+11. [Reverso Documents Portal](https://www.reverso.net/documents/en)
+12. [Yandex Translate Help for Desktop & Mobile](https://yandex.com/support/translate-desktop/en/)
+13. [Immersive Translate Documentation](https://immersivetranslate.com/)
+14. [O.Translator Product Information & Formats](https://otranslator.com/en/product-info)
+15. [SimplifyAI Complex Document Workbench](https://simplifyai.cn/zh/translate)
+16. [SimplifyAI General Document Translation](https://translate.simplifyai.cn/)
+17. [Mate Translate Features](https://matetranslate.com/en)
+18. [Lingvanex Windows Translator](https://lingvanex.com/products/windows-translator/)
+19. [Lingvanex Secure Translation Software](https://lingvanex.com/products/secure-translation-software/)
+20. [SYSTRAN Translate Pro & Enterprise Deployments](https://www.systransoft.com/translation-products/translate-pro/)
+21. [NetEase Youdao Translate](https://fanyi.youdao.com/)
+22. [Baidu Translate & Video Translation Portal](https://fanyi.baidu.com/)
+23. [Tencent TranSmart Product Introduction](https://transmart.qq.com/zh-CN/intro)
+24. [Caiyun Xiaoyi (LingoCloud) Document Help](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
+25. [QuillBot Translate & PDF Portal](https://quillbot.com/translate)
+26. [Equalang API Specifications & Documentation](https://equalang.com/llms-full.txt?utm_source=github)
+27. [PDFMathTranslate Official GitHub Repository](https://github.com/PDFMathTranslate/PDFMathTranslate)
+28. [PDFMathTranslate Advanced Options Documentation](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
+29. [BabelDOC Official GitHub Repository](https://github.com/funstory-ai/BabelDOC)
+30. [LibreTranslate Official GitHub Repository](https://github.com/LibreTranslate/LibreTranslate)
+31. [LibreTranslate Documentation & API Guide](https://docs.libretranslate.com/)
+32. [Argos Translate Official GitHub Repository](https://github.com/argosopentech/argos-translate)
+33. [Pot Desktop Translation Official GitHub Repository](https://github.com/pot-app/pot-desktop)
+34. [Translate Shell Official GitHub Repository](https://github.com/soimort/translate-shell)

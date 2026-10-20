@@ -81,11 +81,11 @@ Apple 운영체제 생태계 내에서 [실시간 번역 기능](https://support
 
 <a id="microsoft-translator"></a>
 ### Microsoft Translator
-[Microsoft Translator 모바일 앱](https://www.microsoft.com/en-us/translator/apps/features/)의 대표적인 특징은 [다자간 다중 기기 대화 기능(multi-device conversation)](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/)입니다. 호스트가 모바일에서 대화 세션을 생성하면, 참여자는 모바일 앱이나 데스크톱 웹 브라우저에서 QR 코드를 스캔하거나 참여 코드를 입력하여 접속할 수 있습니다. 각 참여자는 자신이 선택한 언어로 실시간 전사 및 번역을 확인합니다. 발표자 모드(Presenter mode)는 호스트의 마이크를 계속 열어두고 청중을 음소거할 수 있어 가이드 투어나 강연에 유용합니다.
+[Microsoft Translator 모바일 앱](https://www.microsoft.com/en-us/translator/apps/features/)은 100+개 언어의 텍스트 번역, 실시간 음성 번역 및 이미지 번역을 제공합니다. 다중 기기 대화 기능(발표자 모드(Presenter mode), 참여 코드, 브라우저 접속 포함)은 [iOS App Store 릴리스 노트](https://apps.apple.com/us/app/microsoft-translator/id1018949559) 및 [Microsoft Speech SDK 릴리스 노트](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes)에 명시된 바와 같이 서비스가 종료되었습니다.
 
-또한 빈번하게 쓰이는 여행 표현을 위한 다운로드형 회화집과 오프라인 사진 번역 기능도 포함되어 있습니다. 일반 사용자용 앱은 외부 영화, 동영상 파일 또는 미디어 녹음본의 직접 번역을 지원하지 않으며, 다중 기기 음성 대화 세션은 인터넷 연결이 반드시 필요합니다.
+일반 사용자용 앱은 외부 영화, 동영상 파일 또는 미디어 녹음본의 직접 번역을 지원하지 않습니다. [Microsoft 기능 안내](https://www.microsoft.com/en-us/translator/apps/features/)에는 단일 기기 화면 분할 번역, 오프라인 언어 팩, 회화집이 명시되어 있지만, 현재 App Store 설명에는 텍스트, 음성, 이미지 번역이 기재되어 있으므로 오프라인 팩이나 회화집에 의존하기 전에 앱 내에서 직접 확인하시기 바랍니다.
 
-<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Microsoft Translator 공식 기능 소개 페이지" width="640"><br><sub>다중 기기 대화 기능을 강조한 Microsoft Translator 공식 기능 페이지</sub></p>
+<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Microsoft Translator 공식 기능 소개 페이지" width="640"><br><sub>이 스크린샷은 2026년 10월에 캡처된 Microsoft 기능 페이지를 보여주며, 해당 페이지에는 Microsoft가 서비스를 종료한 다중 기기 대화 기능이 여전히 설명되어 있습니다.</sub></p>
 
 <a id="papago"></a>
 ### Papago
@@ -385,7 +385,7 @@ SYSTRAN은 기업 및 기관의 전문 현지화 요구를 겨냥합니다. 클�
 | 주요 작업 | 핵심 요구 사항 | 추천 도구 | 주요 고려 사항 |
 | :--- | :--- | :--- | :--- |
 | **여행 및 구두 대화** | 사진 OCR, 양방향 대화, 오프라인 팩 및 온라인 여행 도구 | Google Translate, Apple Translate, Papago, [Equalang](https://equalang.com/?utm_source=github) | 신호가 약한 지역에 대비해 Google, Apple 또는 Papago(하드웨어 요구 사양 확인 필요)에서 오프라인 언어 팩을 다운로드하세요. 인터넷이 연결된 환경이라면 [Equalang](https://equalang.com/?utm_source=github)을 통해 앱 설치 없이 브라우저 기반 사진 번역과 대면 대화를 이용할 수 있습니다. |
-| **다중 기기 워크숍** | 일대다 발표, 여러 기기 동시 참여 | Microsoft Translator | 호스트는 모바일 앱에서 발표자 모드(Presenter mode)를 실행하고, 참석자는 소프트웨어 설치 없이 표준 브라우저를 통해 접속합니다. |
+| **다중 기기 워크숍** | 일대다 발표, 여러 기기 동시 참여 | 현재 본 디렉터리에는 이 시나리오에 해당하는 도구가 등록되어 있지 않습니다. | Microsoft는 2026년에 다중 기기 대화 기능과 발표자 모드(Presenter mode)를 종료했으며(자세한 내용은 위 Microsoft Translator 섹션 참조), 이러한 이유로 현재 본 디렉터리에서는 여기에 도구를 안내하지 않습니다. |
 | **심층 웹 읽기** | 페이지를 벗어나지 않는 단락 아래 대역 읽기 | Immersive Translate, [Equalang](https://equalang.com/?utm_source=github), Mate Translate | 이중 언어 단락 대역에는 Immersive Translate 또는 [Equalang](https://equalang.com/?utm_source=github)을 사용하세요. 전체 페이지 뷰 전환이나 Mac 환경의 단어장 저장이 필요하다면 Mate Translate를 활용하세요. |
 | **무자막 영상 및 라이브 스트림** | 실시간 자막 생성, 스트리밍 호환성 | [Equalang](https://equalang.com/?utm_source=github), Immersive Translate | 두 도구 모두 지원되는 플랫폼(YouTube 등)에서 원본 오디오로부터 자막을 생성할 수 있습니다. 라이브 채팅 처리 및 스트림 대응 방식을 비교해 보세요. |
 | **학술 논문 및 과학 PDF** | 수식 보존, 다단 구조, 페이지 경계 텍스트 연결 | PDFMathTranslate, BabelDOC, [Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslate와 BabelDOC은 이중 언어 대역 PDF 출력과 로컬/클라우드 LLM 백엔드를 지원하는 오픈소스 파이프라인을 제공합니다. [Equalang](https://equalang.com/?utm_source=github)은 브라우저 기반 대역 읽기 및 레이아웃 보존을 지원합니다. |
@@ -421,31 +421,32 @@ SYSTRAN은 기업 및 기관의 전문 현지화 요구를 겨냥합니다. 클�
 3. [Apple 고객지원: iPhone 번역 앱 가이드](https://support.apple.com/en-gb/guide/iphone/iphd74cb450f/ios)
 4. [Apple 고객지원: 실시간 번역 및 기능 지원 현황](https://support.apple.com/en-us/123720)
 5. [Microsoft Translator 모바일 기능 안내](https://www.microsoft.com/en-us/translator/apps/features/)
-6. [Microsoft Translator 다중 기기 대화 도움말](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/)
-7. [NAVER Papago 공식 포털](https://papago.naver.com/)
-8. [iTranslate 키보드 및 오프라인 기능](https://itranslate.com/features/keyboard-translations/index.html)
-9. [Reverso Context 사용 정보](https://context.reverso.net/translation/about)
-10. [Reverso Documents 포털](https://www.reverso.net/documents/en)
-11. [Yandex Translate 데스크톱 및 모바일 도움말](https://yandex.com/support/translate-desktop/en/)
-12. [Immersive Translate 공식 문서](https://immersivetranslate.com/)
-13. [O.Translator 제품 정보 및 지원 형식](https://otranslator.com/en/product-info)
-14. [SimplifyAI 복합 문서 워크벤치](https://simplifyai.cn/zh/translate)
-15. [SimplifyAI 일반 문서 번역](https://translate.simplifyai.cn/)
-16. [Mate Translate 기능 안내](https://matetranslate.com/en)
-17. [Lingvanex Windows 번역기](https://lingvanex.com/products/windows-translator/)
-18. [Lingvanex 보안 번역 소프트웨어](https://lingvanex.com/products/secure-translation-software/)
-19. [SYSTRAN Translate Pro 및 엔터프라이즈 배포](https://www.systransoft.com/translation-products/translate-pro/)
-20. [NetEase Youdao 번역](https://fanyi.youdao.com/)
-21. [바이두 번역 및 동영상 번역 포털](https://fanyi.baidu.com/)
-22. [Tencent TranSmart 제품 소개](https://transmart.qq.com/zh-CN/intro)
-23. [Caiyun Xiaoyi(LingoCloud) 문서 도움말](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
-24. [QuillBot Translate 및 PDF 포털](https://quillbot.com/translate)
-25. [Equalang API 사양 및 문서](https://equalang.com/llms-full.txt?utm_source=github)
-26. [PDFMathTranslate 공식 GitHub 저장소](https://github.com/PDFMathTranslate/PDFMathTranslate)
-27. [PDFMathTranslate 고급 옵션 문서](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
-28. [BabelDOC 공식 GitHub 저장소](https://github.com/funstory-ai/BabelDOC)
-29. [LibreTranslate 공식 GitHub 저장소](https://github.com/LibreTranslate/LibreTranslate)
-30. [LibreTranslate 공식 문서 및 API 가이드](https://docs.libretranslate.com/)
-31. [Argos Translate 공식 GitHub 저장소](https://github.com/argosopentech/argos-translate)
-32. [Pot 데스크톱 번역 공식 GitHub 저장소](https://github.com/pot-app/pot-desktop)
-33. [Translate Shell 공식 GitHub 저장소](https://github.com/soimort/translate-shell)
+6. [iOS App Store의 Microsoft Translator](https://apps.apple.com/us/app/microsoft-translator/id1018949559)
+7. [Microsoft Speech SDK 릴리스 노트](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes)
+8. [NAVER Papago 공식 포털](https://papago.naver.com/)
+9. [iTranslate 키보드 및 오프라인 기능](https://itranslate.com/features/keyboard-translations/index.html)
+10. [Reverso Context 사용 정보](https://context.reverso.net/translation/about)
+11. [Reverso Documents 포털](https://www.reverso.net/documents/en)
+12. [Yandex Translate 데스크톱 및 모바일 도움말](https://yandex.com/support/translate-desktop/en/)
+13. [Immersive Translate 공식 문서](https://immersivetranslate.com/)
+14. [O.Translator 제품 정보 및 지원 형식](https://otranslator.com/en/product-info)
+15. [SimplifyAI 복합 문서 워크벤치](https://simplifyai.cn/zh/translate)
+16. [SimplifyAI 일반 문서 번역](https://translate.simplifyai.cn/)
+17. [Mate Translate 기능 안내](https://matetranslate.com/en)
+18. [Lingvanex Windows 번역기](https://lingvanex.com/products/windows-translator/)
+19. [Lingvanex 보안 번역 소프트웨어](https://lingvanex.com/products/secure-translation-software/)
+20. [SYSTRAN Translate Pro 및 엔터프라이즈 배포](https://www.systransoft.com/translation-products/translate-pro/)
+21. [NetEase Youdao 번역](https://fanyi.youdao.com/)
+22. [바이두 번역 및 동영상 번역 포털](https://fanyi.baidu.com/)
+23. [Tencent TranSmart 제품 소개](https://transmart.qq.com/zh-CN/intro)
+24. [Caiyun Xiaoyi(LingoCloud) 문서 도움말](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
+25. [QuillBot Translate 및 PDF 포털](https://quillbot.com/translate)
+26. [Equalang API 사양 및 문서](https://equalang.com/llms-full.txt?utm_source=github)
+27. [PDFMathTranslate 공식 GitHub 저장소](https://github.com/PDFMathTranslate/PDFMathTranslate)
+28. [PDFMathTranslate 고급 옵션 문서](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
+29. [BabelDOC 공식 GitHub 저장소](https://github.com/funstory-ai/BabelDOC)
+30. [LibreTranslate 공식 GitHub 저장소](https://github.com/LibreTranslate/LibreTranslate)
+31. [LibreTranslate 공식 문서 및 API 가이드](https://docs.libretranslate.com/)
+32. [Argos Translate 공식 GitHub 저장소](https://github.com/argosopentech/argos-translate)
+33. [Pot 데스크톱 번역 공식 GitHub 저장소](https://github.com/pot-app/pot-desktop)
+34. [Translate Shell 공식 GitHub 저장소](https://github.com/soimort/translate-shell)

@@ -81,11 +81,11 @@ Apple ऑपरेटिंग सिस्टम के भीतर, [ला�
 
 <a id="microsoft-translator"></a>
 ### Microsoft Translator
-[Microsoft Translator मोबाइल ऐप](https://www.microsoft.com/en-us/translator/apps/features/) अपनी [मल्टी-डिवाइस वार्तालाप सुविधा](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/) के लिए जाना जाता है। एक होस्ट मोबाइल पर सत्र शुरू करता है, और प्रतिभागी मोबाइल ऐप या किसी भी डेस्कटॉप वेब ब्राउज़र का उपयोग करके QR कोड स्कैन करके या कोड दर्ज करके जुड़ते हैं। प्रत्येक प्रतिभागी को उनकी चुनी हुई भाषा में लाइव ट्रांसक्रिप्शन और अनुवाद प्राप्त होता है। इसका प्रस्तोता (Presenter) मोड श्रोताओं को म्यूट रखते हुए होस्ट का माइक्रोफ़ोन खुला रखता है, जो निर्देशित पर्यटन (guided tours) और व्याख्यानों के लिए उपयोगी है।
+[Microsoft Translator मोबाइल ऐप](https://www.microsoft.com/en-us/translator/apps/features/) 100+ भाषाओं में टेक्स्ट अनुवाद, रीयल-टाइम स्पीच अनुवाद और इमेज अनुवाद प्रदान करता है। इसकी मल्टी-डिवाइस वार्तालाप सुविधा (जिसमें प्रस्तोता (Presenter) मोड, रूम कोड और ब्राउज़र से जुड़ना शामिल है) को बंद कर दिया गया है, जैसा कि [iOS App Store रिलीज़ नोट्स](https://apps.apple.com/us/app/microsoft-translator/id1018949559) और [Microsoft Speech SDK रिलीज़ नोट्स](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes) में प्रलेखित है।
 
-ऐप में उच्च-आवृत्ति यात्रा प्रश्नों के लिए डाउनलोड करने योग्य वाक्यांश-पुस्तिकाएं और ऑफ़लाइन फ़ोटो अनुवाद भी शामिल हैं। उपभोक्ता ऐप सीधे बाहरी फिल्मों, वीडियो फ़ाइलों या मीडिया रिकॉर्डिंग के अनुवाद का समर्थन नहीं करता है, और मल्टी-डिवाइस वॉयस सत्रों के लिए सक्रिय इंटरनेट कनेक्शन की आवश्यकता होती है।
+उपभोक्ता ऐप सीधे बाहरी फिल्मों, वीडियो फ़ाइलों या मीडिया रिकॉर्डिंग के अनुवाद का समर्थन नहीं करता है। जबकि [Microsoft का सुविधा अवलोकन](https://www.microsoft.com/en-us/translator/apps/features/) सिंगल-डिवाइस स्प्लिट-स्क्रीन अनुवाद, ऑफ़लाइन भाषा पैक और एक वाक्यांश-पुस्तिका को सूचीबद्ध करता है, वर्तमान App Store विवरण टेक्स्ट, स्पीच और इमेज अनुवाद को सूचीबद्ध करता है, इसलिए ऑफ़लाइन पैक या वाक्यांश-पुस्तिका पर निर्भर रहने से पहले ऐप के अंदर जांच लें।
 
-<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Microsoft Translator आधिकारिक सुविधाएँ पृष्ठ" width="640"><br><sub>मल्टी-डिवाइस वार्तालाप सुविधा को रेखांकित करने वाला Microsoft Translator सुविधा पृष्ठ</sub></p>
+<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Microsoft Translator आधिकारिक सुविधाएँ पृष्ठ" width="640"><br><sub>स्क्रीनशॉट में अक्टूबर 2026 में कैप्चर किया गया Microsoft का सुविधा पृष्ठ दिखाया गया है, और यह पृष्ठ अभी भी मल्टी-डिवाइस वार्तालाप सुविधा का वर्णन करता है, जिसे Microsoft ने बंद कर दिया है।</sub></p>
 
 <a id="papago"></a>
 ### Papago
@@ -385,7 +385,7 @@ Tencent AI Lab द्वारा विकसित, [TranSmart](https://transm
 | प्राथमिक कार्य | मुख्य आवश्यकता | आज़माने के लिए अनुशंसित उपकरण | मुख्य विचार |
 | :--- | :--- | :--- | :--- |
 | **यात्रा और मौखिक संवाद** | फ़ोटो OCR, दो-तरफ़ा संवाद, ऑफ़लाइन पैक और कनेक्टेड यात्रा उपकरण | Google Translate, Apple Translate, Papago, [Equalang](https://equalang.com/?utm_source=github) | कम सिग्नल वाले क्षेत्रों के लिए Google, Apple, या Papago में ऑफ़लाइन भाषा पैक डाउनलोड करें (हार्डवेयर आवश्यकताओं को ध्यान में रखते हुए); कनेक्ट होने पर, [Equalang](https://equalang.com/?utm_source=github) ऐप्स इंस्टॉल किए बिना ब्राउज़र-आधारित फ़ोटो अनुवाद और आमने-सामने संवाद प्रदान करता है। |
-| **मल्टी-डिवाइस कार्यशालाएं** | एक-से-अनेक प्रस्तुतियां, मल्टी-डिवाइस भागीदारी | Microsoft Translator | होस्ट मोबाइल ऐप के माध्यम से प्रस्तोता (Presenter) मोड चलाता है; उपस्थित लोग सॉफ़्टवेयर इंस्टॉल किए बिना मानक ब्राउज़र के माध्यम से जुड़ते हैं। |
+| **मल्टी-डिवाइस कार्यशालाएं** | एक-से-अनेक प्रस्तुतियां, मल्टी-डिवाइस भागीदारी | निर्देशिका वर्तमान में इस परिदृश्य के लिए किसी भी उपकरण को सूचीबद्ध नहीं करती है। | Microsoft ने 2026 में अपनी मल्टी-डिवाइस वार्तालाप सुविधा और प्रस्तोता (Presenter) मोड को बंद कर दिया (विवरण के लिए ऊपर Microsoft Translator अनुभाग देखें), और यही कारण है कि निर्देशिका अब यहाँ किसी उपकरण को सूचीबद्ध नहीं करती है। |
 | **गहन वेब पठन** | पृष्ठ छोड़े बिना अनुच्छेद के नीचे पठन | Immersive Translate, [Equalang](https://equalang.com/?utm_source=github), Mate Translate | द्विभाषी अनुच्छेदों के लिए Immersive Translate या [Equalang](https://equalang.com/?utm_source=github) का उपयोग करें; पूर्ण-पृष्ठ दृश्यों को स्विच करने या Mac पर वाक्यांश-पुस्तिकाओं में शब्दों को सहेजने के लिए Mate Translate का उपयोग करें। |
 | **बिना सबटाइटल वाले वीडियो और लाइव स्ट्रीम** | रीयल-टाइम सबटाइटल निर्माण, स्ट्रीमिंग संगतता | [Equalang](https://equalang.com/?utm_source=github), Immersive Translate | दोनों उपकरण समर्थित प्लेटफ़ॉर्मों (जैसे YouTube) पर रॉ ऑडियो से सबटाइटल उत्पन्न कर सकते हैं; लाइव चैट और स्ट्रीम हैंडलिंग के लिए ब्राउज़र एक्सटेंशन कार्यप्रवाहों की तुलना करें। |
 | **अकादमिक शोधपत्र और वैज्ञानिक PDF** | सूत्र संरक्षण, कॉलम संरचनाएं, क्रॉस-पेज टेक्स्ट | PDFMathTranslate, BabelDOC, [Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslate और BabelDOC दोहरे-PDF आउटपुट और स्थानीय/क्लाउड LLM बैकएंड के साथ ओपन-सोर्स पाइपलाइन प्रदान करते हैं; [Equalang](https://equalang.com/?utm_source=github) ब्राउज़र-आधारित अगल-बगल पठन और लेआउट संरक्षण प्रदान करता है। |
@@ -421,31 +421,32 @@ Tencent AI Lab द्वारा विकसित, [TranSmart](https://transm
 3. [Apple Support: iPhone के लिए Translate ऐप गाइड](https://support.apple.com/en-gb/guide/iphone/iphd74cb450f/ios)
 4. [Apple Support: लाइव अनुवाद और सुविधा उपलब्धता](https://support.apple.com/en-us/123720)
 5. [Microsoft Translator मोबाइल सुविधाएँ](https://www.microsoft.com/en-us/translator/apps/features/)
-6. [Microsoft Translator मल्टी-डिवाइस वार्तालाप सहायता](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/)
-7. [NAVER Papago आधिकारिक पोर्टल](https://papago.naver.com/)
-8. [iTranslate कीबोर्ड और ऑफ़लाइन सुविधाएँ](https://itranslate.com/features/keyboard-translations/index.html)
-9. [Reverso Context उपयोग संबंधी जानकारी](https://context.reverso.net/translation/about)
-10. [Reverso Documents पोर्टल](https://www.reverso.net/documents/en)
-11. [डेस्कटॉप और मोबाइल के लिए Yandex Translate सहायता](https://yandex.com/support/translate-desktop/en/)
-12. [Immersive Translate दस्तावेज़ीकरण](https://immersivetranslate.com/)
-13. [O.Translator उत्पाद जानकारी और प्रारूप](https://otranslator.com/en/product-info)
-14. [SimplifyAI जटिल दस्तावेज़ कार्यक्षेत्र](https://simplifyai.cn/zh/translate)
-15. [SimplifyAI सामान्य दस्तावेज़ अनुवाद](https://translate.simplifyai.cn/)
-16. [Mate Translate सुविधाएँ](https://matetranslate.com/en)
-17. [Lingvanex Windows अनुवादक](https://lingvanex.com/products/windows-translator/)
-18. [Lingvanex सुरक्षित अनुवाद सॉफ़्टवेयर](https://lingvanex.com/products/secure-translation-software/)
-19. [SYSTRAN Translate Pro और उद्यम परिनियोजन](https://www.systransoft.com/translation-products/translate-pro/)
-20. [NetEase Youdao Translate](https://fanyi.youdao.com/)
-21. [Baidu Translate और वीडियो अनुवाद पोर्टल](https://fanyi.baidu.com/)
-22. [Tencent TranSmart उत्पाद परिचय](https://transmart.qq.com/zh-CN/intro)
-23. [Caiyun Xiaoyi (LingoCloud) दस्तावेज़ सहायता](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
-24. [QuillBot Translate और PDF पोर्टल](https://quillbot.com/translate)
-25. [Equalang API विनिर्देश और दस्तावेज़ीकरण](https://equalang.com/llms-full.txt?utm_source=github)
-26. [PDFMathTranslate आधिकारिक GitHub रिपॉजिटरी](https://github.com/PDFMathTranslate/PDFMathTranslate)
-27. [PDFMathTranslate उन्नत विकल्प दस्तावेज़ीकरण](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
-28. [BabelDOC आधिकारिक GitHub रिपॉजिटरी](https://github.com/funstory-ai/BabelDOC)
-29. [LibreTranslate आधिकारिक GitHub रिपॉजिटरी](https://github.com/LibreTranslate/LibreTranslate)
-30. [LibreTranslate दस्तावेज़ीकरण और API गाइड](https://docs.libretranslate.com/)
-31. [Argos Translate आधिकारिक GitHub रिपॉजिटरी](https://github.com/argosopentech/argos-translate)
-32. [Pot Desktop Translation आधिकारिक GitHub रिपॉजिटरी](https://github.com/pot-app/pot-desktop)
-33. [Translate Shell आधिकारिक GitHub रिपॉजिटरी](https://github.com/soimort/translate-shell)
+6. [iOS App Store पर Microsoft Translator](https://apps.apple.com/us/app/microsoft-translator/id1018949559)
+7. [Microsoft Speech SDK रिलीज़ नोट्स](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes)
+8. [NAVER Papago आधिकारिक पोर्टल](https://papago.naver.com/)
+9. [iTranslate कीबोर्ड और ऑफ़लाइन सुविधाएँ](https://itranslate.com/features/keyboard-translations/index.html)
+10. [Reverso Context उपयोग संबंधी जानकारी](https://context.reverso.net/translation/about)
+11. [Reverso Documents पोर्टल](https://www.reverso.net/documents/en)
+12. [डेस्कटॉप और मोबाइल के लिए Yandex Translate सहायता](https://yandex.com/support/translate-desktop/en/)
+13. [Immersive Translate दस्तावेज़ीकरण](https://immersivetranslate.com/)
+14. [O.Translator उत्पाद जानकारी और प्रारूप](https://otranslator.com/en/product-info)
+15. [SimplifyAI जटिल दस्तावेज़ कार्यक्षेत्र](https://simplifyai.cn/zh/translate)
+16. [SimplifyAI सामान्य दस्तावेज़ अनुवाद](https://translate.simplifyai.cn/)
+17. [Mate Translate सुविधाएँ](https://matetranslate.com/en)
+18. [Lingvanex Windows अनुवादक](https://lingvanex.com/products/windows-translator/)
+19. [Lingvanex सुरक्षित अनुवाद सॉफ़्टवेयर](https://lingvanex.com/products/secure-translation-software/)
+20. [SYSTRAN Translate Pro और उद्यम परिनियोजन](https://www.systransoft.com/translation-products/translate-pro/)
+21. [NetEase Youdao Translate](https://fanyi.youdao.com/)
+22. [Baidu Translate और वीडियो अनुवाद पोर्टल](https://fanyi.baidu.com/)
+23. [Tencent TranSmart उत्पाद परिचय](https://transmart.qq.com/zh-CN/intro)
+24. [Caiyun Xiaoyi (LingoCloud) दस्तावेज़ सहायता](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
+25. [QuillBot Translate और PDF पोर्टल](https://quillbot.com/translate)
+26. [Equalang API विनिर्देश और दस्तावेज़ीकरण](https://equalang.com/llms-full.txt?utm_source=github)
+27. [PDFMathTranslate आधिकारिक GitHub रिपॉजिटरी](https://github.com/PDFMathTranslate/PDFMathTranslate)
+28. [PDFMathTranslate उन्नत विकल्प दस्तावेज़ीकरण](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
+29. [BabelDOC आधिकारिक GitHub रिपॉजिटरी](https://github.com/funstory-ai/BabelDOC)
+30. [LibreTranslate आधिकारिक GitHub रिपॉजिटरी](https://github.com/LibreTranslate/LibreTranslate)
+31. [LibreTranslate दस्तावेज़ीकरण और API गाइड](https://docs.libretranslate.com/)
+32. [Argos Translate आधिकारिक GitHub रिपॉजिटरी](https://github.com/argosopentech/argos-translate)
+33. [Pot Desktop Translation आधिकारिक GitHub रिपॉजिटरी](https://github.com/pot-app/pot-desktop)
+34. [Translate Shell आधिकारिक GitHub रिपॉजिटरी](https://github.com/soimort/translate-shell)

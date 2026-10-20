@@ -87,11 +87,11 @@ Apple işletim sistemi içinde [canlı çeviri özellikleri](https://support.app
 <a id="microsoft-translator"></a>
 
 ### Microsoft Translator
-[Microsoft Translator mobil uygulaması](https://www.microsoft.com/en-us/translator/apps/features/), [çok cihazlı konuşma özelliği](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/) ile öne çıkar. Bir oturum sahibi mobilde oturum başlatır ve katılımcılar QR kod tarayarak veya bir kod girerek mobil uygulama ya da herhangi bir masaüstü web tarayıcısı üzerinden katılır. Her katılımcı kendi seçtiği dilde canlı döküm ve çeviri alır. Sunucu modu, oturum sahibinin mikrofonunu açık tutarken dinleyicileri sessize alır; bu da rehberli turlar ve konferanslar için oldukça kullanışlıdır.
+[Microsoft Translator mobil uygulaması](https://www.microsoft.com/en-us/translator/apps/features/) 100+ dilde metin çevirisi, gerçek zamanlı konuşma çevirisi ve görsel çevirisi sunar. Uygulamanın çok cihazlı konuşma özelliği (Sunucu modu, oda kodları ve tarayıcı üzerinden katılım dahil), [iOS App Store sürüm notlarında](https://apps.apple.com/us/app/microsoft-translator/id1018949559) ve [Microsoft Speech SDK sürüm notlarında](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes) belgelendiği üzere kullanımdan kaldırılmıştır.
 
-Uygulama ayrıca sık kullanılan seyahat sorguları için indirilebilir konuşma kılavuzları ve çevrimdışı fotoğraf çevirisi içerir. Tüketiciye yönelik uygulama doğrudan harici filmleri, video dosyalarını veya medya kayıtlarını çevirmeyi desteklemez ve çok cihazlı sesli oturumlar aktif bir internet bağlantısı gerektirir.
+Tüketiciye yönelik uygulama doğrudan harici filmleri, video dosyalarını veya medya kayıtlarını çevirmeyi desteklemez. [Microsoft'un özelliklere genel bakış sayfası](https://www.microsoft.com/en-us/translator/apps/features/) tek cihazda bölünmüş ekran çevirisi, çevrimdışı dil paketleri ve bir konuşma kılavuzunu listelerken, güncel App Store açıklaması metin, konuşma ve görsel çevirisini listelemektedir; bu nedenle çevrimdışı paketlere veya konuşma kılavuzuna güvenmeden önce uygulamanın içini kontrol edin.
 
-<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Microsoft Translator resmî özellikler sayfası" width="640"><br><sub>Çok cihazlı konuşma özelliğini öne çıkaran Microsoft Translator özellikler sayfası</sub></p>
+<p align="center"><img src="assets/microsoft-page@2x.webp" alt="Microsoft Translator resmî özellikler sayfası" width="640"><br><sub>Ekran görüntüsü, Microsoft'un özellikler sayfasını Ekim 2026'da kaydedildiği haliyle göstermektedir ve sayfa, Microsoft'un kullanımdan kaldırdığı çok cihazlı konuşma özelliğini halen açıklamaktadır.</sub></p>
 
 <a id="papago"></a>
 
@@ -426,7 +426,7 @@ Mevcut göreviniz için doğru aracı seçmenize yardımcı olmak amacıyla bu g
 | Birincil Görev | Temel Gereksinim | Denenmesi Önerilen Araçlar | Önemli Değerlendirmeler |
 | :--- | :--- | :--- | :--- |
 | **Seyahat ve Sözlü Diyalog** | Fotoğraf OCR'ı, iki yönlü diyalog, çevrimdışı paketler ve bağlantılı seyahat araçları | Google Translate, Apple Translate, Papago, [Equalang](https://equalang.com/?utm_source=github) | Zayıf sinyal alanları için Google, Apple veya Papago'da (donanım gereksinimlerine dikkat ederek) çevrimdışı dil paketlerini indirin; internete bağlıyken [Equalang](https://equalang.com/?utm_source=github), uygulama yüklemeden tarayıcı tabanlı fotoğraf çevirisi ve yüz yüze diyalog sağlar. |
-| **Çok Cihazlı Çalıştaylar** | Bire çok sunumlar, çok cihazlı katılım | Microsoft Translator | Oturum sahibi mobil uygulama aracılığıyla Sunucu modunu çalıştırır; katılımcılar yazılım yüklemeden standart tarayıcı üzerinden katılır. |
+| **Çok Cihazlı Çalıştaylar** | Bire çok sunumlar, çok cihazlı katılım | Dizin şu anda bu senaryo için herhangi bir araç listelememektedir. | Microsoft, çok cihazlı konuşma özelliğini ve Sunucu modunu 2026'da kullanımdan kaldırmıştır (ayrıntılar için yukarıdaki Microsoft Translator bölümüne bakın); dizinin şu anda burada hiçbir araç listelememesinin nedeni budur. |
 | **Derinlemesine Web Okuma** | Sayfadan ayrılmadan paragraf altı okuma | Immersive Translate, [Equalang](https://equalang.com/?utm_source=github), Mate Translate | İki dilli paragraflar için Immersive Translate veya [Equalang](https://equalang.com/?utm_source=github) kullanın; Mac'te tam sayfa görünümleri arasında geçiş yapmak veya kelimeleri Konuşma Kılavuzlarına kaydetmek için Mate Translate kullanın. |
 | **Altyazısız Video ve Canlı Yayınlar** | Gerçek zamanlı altyazı oluşturma, akış uyumluluğu | [Equalang](https://equalang.com/?utm_source=github), Immersive Translate | Her iki araç da desteklenen platformlarda (YouTube gibi) ham sesten altyazı oluşturabilir; canlı sohbet ve yayın işleme için tarayıcı uzantısı iş akışlarını karşılaştırın. |
 | **Akademik Makaleler ve Bilimsel PDF'ler** | Formül koruma, sütun yapıları, sayfalar arası metin | PDFMathTranslate, BabelDOC, [Equalang](https://equalang.com/?utm_source=github) | PDFMathTranslate ve BabelDOC, çift PDF çıktısı ve yerel/bulut LLM arka uçları içeren açık kaynaklı işlem hatları sağlar; [Equalang](https://equalang.com/?utm_source=github), tarayıcı tabanlı yan yana okuma ve sayfa düzeni koruması sunar. |
@@ -464,31 +464,32 @@ Bu dizinin pratik yararını ve olgusal doğruluğunu korumak için girdiler kat
 3. [Apple Destek: iPhone İçin Çeviri Uygulaması Kılavuzu](https://support.apple.com/en-gb/guide/iphone/iphd74cb450f/ios)
 4. [Apple Destek: Canlı Çeviri ve Özellik Kullanılabilirliği](https://support.apple.com/en-us/123720)
 5. [Microsoft Translator Mobil Özellikleri](https://www.microsoft.com/en-us/translator/apps/features/)
-6. [Microsoft Translator Çok Cihazlı Konuşma Yardımı](https://www.microsoft.com/en-us/translator/help/multi-device-conversation/)
-7. [NAVER Papago Resmî Portalı](https://papago.naver.com/)
-8. [iTranslate Klavye ve Çevrimdışı Özellikleri](https://itranslate.com/features/keyboard-translations/index.html)
-9. [Reverso Context Kullanım Bilgileri](https://context.reverso.net/translation/about)
-10. [Reverso Documents Portalı](https://www.reverso.net/documents/en)
-11. [Masaüstü ve Mobil İçin Yandex Çeviri Yardımı](https://yandex.com/support/translate-desktop/en/)
-12. [Immersive Translate Belgeleri](https://immersivetranslate.com/)
-13. [O.Translator Ürün Bilgileri ve Formatlar](https://otranslator.com/en/product-info)
-14. [SimplifyAI Karmaşık Belge Çalışma Alanı](https://simplifyai.cn/zh/translate)
-15. [SimplifyAI Genel Belge Çevirisi](https://translate.simplifyai.cn/)
-16. [Mate Translate Özellikleri](https://matetranslate.com/en)
-17. [Lingvanex Windows Çevirmeni](https://lingvanex.com/products/windows-translator/)
-18. [Lingvanex Güvenli Çeviri Yazılımı](https://lingvanex.com/products/secure-translation-software/)
-19. [SYSTRAN Translate Pro ve Kurumsal Dağıtımlar](https://www.systransoft.com/translation-products/translate-pro/)
-20. [NetEase Youdao Translate](https://fanyi.youdao.com/)
-21. [Baidu Translate ve Video Çeviri Portalı](https://fanyi.baidu.com/)
-22. [Tencent TranSmart Ürün Tanıtımı](https://transmart.qq.com/zh-CN/intro)
-23. [Caiyun Xiaoyi (LingoCloud) Belge Yardımı](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
-24. [QuillBot Translate ve PDF Portalı](https://quillbot.com/translate)
-25. [Equalang API Belirtimleri ve Belgeleri](https://equalang.com/llms-full.txt?utm_source=github)
-26. [PDFMathTranslate Resmî GitHub Deposu](https://github.com/PDFMathTranslate/PDFMathTranslate)
-27. [PDFMathTranslate Gelişmiş Seçenekler Belgeleri](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
-28. [BabelDOC Resmî GitHub Deposu](https://github.com/funstory-ai/BabelDOC)
-29. [LibreTranslate Resmî GitHub Deposu](https://github.com/LibreTranslate/LibreTranslate)
-30. [LibreTranslate Belgeleri ve API Kılavuzu](https://docs.libretranslate.com/)
-31. [Argos Translate Resmî GitHub Deposu](https://github.com/argosopentech/argos-translate)
-32. [Pot Masaüstü Çeviri Resmî GitHub Deposu](https://github.com/pot-app/pot-desktop)
-33. [Translate Shell Resmî GitHub Deposu](https://github.com/soimort/translate-shell)
+6. [iOS App Store'da Microsoft Translator](https://apps.apple.com/us/app/microsoft-translator/id1018949559)
+7. [Microsoft Speech SDK Sürüm Notları](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/releasenotes)
+8. [NAVER Papago Resmî Portalı](https://papago.naver.com/)
+9. [iTranslate Klavye ve Çevrimdışı Özellikleri](https://itranslate.com/features/keyboard-translations/index.html)
+10. [Reverso Context Kullanım Bilgileri](https://context.reverso.net/translation/about)
+11. [Reverso Documents Portalı](https://www.reverso.net/documents/en)
+12. [Masaüstü ve Mobil İçin Yandex Çeviri Yardımı](https://yandex.com/support/translate-desktop/en/)
+13. [Immersive Translate Belgeleri](https://immersivetranslate.com/)
+14. [O.Translator Ürün Bilgileri ve Formatlar](https://otranslator.com/en/product-info)
+15. [SimplifyAI Karmaşık Belge Çalışma Alanı](https://simplifyai.cn/zh/translate)
+16. [SimplifyAI Genel Belge Çevirisi](https://translate.simplifyai.cn/)
+17. [Mate Translate Özellikleri](https://matetranslate.com/en)
+18. [Lingvanex Windows Çevirmeni](https://lingvanex.com/products/windows-translator/)
+19. [Lingvanex Güvenli Çeviri Yazılımı](https://lingvanex.com/products/secure-translation-software/)
+20. [SYSTRAN Translate Pro ve Kurumsal Dağıtımlar](https://www.systransoft.com/translation-products/translate-pro/)
+21. [NetEase Youdao Translate](https://fanyi.youdao.com/)
+22. [Baidu Translate ve Video Çeviri Portalı](https://fanyi.baidu.com/)
+23. [Tencent TranSmart Ürün Tanıtımı](https://transmart.qq.com/zh-CN/intro)
+24. [Caiyun Xiaoyi (LingoCloud) Belge Yardımı](https://docs.caiyunapp.com/lingocloud-app/lingocloud-introduction/app-files-trans.html)
+25. [QuillBot Translate ve PDF Portalı](https://quillbot.com/translate)
+26. [Equalang API Belirtimleri ve Belgeleri](https://equalang.com/llms-full.txt?utm_source=github)
+27. [PDFMathTranslate Resmî GitHub Deposu](https://github.com/PDFMathTranslate/PDFMathTranslate)
+28. [PDFMathTranslate Gelişmiş Seçenekler Belgeleri](https://github.com/PDFMathTranslate/PDFMathTranslate/blob/main/docs/ADVANCED.md)
+29. [BabelDOC Resmî GitHub Deposu](https://github.com/funstory-ai/BabelDOC)
+30. [LibreTranslate Resmî GitHub Deposu](https://github.com/LibreTranslate/LibreTranslate)
+31. [LibreTranslate Belgeleri ve API Kılavuzu](https://docs.libretranslate.com/)
+32. [Argos Translate Resmî GitHub Deposu](https://github.com/argosopentech/argos-translate)
+33. [Pot Masaüstü Çeviri Resmî GitHub Deposu](https://github.com/pot-app/pot-desktop)
+34. [Translate Shell Resmî GitHub Deposu](https://github.com/soimort/translate-shell)
